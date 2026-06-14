@@ -1,0 +1,722 @@
+success,timeout,failed_images,failed_audio,failed_video,trial_type,trial_index,time_elapsed,internal_node_id,subject_id,study_id,session_id,view_history,rt,stimulus,response,task,correct,answer,item,fiar_detect_rt,fiar_detect_correct,total_correct_fiar_detect,post_trial_gap,choices,spm_correct,spm_rt,mouse_click,stim_duration,block_duration,timing_post_trial,current_position,tol_num_moves_made,tol_target,tol_problem_id,tol_rt,key_press,possible_responses,tol_correct,preplanning,tol_rt_per_trial,tol_min_moves
+TRUE,FALSE,[],[],[],preload,0,5100,0.0-0.0,627120b98967a5dbd4922c2e,E1,batch5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TRUE,,,,,fullscreen,1,10638,0.0-1.0-0.0,627120b98967a5dbd4922c2e,E1,batch5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TRUE,,,,,fullscreen,2,15418,0.0-2.0-0.0,627120b98967a5dbd4922c2e,E1,batch5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,instructions,3,33557,0.0-2.0-1.0-0.0,627120b98967a5dbd4922c2e,E1,batch5,"[{""page_index"":0,""viewing_time"":10715.79999999702},{""page_index"":1,""viewing_time"":7421.5}]",18137.79999999700,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,html-button-response,4,34690,0.0-2.0-1.0-1.0-0.0,627120b98967a5dbd4922c2e,E1,batch5,,1130.2999999970200,<p class=block-text> Let's answer a few questions <br>,0,pattern_enter_quiz,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,html-button-response,5,37990,0.0-2.0-1.0-1.0-1.0,627120b98967a5dbd4922c2e,E1,batch5,,3297.9000000059600,<p class = block-text>True or False: You will have as much time as you want to make each choice. <br></p>,1,pattern_quiz,TRUE,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,html-button-response,6,39155,0.0-2.0-1.0-1.0-2.0,627120b98967a5dbd4922c2e,E1,batch5,,1163.2999999970200,<p class = block-text>Correct! You should make your choice <strong> as fast as you can</strong>.</p>,0,pattern_quiz_feedback,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,html-button-response,7,43493,0.0-2.0-1.0-1.0-3.0,627120b98967a5dbd4922c2e,E1,batch5,,4336.600000008940,"<p class = block-text>True or False: You will look for 4 pieces in black or white color connected in a row either horizontally, vertically or diagonally. <br></p>",0,pattern_quiz,TRUE,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,html-button-response,8,43918,0.0-2.0-1.0-1.0-4.0,627120b98967a5dbd4922c2e,E1,batch5,,423.29999999702000,<p class = block-text>Correct! </p>,0,pattern_quiz_feedback,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,html-button-response,9,45875,0.0-2.0-2.0,627120b98967a5dbd4922c2e,E1,batch5,,1955.0999999940400,"<p class=block-text> Now that you've understood the game, let's do a few practice trials before we start!<br> <br>",0,pattern_enter_practice,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,10,46997,0.0-2.0-3.0-0.0,627120b98967a5dbd4922c2e,E1,batch5,,1116.7000000029800,stim/prac_yes_18_hor_w1.png,f,pattern_practice,TRUE,f,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,11,48019,0.0-2.0-3.0-1.0,627120b98967a5dbd4922c2e,E1,batch5,,null,"<p style=""font-size:30px;color:green;"">Correct!</p>",null,pattern_feedback,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,12,49664,0.0-2.0-3.0-0.1,627120b98967a5dbd4922c2e,E1,batch5,,1643.4000000059600,stim/prac_yes_20_dia_b1.png,f,pattern_practice,TRUE,f,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,13,50682,0.0-2.0-3.0-1.1,627120b98967a5dbd4922c2e,E1,batch5,,null,"<p style=""font-size:30px;color:green;"">Correct!</p>",null,pattern_feedback,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,14,53342,0.0-2.0-3.0-0.2,627120b98967a5dbd4922c2e,E1,batch5,,2658.7000000029800,stim/prac_no_16_1.png,j,pattern_practice,TRUE,j,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,15,54369,0.0-2.0-3.0-1.2,627120b98967a5dbd4922c2e,E1,batch5,,null,"<p style=""font-size:30px;color:green;"">Correct!</p>",null,pattern_feedback,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,16,56826,0.0-2.0-3.0-0.3,627120b98967a5dbd4922c2e,E1,batch5,,2455.6000000089400,stim/prac_no_18_1.png,j,pattern_practice,TRUE,j,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,17,57853,0.0-2.0-3.0-1.3,627120b98967a5dbd4922c2e,E1,batch5,,null,"<p style=""font-size:30px;color:green;"">Correct!</p>",null,pattern_feedback,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,18,59808,0.0-2.0-3.0-0.4,627120b98967a5dbd4922c2e,E1,batch5,,1946.7999999970200,stim/prac_yes_16_ver_w1.png,f,pattern_practice,TRUE,f,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,19,60819,0.0-2.0-3.0-1.4,627120b98967a5dbd4922c2e,E1,batch5,,null,"<p style=""font-size:30px;color:green;"">Correct!</p>",null,pattern_feedback,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,html-button-response,20,62912,0.0-2.0-4.0,627120b98967a5dbd4922c2e,E1,batch5,,2088.8999999910600,"<p class=block-text> Good job! You are done with practice trials!<br>
+        You responded correctly on 100% of the trials.<br>
+        Press the button below to start official trials. Now you won't see any feedback about your response</p>",0,pattern_enter_official_trials,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,21,63736,0.0-2.0-5.0-0.0,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 1 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,22,64876,0.0-2.0-5.0-1.0,627120b98967a5dbd4922c2e,E1,batch5,,1138.2000000029800,stim/no_12_1.png,j,pattern_response,TRUE,j,pattern_01,1138.2000000029800,TRUE,1,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,23,66204,0.0-2.0-5.0-0.1,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 2 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,24,68424,0.0-2.0-5.0-1.1,627120b98967a5dbd4922c2e,E1,batch5,,2217.5999999940400,stim/no_18_1_b.png,j,pattern_response,TRUE,j,pattern_05,2217.5999999940400,TRUE,2,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,25,69737,0.0-2.0-5.0-0.2,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 3 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,26,73718,0.0-2.0-5.0-1.2,627120b98967a5dbd4922c2e,E1,batch5,,3978.7999999970200,stim/no_22_1_b.png,j,pattern_response,TRUE,j,pattern_07,3978.7999999970200,TRUE,3,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,27,75037,0.0-2.0-5.0-0.3,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 4 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,28,75993,0.0-2.0-5.0-1.3,627120b98967a5dbd4922c2e,E1,batch5,,953.8999999910590,stim/yes_70_ver_b1.png,f,pattern_response,TRUE,f,pattern_80,953.8999999910590,TRUE,4,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,29,77313,0.0-2.0-5.0-0.4,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 5 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,30,78256,0.0-2.0-5.0-1.4,627120b98967a5dbd4922c2e,E1,batch5,,941.5,stim/yes_46_ver_b1_b.png,f,pattern_response,TRUE,f,pattern_68,941.5,TRUE,5,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,31,79586,0.0-2.0-5.0-0.5,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 6 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,32,80091,0.0-2.0-5.0-1.5,627120b98967a5dbd4922c2e,E1,batch5,,503.40000000596000,stim/yes_12_hor_w1_w.png,f,pattern_response,TRUE,f,pattern_42,503.40000000596000,TRUE,6,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,33,81419,0.0-2.0-5.0-0.6,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 7 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,34,82513,0.0-2.0-5.0-1.6,627120b98967a5dbd4922c2e,E1,batch5,,1092.5,stim/yes_29_hor_b1_b.png,f,pattern_response,TRUE,f,pattern_52,1092.5,TRUE,7,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,35,83838,0.0-2.0-5.0-0.7,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 8 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,36,90025,0.0-2.0-5.0-1.7,627120b98967a5dbd4922c2e,E1,batch5,,6184.79999999702,stim/no_47_1_b.png,j,pattern_response,TRUE,j,pattern_27,6184.79999999702,TRUE,8,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,37,91354,0.0-2.0-5.0-0.8,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 9 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,38,92534,0.0-2.0-5.0-1.8,627120b98967a5dbd4922c2e,E1,batch5,,1177.2000000029800,stim/yes_53_ver_b1_b.png,f,pattern_response,TRUE,f,pattern_74,1177.2000000029800,TRUE,9,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,39,93852,0.0-2.0-5.0-0.9,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 10 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,40,94747,0.0-2.0-5.0-1.9,627120b98967a5dbd4922c2e,E1,batch5,,892.2000000029800,stim/yes_23_ver_b1.png,f,pattern_response,TRUE,f,pattern_48,892.2000000029800,TRUE,10,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,41,96070,0.0-2.0-5.0-0.10,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 11 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,42,98368,0.0-2.0-5.0-1.10,627120b98967a5dbd4922c2e,E1,batch5,,2295.5999999940400,stim/yes_49_hor_w1_b.png,f,pattern_response,TRUE,f,pattern_70,2295.5999999940400,TRUE,11,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,43,99687,0.0-2.0-5.0-0.11,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 12 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,44,101167,0.0-2.0-5.0-1.11,627120b98967a5dbd4922c2e,E1,batch5,,1478.5,stim/no_15_1_w.png,j,pattern_response,TRUE,j,pattern_03,1478.5,TRUE,12,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,45,102487,0.0-2.0-5.0-0.12,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 13 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,46,108540,0.0-2.0-5.0-1.12,627120b98967a5dbd4922c2e,E1,batch5,,6051.5999999940400,stim/no_58_1_w.png,j,pattern_response,TRUE,j,pattern_35,6051.5999999940400,TRUE,13,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,47,109861,0.0-2.0-5.0-0.13,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 14 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,48,113977,0.0-2.0-5.0-1.13,627120b98967a5dbd4922c2e,E1,batch5,,4112.5999999940400,stim/no_37_2_w.png,j,pattern_response,TRUE,j,pattern_19,4112.5999999940400,TRUE,14,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,49,115296,0.0-2.0-5.0-0.14,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 15 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,50,117188,0.0-2.0-5.0-1.14,627120b98967a5dbd4922c2e,E1,batch5,,1889.9000000059600,stim/yes_33_dia_w1_w.png,f,pattern_response,TRUE,f,pattern_56,1889.9000000059600,TRUE,15,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,51,118521,0.0-2.0-5.0-0.15,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 16 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,52,119768,0.0-2.0-5.0-1.15,627120b98967a5dbd4922c2e,E1,batch5,,1245.8999999910600,stim/no_53_1_b.png,j,pattern_response,TRUE,j,pattern_33,1245.8999999910600,TRUE,15,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,53,121081,0.0-2.0-5.0-0.16,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 17 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,54,126076,0.0-2.0-5.0-1.16,627120b98967a5dbd4922c2e,E1,batch5,,4994.4000000059600,stim/no_51_1.png,j,pattern_response,TRUE,j,pattern_31,4994.4000000059600,TRUE,16,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,55,127404,0.0-2.0-5.0-0.17,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 18 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,56,131346,0.0-2.0-5.0-1.17,627120b98967a5dbd4922c2e,E1,batch5,,3938.9000000059600,stim/yes_58_dia_w1_w.png,f,pattern_response,TRUE,f,pattern_76,3938.9000000059600,TRUE,16,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,57,132655,0.0-2.0-5.0-0.18,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 19 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,58,135473,0.0-2.0-5.0-1.18,627120b98967a5dbd4922c2e,E1,batch5,,2815.5,stim/no_36_1_b.png,j,pattern_response,TRUE,j,pattern_17,2815.5,TRUE,17,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,59,136805,0.0-2.0-5.0-0.19,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 20 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,60,137749,0.0-2.0-5.0-1.19,627120b98967a5dbd4922c2e,E1,batch5,,941.8000000119210,stim/yes_17_ver_b1_b.png,f,pattern_response,TRUE,f,pattern_46,941.8000000119210,TRUE,18,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,61,139071,0.0-2.0-5.0-0.20,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 21 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,62,140999,0.0-2.0-5.0-1.20,627120b98967a5dbd4922c2e,E1,batch5,,1926.7000000029800,stim/no_33_1_b.png,j,pattern_response,TRUE,j,pattern_15,1926.7000000029800,TRUE,19,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,63,142321,0.0-2.0-5.0-0.21,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 22 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,64,143310,0.0-2.0-5.0-1.21,627120b98967a5dbd4922c2e,E1,batch5,,987.6999999880790,stim/yes_30_ver_b1_b.png,f,pattern_response,TRUE,f,pattern_54,987.6999999880790,TRUE,20,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,65,144618,0.0-2.0-5.0-0.22,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 23 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,66,148217,0.0-2.0-5.0-1.22,627120b98967a5dbd4922c2e,E1,batch5,,3597.6000000089400,stim/no_49_2_b.png,j,pattern_response,TRUE,j,pattern_29,3597.6000000089400,TRUE,21,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,67,149538,0.0-2.0-5.0-0.23,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 24 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,68,153918,0.0-2.0-5.0-1.23,627120b98967a5dbd4922c2e,E1,batch5,,4377.9000000059600,stim/yes_44_ver_w1_w.png,f,pattern_response,TRUE,f,pattern_66,4377.9000000059600,TRUE,21,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,69,155221,0.0-2.0-5.0-0.24,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 25 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,70,157101,0.0-2.0-5.0-1.24,627120b98967a5dbd4922c2e,E1,batch5,,1877.4000000059600,stim/no_43_2_b.png,j,pattern_response,TRUE,j,pattern_23,1877.4000000059600,TRUE,22,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,71,158420,0.0-2.0-5.0-0.25,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 26 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,72,164114,0.0-2.0-5.0-1.25,627120b98967a5dbd4922c2e,E1,batch5,,5691.899999991060,stim/no_67_1.png,j,pattern_response,TRUE,j,pattern_39,5691.899999991060,TRUE,23,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,73,165438,0.0-2.0-5.0-0.26,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 27 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,74,166146,0.0-2.0-5.0-1.26,627120b98967a5dbd4922c2e,E1,batch5,,704.5,stim/yes_26_dia_w2_w.png,f,pattern_response,TRUE,f,pattern_50,704.5,TRUE,24,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,75,167462,0.0-2.0-5.0-0.27,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 28 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,76,168120,0.0-2.0-5.0-1.27,627120b98967a5dbd4922c2e,E1,batch5,,655.8999999910590,stim/yes_15_dia_b1u_b.png,f,pattern_response,TRUE,f,pattern_44,655.8999999910590,TRUE,25,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,77,169454,0.0-2.0-5.0-0.28,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 29 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,78,170009,0.0-2.0-5.0-1.28,627120b98967a5dbd4922c2e,E1,batch5,,553.7000000029800,stim/yes_39_hor_w1_w.png,f,pattern_response,TRUE,f,pattern_62,553.7000000029800,TRUE,26,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,79,171321,0.0-2.0-5.0-0.29,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 30 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,80,173660,0.0-2.0-5.0-1.29,627120b98967a5dbd4922c2e,E1,batch5,,2337.9000000059600,stim/no_25_1_b.png,j,pattern_response,TRUE,j,pattern_09,2337.9000000059600,TRUE,27,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,81,174972,0.0-2.0-5.0-0.30,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 31 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,82,176987,0.0-2.0-5.0-1.30,627120b98967a5dbd4922c2e,E1,batch5,,2013.3999999910600,stim/no_45_1_w.png,j,pattern_response,TRUE,j,pattern_25,2013.3999999910600,TRUE,28,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,83,178290,0.0-2.0-5.0-0.31,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 32 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,84,180145,0.0-2.0-5.0-1.31,627120b98967a5dbd4922c2e,E1,batch5,,1854.0999999940400,stim/yes_51_dia_b1.png,f,pattern_response,TRUE,f,pattern_72,1854.0999999940400,TRUE,28,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,85,181472,0.0-2.0-5.0-0.32,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 33 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,86,182116,0.0-2.0-5.0-1.32,627120b98967a5dbd4922c2e,E1,batch5,,641.0999999940400,stim/yes_36_ver_w1_w.png,f,pattern_response,TRUE,f,pattern_58,641.0999999940400,TRUE,29,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,87,183439,0.0-2.0-5.0-0.33,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 34 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,88,187769,0.0-2.0-5.0-1.33,627120b98967a5dbd4922c2e,E1,batch5,,4328.4000000059600,stim/yes_42_dia_w1_w.png,j,pattern_response,FALSE,f,pattern_64,4328.4000000059600,FALSE,29,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,89,189089,0.0-2.0-5.0-0.34,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 35 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,90,192601,0.0-2.0-5.0-1.34,627120b98967a5dbd4922c2e,E1,batch5,,3509.2000000029800,stim/no_39_1_w.png,j,pattern_response,TRUE,j,pattern_21,3509.2000000029800,TRUE,30,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,91,193922,0.0-2.0-5.0-0.35,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 36 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,92,195228,0.0-2.0-5.0-1.35,627120b98967a5dbd4922c2e,E1,batch5,,1303.199999988080,stim/no_30_1_b.png,j,pattern_response,TRUE,j,pattern_13,1303.199999988080,TRUE,31,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,93,196555,0.0-2.0-5.0-0.36,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 37 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,94,197199,0.0-2.0-5.0-1.36,627120b98967a5dbd4922c2e,E1,batch5,,641.6000000089410,stim/yes_37_hor_w1_w.png,f,pattern_response,TRUE,f,pattern_60,641.6000000089410,TRUE,32,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,95,198505,0.0-2.0-5.0-0.37,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 38 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,96,204001,0.0-2.0-5.0-1.37,627120b98967a5dbd4922c2e,E1,batch5,,5494.29999999702,stim/yes_63_dia_b1.png,f,pattern_response,TRUE,f,pattern_78,5494.29999999702,TRUE,32,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,97,205318,0.0-2.0-5.0-0.38,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 39 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,98,206755,0.0-2.0-5.0-1.38,627120b98967a5dbd4922c2e,E1,batch5,,1434.7000000029800,stim/no_28_2.png,j,pattern_response,TRUE,j,pattern_11,1434.7000000029800,TRUE,33,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,99,208633,0.0-2.0-6.0,627120b98967a5dbd4922c2e,E1,batch5,,1363.1000000089400,stim/empty_board.png,j,attention_check,TRUE,j,,,,,500,"[""f"",""j""]",,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,100,209441,0.0-2.0-7.0-0.0,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 40 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,101,210880,0.0-2.0-7.0-1.0,627120b98967a5dbd4922c2e,E1,batch5,,1437.7999999970200,stim/no_17_1_w.png,j,pattern_response,TRUE,j,pattern_04,1437.7999999970200,TRUE,34,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,102,212189,0.0-2.0-7.0-0.1,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 41 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,103,216721,0.0-2.0-7.0-1.1,627120b98967a5dbd4922c2e,E1,batch5,,4529.9000000059600,stim/no_46_1_b.png,j,pattern_response,TRUE,j,pattern_26,4529.9000000059600,TRUE,35,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,104,218033,0.0-2.0-7.0-0.2,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 42 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,105,219493,0.0-2.0-7.0-1.2,627120b98967a5dbd4922c2e,E1,batch5,,1457.800000011920,stim/no_52_1.png,j,pattern_response,TRUE,j,pattern_32,1457.800000011920,TRUE,36,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,106,220806,0.0-2.0-7.0-0.3,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 43 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,107,223598,0.0-2.0-7.0-1.3,627120b98967a5dbd4922c2e,E1,batch5,,2790.5,stim/no_44_1.png,j,pattern_response,TRUE,j,pattern_24,2790.5,TRUE,37,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,108,224923,0.0-2.0-7.0-0.4,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 44 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,109,228751,0.0-2.0-7.0-1.4,627120b98967a5dbd4922c2e,E1,batch5,,3825.5,stim/no_36_2_w.png,j,pattern_response,TRUE,j,pattern_18,3825.5,TRUE,38,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,110,230071,0.0-2.0-7.0-0.5,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 45 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,111,232069,0.0-2.0-7.0-1.5,627120b98967a5dbd4922c2e,E1,batch5,,1995.5999999940400,stim/yes_52_ver_w1.png,f,pattern_response,TRUE,f,pattern_73,1995.5999999940400,TRUE,39,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,112,233389,0.0-2.0-7.0-0.6,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 46 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,113,234302,0.0-2.0-7.0-1.6,627120b98967a5dbd4922c2e,E1,batch5,,911.2000000029800,stim/no_23_1.png,j,pattern_response,TRUE,j,pattern_08,911.2000000029800,TRUE,40,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,114,235620,0.0-2.0-7.0-0.7,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 47 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,115,237441,0.0-2.0-7.0-1.7,627120b98967a5dbd4922c2e,E1,batch5,,1819.5,stim/yes_38_hor_b1_b.png,f,pattern_response,TRUE,f,pattern_61,1819.5,TRUE,41,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,116,238772,0.0-2.0-7.0-0.8,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 48 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,117,246193,0.0-2.0-7.0-1.8,627120b98967a5dbd4922c2e,E1,batch5,,7418.20000000298,stim/no_65_1_b.png,j,pattern_response,TRUE,j,pattern_38,7418.20000000298,TRUE,42,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,118,247506,0.0-2.0-7.0-0.9,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 49 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,119,248166,0.0-2.0-7.0-1.9,627120b98967a5dbd4922c2e,E1,batch5,,657,stim/yes_25_hor_b1_b.png,f,pattern_response,TRUE,f,pattern_49,657,TRUE,43,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,120,249472,0.0-2.0-7.0-0.10,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 50 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,121,250371,0.0-2.0-7.0-1.10,627120b98967a5dbd4922c2e,E1,batch5,,897.1000000089410,stim/yes_45_hor_b2_b.png,f,pattern_response,TRUE,f,pattern_67,897.1000000089410,TRUE,44,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,122,251687,0.0-2.0-7.0-0.11,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 51 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,123,253183,0.0-2.0-7.0-1.11,627120b98967a5dbd4922c2e,E1,batch5,,1493.7000000029800,stim/yes_40_dia_b1_b.png,f,pattern_response,TRUE,f,pattern_63,1493.7000000029800,TRUE,44,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,124,254502,0.0-2.0-7.0-0.12,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 52 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,125,255437,0.0-2.0-7.0-1.12,627120b98967a5dbd4922c2e,E1,batch5,,932.7999999970200,stim/yes_55_hor_w1_w.png,f,pattern_response,TRUE,f,pattern_75,932.7999999970200,TRUE,45,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,126,256755,0.0-2.0-7.0-0.13,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 53 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,127,257570,0.0-2.0-7.0-1.13,627120b98967a5dbd4922c2e,E1,batch5,,811.4000000059610,stim/yes_17_dia_w1.png,f,pattern_response,TRUE,f,pattern_45,811.4000000059610,TRUE,46,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,128,258903,0.0-2.0-7.0-0.14,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 54 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,129,260330,0.0-2.0-7.0-1.14,627120b98967a5dbd4922c2e,E1,batch5,,1425.9000000059600,stim/no_32_1_w.png,j,pattern_response,TRUE,j,pattern_14,1425.9000000059600,TRUE,47,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,130,261654,0.0-2.0-7.0-0.15,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 55 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,131,264730,0.0-2.0-7.0-1.15,627120b98967a5dbd4922c2e,E1,batch5,,3073.5999999940400,stim/no_29_1_b.png,j,pattern_response,TRUE,j,pattern_12,3073.5999999940400,TRUE,48,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,132,266056,0.0-2.0-7.0-0.16,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 56 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,133,268117,0.0-2.0-7.0-1.16,627120b98967a5dbd4922c2e,E1,batch5,,2058,stim/yes_29_ver_w1.png,f,pattern_response,TRUE,f,pattern_53,2058,TRUE,49,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,134,269439,0.0-2.0-7.0-0.17,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 57 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,135,269971,0.0-2.0-7.0-1.17,627120b98967a5dbd4922c2e,E1,batch5,,529.0999999940400,stim/yes_67_hor_b1.png,f,pattern_response,TRUE,f,pattern_79,529.0999999940400,TRUE,50,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,136,271283,0.0-2.0-7.0-0.18,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 58 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,137,272220,0.0-2.0-7.0-1.18,627120b98967a5dbd4922c2e,E1,batch5,,935.1000000089410,stim/yes_43_ver_w1_w.png,f,pattern_response,TRUE,f,pattern_65,935.1000000089410,TRUE,51,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,138,273540,0.0-2.0-7.0-0.19,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 59 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,139,276219,0.0-2.0-7.0-1.19,627120b98967a5dbd4922c2e,E1,batch5,,2677.2999999970200,stim/no_48_1_w.png,j,pattern_response,TRUE,j,pattern_28,2677.2999999970200,TRUE,52,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,140,277531,0.0-2.0-7.0-0.20,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 60 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,141,280748,0.0-2.0-7.0-1.20,627120b98967a5dbd4922c2e,E1,batch5,,3215.5,stim/no_70_2.png,j,pattern_response,TRUE,j,pattern_40,3215.5,TRUE,53,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,142,282066,0.0-2.0-7.0-0.21,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 61 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,143,286438,0.0-2.0-7.0-1.21,627120b98967a5dbd4922c2e,E1,batch5,,4370.100000008940,stim/yes_48_dia_w1_w.png,j,pattern_response,FALSE,f,pattern_69,4370.100000008940,FALSE,53,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,144,287772,0.0-2.0-7.0-0.22,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 62 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,145,290032,0.0-2.0-7.0-1.22,627120b98967a5dbd4922c2e,E1,batch5,,2257,stim/no_50_1.png,j,pattern_response,TRUE,j,pattern_30,2257,TRUE,54,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,146,291340,0.0-2.0-7.0-0.23,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 63 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,147,292278,0.0-2.0-7.0-1.23,627120b98967a5dbd4922c2e,E1,batch5,,935.6000000089410,stim/no_13_2_b.png,j,pattern_response,TRUE,j,pattern_02,935.6000000089410,TRUE,55,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,148,293590,0.0-2.0-7.0-0.24,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 64 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,149,296146,0.0-2.0-7.0-1.24,627120b98967a5dbd4922c2e,E1,batch5,,2553.800000011920,stim/yes_50_dia_w1.png,f,pattern_response,TRUE,f,pattern_71,2553.800000011920,TRUE,55,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,150,297454,0.0-2.0-7.0-0.25,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 65 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,151,298168,0.0-2.0-7.0-1.25,627120b98967a5dbd4922c2e,E1,batch5,,711.7999999970200,stim/yes_22_ver_w1.png,f,pattern_response,TRUE,f,pattern_47,711.7999999970200,TRUE,56,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,152,299489,0.0-2.0-7.0-0.26,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 66 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,153,303018,0.0-2.0-7.0-1.26,627120b98967a5dbd4922c2e,E1,batch5,,3527.2999999970200,stim/no_55_1_w.png,j,pattern_response,TRUE,j,pattern_34,3527.2999999970200,TRUE,57,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,154,304340,0.0-2.0-7.0-0.27,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 67 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,155,306526,0.0-2.0-7.0-1.27,627120b98967a5dbd4922c2e,E1,batch5,,2184.5999999940400,stim/yes_31_hor_b1.png,f,pattern_response,TRUE,f,pattern_55,2184.5999999940400,TRUE,58,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,156,307856,0.0-2.0-7.0-0.28,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 68 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,157,309893,0.0-2.0-7.0-1.28,627120b98967a5dbd4922c2e,E1,batch5,,2033.7999999970200,stim/no_26_1_w.png,j,pattern_response,TRUE,j,pattern_10,2033.7999999970200,TRUE,59,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,158,311207,0.0-2.0-7.0-0.29,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 69 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,159,311842,0.0-2.0-7.0-1.29,627120b98967a5dbd4922c2e,E1,batch5,,633.2000000029800,stim/yes_28_ver_b1.png,f,pattern_response,TRUE,f,pattern_51,633.2000000029800,TRUE,60,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,160,313157,0.0-2.0-7.0-0.30,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 70 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,161,314012,0.0-2.0-7.0-1.30,627120b98967a5dbd4922c2e,E1,batch5,,852.5999999940400,stim/yes_35_dia_b1.png,f,pattern_response,TRUE,f,pattern_57,852.5999999940400,TRUE,61,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,162,315326,0.0-2.0-7.0-0.31,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 71 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,163,318002,0.0-2.0-7.0-1.31,627120b98967a5dbd4922c2e,E1,batch5,,2673.5,stim/no_34_1_b.png,j,pattern_response,TRUE,j,pattern_16,2673.5,TRUE,62,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,164,319324,0.0-2.0-7.0-0.32,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 72 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,165,320250,0.0-2.0-7.0-1.32,627120b98967a5dbd4922c2e,E1,batch5,,924.4000000059610,stim/yes_60_ver_b1_b.png,f,pattern_response,TRUE,f,pattern_77,924.4000000059610,TRUE,63,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,166,321572,0.0-2.0-7.0-0.33,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 73 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,167,323639,0.0-2.0-7.0-1.33,627120b98967a5dbd4922c2e,E1,batch5,,2066.199999988080,stim/no_38_1_b.png,j,pattern_response,TRUE,j,pattern_20,2066.199999988080,TRUE,64,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,168,324974,0.0-2.0-7.0-0.34,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 74 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,169,327149,0.0-2.0-7.0-1.34,627120b98967a5dbd4922c2e,E1,batch5,,2173.0999999940400,stim/yes_37_dia_w1.png,f,pattern_response,TRUE,f,pattern_59,2173.0999999940400,TRUE,65,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,170,328474,0.0-2.0-7.0-0.35,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 75 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,171,329806,0.0-2.0-7.0-1.35,627120b98967a5dbd4922c2e,E1,batch5,,1331.0999999940400,stim/no_20_1_w.png,j,pattern_response,TRUE,j,pattern_06,1331.0999999940400,TRUE,66,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,172,331141,0.0-2.0-7.0-0.36,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 76 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,173,331662,0.0-2.0-7.0-1.36,627120b98967a5dbd4922c2e,E1,batch5,,519.6999999880790,stim/yes_14_hor_b1_w.png,f,pattern_response,TRUE,f,pattern_43,519.6999999880790,TRUE,67,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,174,332990,0.0-2.0-7.0-0.37,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 77 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,175,336259,0.0-2.0-7.0-1.37,627120b98967a5dbd4922c2e,E1,batch5,,3266.5,stim/no_42_1_w.png,j,pattern_response,TRUE,j,pattern_22,3266.5,TRUE,68,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,176,337591,0.0-2.0-7.0-0.38,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 78 out of 78</p>,null,pattern_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-keyboard-response,177,342028,0.0-2.0-7.0-1.38,627120b98967a5dbd4922c2e,E1,batch5,,4434.600000008940,stim/no_62_1_w.png,j,pattern_response,TRUE,j,pattern_36,4434.600000008940,TRUE,69,,,,,,,,,,,,,,,,,,,
+,,,,,html-button-response,178,346196,0.0-2.0-8.0,627120b98967a5dbd4922c2e,E1,batch5,,3654.199999988080,"<p class = block-text>This concludes the 4-in-a-row detection game.Thank you for your responses!<br>
+            You responded correctly on 88% of the trials.<br>
+            When you are ready, press ""Continue"" button to continue </p>",0,,,,,,,,,,,,,,,,,,,,,,,,,,
+TRUE,,,,,fullscreen,179,349374,0.0-3.0-0.0,627120b98967a5dbd4922c2e,E1,batch5,,,,,spm_fullscreen,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,html-button-response,180,359731,0.0-3.0-1.0,627120b98967a5dbd4922c2e,E1,batch5,,10353.300000011900,"<p class = block-text><b>Instructions</b> <br>This is a widely used intelligence test in research. <br>In this test, a figure with a missing piece will be presented.<br>Below the figure are alternative pieces to complete the figure, only one of which is correct.<br> Different figures might involve different principles for obtaining the missing piece<br>Your job is to select the most logical piece to complete the figure.</p>",0,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,181,360541,0.0-3.0-2.0-0.0,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 1 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,182,365995,0.0-3.0-2.0-1.0,627120b98967a5dbd4922c2e,E1,batch5,,5449.79999999702,img/question_1_1.jpeg,1,spm_respsonse,0,4,mat_01,,,,,,0,5449.79999999702,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,183,367058,0.0-3.0-2.0-0.1,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 2 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,184,369663,0.0-3.0-2.0-1.1,627120b98967a5dbd4922c2e,E1,batch5,,2601.5,img/question_1_2.jpeg,4,spm_respsonse,1,5,mat_02,,,,,,1,2601.5,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,185,370717,0.0-3.0-2.0-0.2,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 3 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,186,373381,0.0-3.0-2.0-1.2,627120b98967a5dbd4922c2e,E1,batch5,,2661.7999999970200,img/question_1_3.jpeg,0,spm_respsonse,1,1,mat_03,,,,,,1,2661.7999999970200,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,187,374459,0.0-3.0-2.0-0.3,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 4 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,188,376380,0.0-3.0-2.0-1.3,627120b98967a5dbd4922c2e,E1,batch5,,1917.5999999940400,img/question_1_4.jpeg,1,spm_respsonse,1,2,mat_04,,,,,,1,1917.5999999940400,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,189,377452,0.0-3.0-2.0-0.4,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 5 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,190,379683,0.0-3.0-2.0-1.4,627120b98967a5dbd4922c2e,E1,batch5,,2228.7000000029800,img/question_1_5.jpeg,4,spm_respsonse,0,6,mat_05,,,,,,0,2228.7000000029800,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,191,380742,0.0-3.0-2.0-0.5,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 6 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,192,383749,0.0-3.0-2.0-1.5,627120b98967a5dbd4922c2e,E1,batch5,,3004.5999999940400,img/question_1_6.jpeg,2,spm_respsonse,1,3,mat_06,,,,,,1,3004.5999999940400,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,193,384822,0.0-3.0-2.0-0.6,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 7 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,194,388266,0.0-3.0-2.0-1.6,627120b98967a5dbd4922c2e,E1,batch5,,3440.7000000029800,img/question_1_7.jpeg,5,spm_respsonse,1,6,mat_07,,,,,,1,3440.7000000029800,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,195,389325,0.0-3.0-2.0-0.7,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 8 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,196,394186,0.0-3.0-2.0-1.7,627120b98967a5dbd4922c2e,E1,batch5,,4857.70000000298,img/question_1_8.jpeg,1,spm_respsonse,1,2,mat_08,,,,,,1,4857.70000000298,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,197,395258,0.0-3.0-2.0-0.8,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 9 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,198,398566,0.0-3.0-2.0-1.8,627120b98967a5dbd4922c2e,E1,batch5,,3304.800000011920,img/question_1_9.jpeg,0,spm_respsonse,1,1,mat_09,,,,,,1,3304.800000011920,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,199,399625,0.0-3.0-2.0-0.9,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 10 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,200,402632,0.0-3.0-2.0-1.9,627120b98967a5dbd4922c2e,E1,batch5,,3005.4000000059600,img/question_1_10.jpeg,2,spm_respsonse,1,3,mat_10,,,,,,1,3005.4000000059600,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,201,403694,0.0-3.0-2.0-0.10,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 11 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,202,409662,0.0-3.0-2.0-1.10,627120b98967a5dbd4922c2e,E1,batch5,,5966.29999999702,img/question_1_11.jpeg,3,spm_respsonse,1,4,mat_11,,,,,,1,5966.29999999702,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,203,410728,0.0-3.0-2.0-0.11,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 12 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,204,417096,0.0-3.0-2.0-1.11,627120b98967a5dbd4922c2e,E1,batch5,,6365.100000008940,img/question_1_12.jpeg,1,spm_respsonse,0,5,mat_12,,,,,,0,6365.100000008940,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,205,418176,0.0-3.0-2.0-0.12,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 13 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,206,420102,0.0-3.0-2.0-1.12,627120b98967a5dbd4922c2e,E1,batch5,,1923.4000000059600,img/question_2_1.jpeg,1,spm_respsonse,1,2,mat_13,,,,,,1,1923.4000000059600,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,207,421175,0.0-3.0-2.0-0.13,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 14 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,208,424239,0.0-3.0-2.0-1.13,627120b98967a5dbd4922c2e,E1,batch5,,3061.0999999940400,img/question_2_2.jpeg,5,spm_respsonse,1,6,mat_14,,,,,,1,3061.0999999940400,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,209,425309,0.0-3.0-2.0-0.14,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 15 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,210,427464,0.0-3.0-2.0-1.14,627120b98967a5dbd4922c2e,E1,batch5,,2151.9000000059600,img/question_2_3.jpeg,0,spm_respsonse,1,1,mat_15,,,,,,1,2151.9000000059600,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,211,428526,0.0-3.0-2.0-0.15,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 16 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,212,430633,0.0-3.0-2.0-1.15,627120b98967a5dbd4922c2e,E1,batch5,,2103.7999999970200,img/question_2_4.jpeg,1,spm_respsonse,1,2,mat_16,,,,,,1,2103.7999999970200,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,213,431694,0.0-3.0-2.0-0.16,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 17 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,214,436749,0.0-3.0-2.0-1.16,627120b98967a5dbd4922c2e,E1,batch5,,5053.399999991060,img/question_2_5.jpeg,0,spm_respsonse,1,1,mat_17,,,,,,1,5053.399999991060,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,215,437810,0.0-3.0-2.0-0.17,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 18 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,216,442442,0.0-3.0-2.0-1.17,627120b98967a5dbd4922c2e,E1,batch5,,4629,img/question_2_6.jpeg,2,spm_respsonse,1,3,mat_18,,,,,,1,4629,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,217,443526,0.0-3.0-2.0-0.18,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 19 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,218,446271,0.0-3.0-2.0-1.18,627120b98967a5dbd4922c2e,E1,batch5,,2741.8999999910600,img/question_2_7.jpeg,4,spm_respsonse,1,5,mat_19,,,,,,1,2741.8999999910600,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,219,447343,0.0-3.0-2.0-0.19,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 20 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,220,453536,0.0-3.0-2.0-1.19,627120b98967a5dbd4922c2e,E1,batch5,,6190.5,img/question_2_8.jpeg,6,spm_respsonse,1,6,mat_20,,,,,,1,6190.5,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,221,454608,0.0-3.0-2.0-0.20,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 21 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,222,461466,0.0-3.0-2.0-1.20,627120b98967a5dbd4922c2e,E1,batch5,,6855.0999999940400,img/question_2_9.jpeg,3,spm_respsonse,1,4,mat_21,,,,,,1,6855.0999999940400,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,223,462543,0.0-3.0-2.0-0.21,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 22 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,224,466763,0.0-3.0-2.0-1.21,627120b98967a5dbd4922c2e,E1,batch5,,4217,img/question_2_10.jpeg,2,spm_respsonse,1,3,mat_22,,,,,,1,4217,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,225,467842,0.0-3.0-2.0-0.22,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 23 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,226,475351,0.0-3.0-2.0-1.22,627120b98967a5dbd4922c2e,E1,batch5,,7505,img/question_2_11.jpeg,3,spm_respsonse,1,4,mat_23,,,,,,1,7505,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,227,476426,0.0-3.0-2.0-0.23,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 24 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,228,485067,0.0-3.0-2.0-1.23,627120b98967a5dbd4922c2e,E1,batch5,,8638.09999999404,img/question_2_12.jpeg,4,spm_respsonse,1,5,mat_24,,,,,,1,8638.09999999404,,,,,,,,,,,,,,,
+,,,,,html-button-response,229,486623,0.0-3.0-3.0,627120b98967a5dbd4922c2e,E1,batch5,,1295.0999999940400,<p class = block-text>Attention check: Please choose 1<br></p>,0,attention_check,TRUE,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,230,487426,0.0-3.0-4.0-0.0,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 25 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,231,489917,0.0-3.0-4.0-1.0,627120b98967a5dbd4922c2e,E1,batch5,,2488.2000000029800,img/question_3_1.jpeg,7,spm_respsonse,1,8,mat_25,,,,,,1,2488.2000000029800,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,232,490976,0.0-3.0-4.0-0.1,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 26 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,233,496314,0.0-3.0-4.0-1.1,627120b98967a5dbd4922c2e,E1,batch5,,5334.79999999702,img/question_3_2.jpeg,1,spm_respsonse,1,2,mat_26,,,,,,1,5334.79999999702,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,234,497393,0.0-3.0-4.0-0.2,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 27 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,235,514771,0.0-3.0-4.0-1.2,627120b98967a5dbd4922c2e,E1,batch5,,17374,img/question_3_3.jpeg,2,spm_respsonse,1,3,mat_27,,,,,,1,17374,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,236,515843,0.0-3.0-4.0-0.3,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 28 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,237,527959,0.0-3.0-4.0-1.3,627120b98967a5dbd4922c2e,E1,batch5,,12113.10000000890,img/question_3_4.jpeg,8,spm_respsonse,1,8,mat_28,,,,,,1,12113.10000000890,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,238,529043,0.0-3.0-4.0-0.4,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 29 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,239,535021,0.0-3.0-4.0-1.4,627120b98967a5dbd4922c2e,E1,batch5,,5975.0999999940400,img/question_3_5.jpeg,4,spm_respsonse,0,7,mat_29,,,,,,0,5975.0999999940400,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,240,536077,0.0-3.0-4.0-0.5,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 30 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,241,543316,0.0-3.0-4.0-1.5,627120b98967a5dbd4922c2e,E1,batch5,,7235.100000008940,img/question_3_6.jpeg,4,spm_respsonse,0,4,mat_30,,,,,,0,7235.100000008940,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,242,544387,0.0-3.0-4.0-0.6,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 31 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,243,551124,0.0-3.0-4.0-1.6,627120b98967a5dbd4922c2e,E1,batch5,,6735,img/question_3_7.jpeg,3,spm_respsonse,0,5,mat_31,,,,,,0,6735,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,244,552194,0.0-3.0-4.0-0.7,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 32 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,245,562853,0.0-3.0-4.0-1.7,627120b98967a5dbd4922c2e,E1,batch5,,10655.29999999700,img/question_3_8.jpeg,6,spm_respsonse,0,1,mat_32,,,,,,0,10655.29999999700,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,246,563927,0.0-3.0-4.0-0.8,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 33 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,247,568700,0.0-3.0-4.0-1.8,627120b98967a5dbd4922c2e,E1,batch5,,4769,img/question_3_9.jpeg,6,spm_respsonse,1,7,mat_33,,,,,,1,4769,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,248,569772,0.0-3.0-4.0-0.9,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 34 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,249,573383,0.0-3.0-4.0-1.9,627120b98967a5dbd4922c2e,E1,batch5,,3607.800000011920,img/question_3_10.jpeg,7,spm_respsonse,0,6,mat_34,,,,,,0,3607.800000011920,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,250,574444,0.0-3.0-4.0-0.10,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 35 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,251,579233,0.0-3.0-4.0-1.10,627120b98967a5dbd4922c2e,E1,batch5,,4786.20000000298,img/question_3_11.jpeg,3,spm_respsonse,0,1,mat_35,,,,,,0,4786.20000000298,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,252,580311,0.0-3.0-4.0-0.11,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 36 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,253,584015,0.0-3.0-4.0-1.11,627120b98967a5dbd4922c2e,E1,batch5,,3699.2000000029800,img/question_3_12.jpeg,4,spm_respsonse,0,2,mat_36,,,,,,0,3699.2000000029800,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,254,585093,0.0-3.0-4.0-0.12,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 37 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,255,587555,0.0-3.0-4.0-1.12,627120b98967a5dbd4922c2e,E1,batch5,,2458.5,img/question_4_1.jpeg,2,spm_respsonse,1,3,mat_37,,,,,,1,2458.5,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,256,588627,0.0-3.0-4.0-0.13,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 38 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,257,594216,0.0-3.0-4.0-1.13,627120b98967a5dbd4922c2e,E1,batch5,,5586.100000008940,img/question_4_2.jpeg,3,spm_respsonse,1,4,mat_38,,,,,,1,5586.100000008940,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,258,595294,0.0-3.0-4.0-0.14,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 39 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,259,599330,0.0-3.0-4.0-1.14,627120b98967a5dbd4922c2e,E1,batch5,,4032.5,img/question_4_3.jpeg,2,spm_respsonse,1,3,mat_39,,,,,,1,4032.5,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,260,600396,0.0-3.0-4.0-0.15,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 40 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,261,604710,0.0-3.0-4.0-1.15,627120b98967a5dbd4922c2e,E1,batch5,,4310.300000011920,img/question_4_4.jpeg,7,spm_respsonse,1,7,mat_40,,,,,,1,4310.300000011920,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,262,605794,0.0-3.0-4.0-0.16,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 41 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,263,608520,0.0-3.0-4.0-1.16,627120b98967a5dbd4922c2e,E1,batch5,,2722.4000000059600,img/question_4_5.jpeg,8,spm_respsonse,1,8,mat_41,,,,,,1,2722.4000000059600,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,264,609578,0.0-3.0-4.0-0.17,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 42 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,265,610747,0.0-3.0-4.0-1.17,627120b98967a5dbd4922c2e,E1,batch5,,1166.1000000089400,img/question_4_6.jpeg,2,spm_respsonse,0,6,mat_42,,,,,,0,1166.1000000089400,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,266,611826,0.0-3.0-4.0-0.18,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 43 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,267,613966,0.0-3.0-4.0-1.18,627120b98967a5dbd4922c2e,E1,batch5,,2137.5,img/question_4_7.jpeg,4,spm_respsonse,1,5,mat_43,,,,,,1,2137.5,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,268,615028,0.0-3.0-4.0-0.19,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 44 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,269,619311,0.0-3.0-4.0-1.19,627120b98967a5dbd4922c2e,E1,batch5,,4279.600000008940,img/question_4_8.jpeg,2,spm_respsonse,0,4,mat_44,,,,,,0,4279.600000008940,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,270,620395,0.0-3.0-4.0-0.20,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 45 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,271,627708,0.0-3.0-4.0-1.20,627120b98967a5dbd4922c2e,E1,batch5,,7309.9000000059600,img/question_4_9.jpeg,0,spm_respsonse,1,1,mat_45,,,,,,1,7309.9000000059600,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,272,628778,0.0-3.0-4.0-0.21,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 46 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,273,631738,0.0-3.0-4.0-1.21,627120b98967a5dbd4922c2e,E1,batch5,,2957.8999999910600,img/question_4_10.jpeg,3,spm_respsonse,0,2,mat_46,,,,,,0,2957.8999999910600,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,274,632795,0.0-3.0-4.0-0.22,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 47 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,275,635127,0.0-3.0-4.0-1.22,627120b98967a5dbd4922c2e,E1,batch5,,2329.2999999970200,img/question_4_11.jpeg,5,spm_respsonse,0,5,mat_47,,,,,,0,2329.2999999970200,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,276,636192,0.0-3.0-4.0-0.23,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 48 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,277,639754,0.0-3.0-4.0-1.23,627120b98967a5dbd4922c2e,E1,batch5,,3557.4000000059600,img/question_4_12.jpeg,1,spm_respsonse,0,6,mat_48,,,,,,0,3557.4000000059600,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,278,640823,0.0-3.0-4.0-0.24,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 49 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,279,643129,0.0-3.0-4.0-1.24,627120b98967a5dbd4922c2e,E1,batch5,,2302.699999988080,img/question_5_1.jpeg,0,spm_respsonse,0,7,mat_49,,,,,,0,2302.699999988080,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,280,644187,0.0-3.0-4.0-0.25,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 50 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,281,646401,0.0-3.0-4.0-1.25,627120b98967a5dbd4922c2e,E1,batch5,,2211.3999999910600,img/question_5_2.jpeg,1,spm_respsonse,0,6,mat_50,,,,,,0,2211.3999999910600,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,282,647461,0.0-3.0-4.0-0.26,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 51 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,283,648208,0.0-3.0-4.0-1.26,627120b98967a5dbd4922c2e,E1,batch5,,743.7000000029800,img/question_5_3.jpeg,5,spm_respsonse,0,8,mat_51,,,,,,0,743.7000000029800,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,284,649271,0.0-3.0-4.0-0.27,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 52 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,285,649754,0.0-3.0-4.0-1.27,627120b98967a5dbd4922c2e,E1,batch5,,480.40000000596000,img/question_5_4.jpeg,4,spm_respsonse,0,2,mat_52,,,,,,0,480.40000000596000,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,286,650812,0.0-3.0-4.0-0.28,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 53 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,287,651683,0.0-3.0-4.0-1.28,627120b98967a5dbd4922c2e,E1,batch5,,868.8000000119210,img/question_5_5.jpeg,2,spm_respsonse,0,1,mat_53,,,,,,0,868.8000000119210,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,288,652745,0.0-3.0-4.0-0.29,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 54 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,289,653932,0.0-3.0-4.0-1.29,627120b98967a5dbd4922c2e,E1,batch5,,1183.699999988080,img/question_5_6.jpeg,7,spm_respsonse,0,5,mat_54,,,,,,0,1183.699999988080,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,290,654994,0.0-3.0-4.0-0.30,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 55 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,291,655995,0.0-3.0-4.0-1.30,627120b98967a5dbd4922c2e,E1,batch5,,997.5,img/question_5_7.jpeg,5,spm_respsonse,0,1,mat_55,,,,,,0,997.5,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,292,657061,0.0-3.0-4.0-0.31,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 56 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,293,657738,0.0-3.0-4.0-1.31,627120b98967a5dbd4922c2e,E1,batch5,,674.8000000119210,img/question_5_8.jpeg,3,spm_respsonse,0,6,mat_56,,,,,,0,674.8000000119210,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,294,658812,0.0-3.0-4.0-0.32,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 57 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,295,659461,0.0-3.0-4.0-1.32,627120b98967a5dbd4922c2e,E1,batch5,,647.0999999940400,img/question_5_9.jpeg,5,spm_respsonse,0,3,mat_57,,,,,,0,647.0999999940400,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,296,660522,0.0-3.0-4.0-0.33,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 58 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,297,661193,0.0-3.0-4.0-1.33,627120b98967a5dbd4922c2e,E1,batch5,,668.5,img/question_5_10.jpeg,1,spm_respsonse,1,2,mat_58,,,,,,1,668.5,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,298,662252,0.0-3.0-4.0-0.34,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 59 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,299,662738,0.0-3.0-4.0-1.34,627120b98967a5dbd4922c2e,E1,batch5,,483.3999999910590,img/question_5_11.jpeg,3,spm_respsonse,1,4,mat_59,,,,,,1,483.3999999910590,,,,,,,,,,,,,,,
+,,,,,html-keyboard-response,300,663812,0.0-3.0-4.0-0.35,627120b98967a5dbd4922c2e,E1,batch5,,null,<p class=block-text>Trial 60 out of 60</p>,null,spm_show_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,image-button-response,301,666032,0.0-3.0-4.0-1.35,627120b98967a5dbd4922c2e,E1,batch5,,2217.6000000089400,img/question_5_12.jpeg,4,spm_respsonse,1,5,mat_60,,,,,,1,2217.6000000089400,,,,,,,,,,,,,,,
+,,,,,html-button-response,302,668645,0.0-3.0-5.0,627120b98967a5dbd4922c2e,E1,batch5,,2353.8999999910600,"<p class= block-text>This concludes the Standard Progressive Matrix game. Thank you for your responses!<br> When you are ready, click the button continue</p>",0,spm_goodbye,,,,,,,,,,,,,,,,,,,,,,,,,
+TRUE,,,,,fullscreen,303,671135,0.0-4.0-0.0,627120b98967a5dbd4922c2e,E1,batch5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,instructions,304,907967,0.0-4.0-1.0-0.0-0.0,627120b98967a5dbd4922c2e,E1,batch5,"[{""page_index"":0,""viewing_time"":215061.29999999702},{""page_index"":1,""viewing_time"":5801},{""page_index"":2,""viewing_time"":3394.9000000059605},{""page_index"":3,""viewing_time"":920},{""page_index"":4,""viewing_time"":4863.899999991059},{""page_index"":5,""viewing_time"":4630.70000000298},{""page_index"":6,""viewing_time"":2158.0999999940395}]",236830.59999999400,,,tol-instructions,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,html-button-response,305,908789,0.0-4.0-1.0-1.0-0.0,627120b98967a5dbd4922c2e,E1,batch5,,820.2999999970200,<p class=block-text> Let's answer a few questions <br>,0,tol_enter_quiz,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,html-button-response,306,911978,0.0-4.0-1.0-1.0-1.0,627120b98967a5dbd4922c2e,E1,batch5,,3187.2999999970200,<p class = block-text>True or False: You can only move the ball on top of a peg. <br></p>,0,tol_quiz,TRUE,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,html-button-response,307,912797,0.0-4.0-1.0-1.0-2.0,627120b98967a5dbd4922c2e,E1,batch5,,817.0999999940400,<p class = block-text>Correct! You can only move the ball on top of a peg.</p>,0,tol_quiz_feedback,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,html-button-response,308,915273,0.0-4.0-1.0-1.0-3.0,627120b98967a5dbd4922c2e,E1,batch5,,2474.7000000029800,<p class = block-text>True or False: You should try to match your board with the target board with fewest moves possible. <br></p>,0,tol_quiz,TRUE,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,html-button-response,309,916015,0.0-4.0-1.0-1.0-4.0,627120b98967a5dbd4922c2e,E1,batch5,,740.6000000089410,<p class = block-text>Correct! </p>,0,tol_quiz_feedback,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,html-button-response,310,917468,0.0-4.0-2.0,627120b98967a5dbd4922c2e,E1,batch5,,1449.5,"<p class=block-text> Now that you've understood the game, let's practice a few easier examples before we start!<br> <br>",0,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,single-stim-button,311,921333,0.0-4.0-3.0-0.0,627120b98967a5dbd4922c2e,E1,batch5,,3861,,,tol_practice,,,,,,,,,,,tol_peg_2,3861,3861,0,"[[1,2,0],[0,0],[0]]",1,"[[1,2,0],[0,0],[3]]",practice,3861,,,,,,
+,,,,,single-stim-button,312,923109,0.0-4.0-3.0-1.0,627120b98967a5dbd4922c2e,E1,batch5,,1776,,,tol_practice,,,,,,,,,,,tol_peg_3,1776,1776,0,"[[1,2,0],[0,0],[3]]",1,"[[1,2,0],[0,0],[3]]",practice,1776,,,,,,
+,,,,,poldrack-single-stim,313,924115,0.0-4.0-4.0,627120b98967a5dbd4922c2e,E1,batch5,,-1,,,tol_feedback,TRUE,,,,,,,,,,,1000,1000,500,,,,,,-1,none,TRUE,,0,
+,,,,,single-stim-button,314,928825,0.0-4.0-5.0-0.0,627120b98967a5dbd4922c2e,E1,batch5,,4709,,,tol_practice,,,,,,,,,,,tol_peg_1,4709,4709,0,"[[1,0,0],[3,0],[0]]",2,"[[0,0,0],[3,1],[2]]",practice,4709,,,,,,
+,,,,,single-stim-button,315,930712,0.0-4.0-5.0-1.0,627120b98967a5dbd4922c2e,E1,batch5,,1885,,,tol_practice,,,,,,,,,,,tol_peg_3,1885,1885,0,"[[1,0,0],[3,0],[2]]",2,"[[0,0,0],[3,1],[2]]",practice,1885,,,,,,
+,,,,,single-stim-button,316,931765,0.0-4.0-5.1-0.1,627120b98967a5dbd4922c2e,E1,batch5,,1052,,,tol_practice,,,,,,,,,,,tol_peg_1,1052,1052,0,"[[0,0,0],[3,0],[2]]",3,"[[0,0,0],[3,1],[2]]",practice,1052,,,,,,
+,,,,,single-stim-button,317,932830,0.0-4.0-5.1-1.1,627120b98967a5dbd4922c2e,E1,batch5,,1063,,,tol_practice,,,,,,,,,,,tol_peg_2,1063,1063,0,"[[0,0,0],[3,1],[2]]",3,"[[0,0,0],[3,1],[2]]",practice,1063,,,,,,
+,,,,,poldrack-single-stim,318,933834,0.0-4.0-6.0,627120b98967a5dbd4922c2e,E1,batch5,,-1,,,tol_feedback,TRUE,,,,,,,,,,,1000,1000,500,,,,,,-1,none,TRUE,,0,
+,,,,,single-stim-button,319,937599,0.0-4.0-7.0-0.0,627120b98967a5dbd4922c2e,E1,batch5,,3764,,,tol_practice,,,,,,,,,,,tol_peg_2,3764,3764,0,"[[1,2,0],[0,0],[0]]",4,"[[1,0,0],[2,0],[3]]",practice,3764,,,,,,
+,,,,,single-stim-button,320,938696,0.0-4.0-7.0-1.0,627120b98967a5dbd4922c2e,E1,batch5,,1095,,,tol_practice,,,,,,,,,,,tol_peg_3,1095,1095,0,"[[1,2,0],[0,0],[3]]",4,"[[1,0,0],[2,0],[3]]",practice,1095,,,,,,
+,,,,,single-stim-button,321,939838,0.0-4.0-7.1-0.1,627120b98967a5dbd4922c2e,E1,batch5,,1141,,,tol_practice,,,,,,,,,,,tol_peg_1,1141,1141,0,"[[1,0,0],[0,0],[3]]",5,"[[1,0,0],[2,0],[3]]",practice,1141,,,,,,
+,,,,,single-stim-button,322,940507,0.0-4.0-7.1-1.1,627120b98967a5dbd4922c2e,E1,batch5,,667,,,tol_practice,,,,,,,,,,,tol_peg_2,667,667,0,"[[1,0,0],[2,0],[3]]",5,"[[1,0,0],[2,0],[3]]",practice,667,,,,,,
+,,,,,poldrack-single-stim,323,941517,0.0-4.0-8.0,627120b98967a5dbd4922c2e,E1,batch5,,-1,,,tol_feedback,TRUE,,,,,,,,,,,1000,1000,500,,,,,,-1,none,TRUE,,0,
+,,,,,html-button-response,324,942948,0.0-4.0-9.0,627120b98967a5dbd4922c2e,E1,batch5,,1429,<div class = centerbox><p class = center-block-text>Great job! You are done with practice trials<br>You are about to start official trials.<br> <br> Problem <strong>1</strong> out of 25 problems</p></div>,0,tol_instruction,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,single-stim-button,325,947282,0.0-4.0-10.0-0.0,627120b98967a5dbd4922c2e,E1,batch5,,3331,,,tol_tohand,,,,,,,,,,,tol_peg_2,3331,3331,0,"[[1,2,0],[0,0],[0]]",1,"[[1,3,0],[2,0],[0]]",0,0,,,,,,3
+,,,,,single-stim-button,326,948241,0.0-4.0-10.0-1.0,627120b98967a5dbd4922c2e,E1,batch5,,956,,,tol_toboard,,,,,,,,,,,tol_peg_3,956,956,0,"[[1,2,0],[0,0],[3]]",1,"[[1,3,0],[2,0],[0]]",0,0,,,,,,3
+,,,,,single-stim-button,327,948914,0.0-4.0-10.1-0.1,627120b98967a5dbd4922c2e,E1,batch5,,671,,,tol_tohand,,,,,,,,,,,tol_peg_1,671,671,0,"[[1,0,0],[0,0],[3]]",2,"[[1,3,0],[2,0],[0]]",0,0,,,,,,3
+,,,,,single-stim-button,328,950295,0.0-4.0-10.1-1.1,627120b98967a5dbd4922c2e,E1,batch5,,1380,,,tol_toboard,,,,,,,,,,,tol_peg_2,1380,1380,0,"[[1,0,0],[2,0],[3]]",2,"[[1,3,0],[2,0],[0]]",0,0,,,,,,3
+,,,,,single-stim-button,329,952067,0.0-4.0-10.2-0.2,627120b98967a5dbd4922c2e,E1,batch5,,1770,,,tol_tohand,,,,,,,,,,,tol_peg_3,1770,1770,0,"[[1,0,0],[2,0],[0]]",3,"[[1,3,0],[2,0],[0]]",0,0,,,,,,3
+,,,,,single-stim-button,330,952913,0.0-4.0-10.2-1.2,627120b98967a5dbd4922c2e,E1,batch5,,846,,,tol_toboard,,,,,,,,,,,tol_peg_1,846,846,0,"[[1,3,0],[2,0],[0]]",3,"[[1,3,0],[2,0],[0]]",0,0,,,,,,3
+,,,,,poldrack-single-stim,331,953934,0.0-4.0-11.0,627120b98967a5dbd4922c2e,E1,batch5,,-1,,,tol_feedback,TRUE,,,,,,,,,,,1000,1000,500,,,,,,-1,none,TRUE,3331,5772,
+,,,,,html-button-response,332,954618,0.0-4.0-12.0,627120b98967a5dbd4922c2e,E1,batch5,,681.9000000059610,<div class = centerbox><p class = center-block-text>problem <strong>2</strong> out of 25 problems</p></div>,0,tol_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,single-stim-button,333,962323,0.0-4.0-13.0-0.0,627120b98967a5dbd4922c2e,E1,batch5,,7704,,,tol_tohand,,,,,,,,,,,tol_peg_1,7704,7704,0,"[[1,0,0],[3,0],[0]]",1,"[[2,1,3],[0,0],[0]]",1,0,,,,,,5
+,,,,,single-stim-button,334,965468,0.0-4.0-13.0-1.0,627120b98967a5dbd4922c2e,E1,batch5,,3143,,,tol_toboard,,,,,,,,,,,tol_peg_3,3143,3143,0,"[[1,0,0],[3,0],[2]]",1,"[[2,1,3],[0,0],[0]]",1,0,,,,,,5
+,,,,,single-stim-button,335,969303,0.0-4.0-13.1-0.1,627120b98967a5dbd4922c2e,E1,batch5,,3833,,,tol_tohand,,,,,,,,,,,tol_peg_1,3833,3833,0,"[[0,0,0],[3,0],[2]]",2,"[[2,1,3],[0,0],[0]]",1,0,,,,,,5
+,,,,,single-stim-button,336,970066,0.0-4.0-13.1-1.1,627120b98967a5dbd4922c2e,E1,batch5,,763,,,tol_toboard,,,,,,,,,,,tol_peg_2,763,763,0,"[[0,0,0],[3,1],[2]]",2,"[[2,1,3],[0,0],[0]]",1,0,,,,,,5
+,,,,,single-stim-button,337,971515,0.0-4.0-13.2-0.2,627120b98967a5dbd4922c2e,E1,batch5,,1448,,,tol_tohand,,,,,,,,,,,tol_peg_3,1448,1448,0,"[[0,0,0],[3,1],[0]]",3,"[[2,1,3],[0,0],[0]]",1,0,,,,,,5
+,,,,,single-stim-button,338,972396,0.0-4.0-13.2-1.2,627120b98967a5dbd4922c2e,E1,batch5,,880,,,tol_toboard,,,,,,,,,,,tol_peg_1,880,880,0,"[[2,0,0],[3,1],[0]]",3,"[[2,1,3],[0,0],[0]]",1,0,,,,,,5
+,,,,,single-stim-button,339,973027,0.0-4.0-13.3-0.3,627120b98967a5dbd4922c2e,E1,batch5,,630,,,tol_tohand,,,,,,,,,,,tol_peg_2,630,630,0,"[[2,0,0],[3,0],[0]]",4,"[[2,1,3],[0,0],[0]]",1,0,,,,,,5
+,,,,,single-stim-button,340,973646,0.0-4.0-13.3-1.3,627120b98967a5dbd4922c2e,E1,batch5,,617,,,tol_toboard,,,,,,,,,,,tol_peg_1,617,617,0,"[[2,1,0],[3,0],[0]]",4,"[[2,1,3],[0,0],[0]]",1,0,,,,,,5
+,,,,,single-stim-button,341,974207,0.0-4.0-13.4-0.4,627120b98967a5dbd4922c2e,E1,batch5,,559,,,tol_tohand,,,,,,,,,,,tol_peg_2,559,559,0,"[[2,1,0],[0,0],[0]]",5,"[[2,1,3],[0,0],[0]]",1,0,,,,,,5
+,,,,,single-stim-button,342,974865,0.0-4.0-13.4-1.4,627120b98967a5dbd4922c2e,E1,batch5,,657,,,tol_toboard,,,,,,,,,,,tol_peg_1,657,657,0,"[[2,1,3],[0,0],[0]]",5,"[[2,1,3],[0,0],[0]]",1,0,,,,,,5
+,,,,,poldrack-single-stim,343,975885,0.0-4.0-14.0,627120b98967a5dbd4922c2e,E1,batch5,,-1,,,tol_feedback,TRUE,,,,,,,,,,,1000,1000,500,,,,,,-1,none,TRUE,7704,14174,
+,,,,,html-button-response,344,976549,0.0-4.0-15.0,627120b98967a5dbd4922c2e,E1,batch5,,663,<div class = centerbox><p class = center-block-text>problem <strong>3</strong> out of 25 problems</p></div>,0,tol_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,single-stim-button,345,979712,0.0-4.0-16.0-0.0,627120b98967a5dbd4922c2e,E1,batch5,,3161,,,tol_tohand,,,,,,,,,,,tol_peg_1,3161,3161,0,"[[2,0,0],[0,0],[1]]",1,"[[1,2,0],[3,0],[0]]",2,0,,,,,,4
+,,,,,single-stim-button,346,980896,0.0-4.0-16.0-1.0,627120b98967a5dbd4922c2e,E1,batch5,,1183,,,tol_toboard,,,,,,,,,,,tol_peg_2,1183,1183,0,"[[2,0,0],[3,0],[1]]",1,"[[1,2,0],[3,0],[0]]",2,0,,,,,,4
+,,,,,single-stim-button,347,982226,0.0-4.0-16.1-0.1,627120b98967a5dbd4922c2e,E1,batch5,,1327,,,tol_tohand,,,,,,,,,,,tol_peg_1,1327,1327,0,"[[0,0,0],[3,0],[1]]",2,"[[1,2,0],[3,0],[0]]",2,0,,,,,,4
+,,,,,single-stim-button,348,983681,0.0-4.0-16.1-1.1,627120b98967a5dbd4922c2e,E1,batch5,,1453,,,tol_toboard,,,,,,,,,,,tol_peg_2,1453,1453,0,"[[0,0,0],[3,2],[1]]",2,"[[1,2,0],[3,0],[0]]",2,0,,,,,,4
+,,,,,single-stim-button,349,984460,0.0-4.0-16.2-0.2,627120b98967a5dbd4922c2e,E1,batch5,,777,,,tol_tohand,,,,,,,,,,,tol_peg_3,777,777,0,"[[0,0,0],[3,2],[0]]",3,"[[1,2,0],[3,0],[0]]",2,0,,,,,,4
+,,,,,single-stim-button,350,985338,0.0-4.0-16.2-1.2,627120b98967a5dbd4922c2e,E1,batch5,,878,,,tol_toboard,,,,,,,,,,,tol_peg_1,878,878,0,"[[1,0,0],[3,2],[0]]",3,"[[1,2,0],[3,0],[0]]",2,0,,,,,,4
+,,,,,single-stim-button,351,985824,0.0-4.0-16.3-0.3,627120b98967a5dbd4922c2e,E1,batch5,,485,,,tol_tohand,,,,,,,,,,,tol_peg_2,485,485,0,"[[1,0,0],[3,0],[0]]",4,"[[1,2,0],[3,0],[0]]",2,0,,,,,,4
+,,,,,single-stim-button,352,986352,0.0-4.0-16.3-1.3,627120b98967a5dbd4922c2e,E1,batch5,,526,,,tol_toboard,,,,,,,,,,,tol_peg_1,526,526,0,"[[1,2,0],[3,0],[0]]",4,"[[1,2,0],[3,0],[0]]",2,0,,,,,,4
+,,,,,poldrack-single-stim,353,987361,0.0-4.0-17.0,627120b98967a5dbd4922c2e,E1,batch5,,-1,,,tol_feedback,TRUE,,,,,,,,,,,1000,1000,500,,,,,,-1,none,TRUE,3161,5750,
+,,,,,html-button-response,354,988306,0.0-4.0-18.0,627120b98967a5dbd4922c2e,E1,batch5,,943,<div class = centerbox><p class = center-block-text>problem <strong>4</strong> out of 25 problems</p></div>,0,tol_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,single-stim-button,355,991340,0.0-4.0-19.0-0.0,627120b98967a5dbd4922c2e,E1,batch5,,3033,,,tol_tohand,,,,,,,,,,,tol_peg_2,3033,3033,0,"[[3,0,0],[2,0],[0]]",1,"[[3,0,0],[1,0],[2]]",3,0,,,,,,3
+,,,,,single-stim-button,356,993072,0.0-4.0-19.0-1.0,627120b98967a5dbd4922c2e,E1,batch5,,1731,,,tol_toboard,,,,,,,,,,,tol_peg_1,1731,1731,0,"[[3,1,0],[2,0],[0]]",1,"[[3,0,0],[1,0],[2]]",3,0,,,,,,3
+,,,,,single-stim-button,357,993572,0.0-4.0-19.1-0.1,627120b98967a5dbd4922c2e,E1,batch5,,499,,,tol_tohand,,,,,,,,,,,tol_peg_2,499,499,0,"[[3,1,0],[0,0],[0]]",2,"[[3,0,0],[1,0],[2]]",3,0,,,,,,3
+,,,,,single-stim-button,358,994111,0.0-4.0-19.1-1.1,627120b98967a5dbd4922c2e,E1,batch5,,537,,,tol_toboard,,,,,,,,,,,tol_peg_3,537,537,0,"[[3,1,0],[0,0],[2]]",2,"[[3,0,0],[1,0],[2]]",3,0,,,,,,3
+,,,,,single-stim-button,359,994610,0.0-4.0-19.2-0.2,627120b98967a5dbd4922c2e,E1,batch5,,499,,,tol_tohand,,,,,,,,,,,tol_peg_1,499,499,0,"[[3,0,0],[0,0],[2]]",3,"[[3,0,0],[1,0],[2]]",3,0,,,,,,3
+,,,,,single-stim-button,360,995028,0.0-4.0-19.2-1.2,627120b98967a5dbd4922c2e,E1,batch5,,417,,,tol_toboard,,,,,,,,,,,tol_peg_2,417,417,0,"[[3,0,0],[1,0],[2]]",3,"[[3,0,0],[1,0],[2]]",3,0,,,,,,3
+,,,,,poldrack-single-stim,361,996035,0.0-4.0-20.0,627120b98967a5dbd4922c2e,E1,batch5,,-1,,,tol_feedback,TRUE,,,,,,,,,,,1000,1000,500,,,,,,-1,none,TRUE,3033,4031,
+,,,,,html-button-response,362,996631,0.0-4.0-21.0,627120b98967a5dbd4922c2e,E1,batch5,,593.9000000059610,<div class = centerbox><p class = center-block-text>problem <strong>5</strong> out of 25 problems</p></div>,0,tol_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,single-stim-button,363,1018741,0.0-4.0-22.0-0.0,627120b98967a5dbd4922c2e,E1,batch5,,22109,,,tol_tohand,,,,,,,,,,,tol_peg_3,22109,22109,0,"[[1,0,0],[2,0],[0]]",1,"[[0,0,0],[1,2],[3]]",4,0,,,,,,7
+,,,,,single-stim-button,364,1019403,0.0-4.0-22.0-1.0,627120b98967a5dbd4922c2e,E1,batch5,,660,,,tol_toboard,,,,,,,,,,,tol_peg_1,660,660,0,"[[1,3,0],[2,0],[0]]",1,"[[0,0,0],[1,2],[3]]",4,0,,,,,,7
+,,,,,single-stim-button,365,1019890,0.0-4.0-22.1-0.1,627120b98967a5dbd4922c2e,E1,batch5,,485,,,tol_tohand,,,,,,,,,,,tol_peg_2,485,485,0,"[[1,3,0],[0,0],[0]]",2,"[[0,0,0],[1,2],[3]]",4,0,,,,,,7
+,,,,,single-stim-button,366,1021480,0.0-4.0-22.1-1.1,627120b98967a5dbd4922c2e,E1,batch5,,1588,,,tol_toboard,,,,,,,,,,,tol_peg_3,1588,1588,0,"[[1,3,0],[0,0],[2]]",2,"[[0,0,0],[1,2],[3]]",4,0,,,,,,7
+,,,,,single-stim-button,367,1022411,0.0-4.0-22.2-0.2,627120b98967a5dbd4922c2e,E1,batch5,,930,,,tol_tohand,,,,,,,,,,,tol_peg_1,930,930,0,"[[1,0,0],[0,0],[2]]",3,"[[0,0,0],[1,2],[3]]",4,0,,,,,,7
+,,,,,single-stim-button,368,1023093,0.0-4.0-22.2-1.2,627120b98967a5dbd4922c2e,E1,batch5,,681,,,tol_toboard,,,,,,,,,,,tol_peg_2,681,681,0,"[[1,0,0],[3,0],[2]]",3,"[[0,0,0],[1,2],[3]]",4,0,,,,,,7
+,,,,,single-stim-button,369,1023808,0.0-4.0-22.3-0.3,627120b98967a5dbd4922c2e,E1,batch5,,712,,,tol_tohand,,,,,,,,,,,tol_peg_3,712,712,0,"[[1,0,0],[3,0],[0]]",4,"[[0,0,0],[1,2],[3]]",4,0,,,,,,7
+,,,,,single-stim-button,370,1027889,0.0-4.0-22.3-1.3,627120b98967a5dbd4922c2e,E1,batch5,,4080,,,tol_toboard,,,,,,,,,,,tol_peg_1,4080,4080,0,"[[1,2,0],[3,0],[0]]",4,"[[0,0,0],[1,2],[3]]",4,0,,,,,,7
+,,,,,single-stim-button,371,1029224,0.0-4.0-22.4-0.4,627120b98967a5dbd4922c2e,E1,batch5,,1334,,,tol_tohand,,,,,,,,,,,tol_peg_2,1334,1334,0,"[[1,2,0],[0,0],[0]]",5,"[[0,0,0],[1,2],[3]]",4,0,,,,,,7
+,,,,,single-stim-button,372,1029892,0.0-4.0-22.4-1.4,627120b98967a5dbd4922c2e,E1,batch5,,667,,,tol_toboard,,,,,,,,,,,tol_peg_3,667,667,0,"[[1,2,0],[0,0],[3]]",5,"[[0,0,0],[1,2],[3]]",4,0,,,,,,7
+,,,,,single-stim-button,373,1030675,0.0-4.0-22.5-0.5,627120b98967a5dbd4922c2e,E1,batch5,,781,,,tol_tohand,,,,,,,,,,,tol_peg_1,781,781,0,"[[1,0,0],[0,0],[3]]",6,"[[0,0,0],[1,2],[3]]",4,0,,,,,,7
+,,,,,single-stim-button,374,1031458,0.0-4.0-22.5-1.5,627120b98967a5dbd4922c2e,E1,batch5,,782,,,tol_toboard,,,,,,,,,,,tol_peg_1,782,782,0,"[[1,2,0],[0,0],[3]]",6,"[[0,0,0],[1,2],[3]]",4,0,,,,,,7
+,,,,,single-stim-button,375,1032227,0.0-4.0-22.6-0.6,627120b98967a5dbd4922c2e,E1,batch5,,768,,,tol_tohand,,,,,,,,,,,tol_peg_1,768,768,0,"[[1,0,0],[0,0],[3]]",7,"[[0,0,0],[1,2],[3]]",4,0,,,,,,7
+,,,,,single-stim-button,376,1039455,0.0-4.0-22.6-1.6,627120b98967a5dbd4922c2e,E1,batch5,,7227,,,tol_toboard,,,,,,,,,,,tol_peg_2,7227,7227,0,"[[1,0,0],[2,0],[3]]",7,"[[0,0,0],[1,2],[3]]",4,0,,,,,,7
+,,,,,single-stim-button,377,1040107,0.0-4.0-22.7-0.7,627120b98967a5dbd4922c2e,E1,batch5,,651,,,tol_tohand,,,,,,,,,,,tol_peg_3,651,651,0,"[[1,0,0],[2,0],[0]]",8,"[[0,0,0],[1,2],[3]]",4,0,,,,,,7
+,,,,,single-stim-button,378,1046564,0.0-4.0-22.7-1.7,627120b98967a5dbd4922c2e,E1,batch5,,6456,,,tol_toboard,,,,,,,,,,,tol_peg_2,6456,6456,0,"[[1,0,0],[2,3],[0]]",8,"[[0,0,0],[1,2],[3]]",4,0,,,,,,7
+,,,,,single-stim-button,379,1047408,0.0-4.0-22.8-0.8,627120b98967a5dbd4922c2e,E1,batch5,,843,,,tol_tohand,,,,,,,,,,,tol_peg_1,843,843,0,"[[0,0,0],[2,3],[0]]",9,"[[0,0,0],[1,2],[3]]",4,0,,,,,,7
+,,,,,single-stim-button,380,1048176,0.0-4.0-22.8-1.8,627120b98967a5dbd4922c2e,E1,batch5,,767,,,tol_toboard,,,,,,,,,,,tol_peg_3,767,767,0,"[[0,0,0],[2,3],[1]]",9,"[[0,0,0],[1,2],[3]]",4,0,,,,,,7
+,,,,,single-stim-button,381,1048969,0.0-4.0-22.9-0.9,627120b98967a5dbd4922c2e,E1,batch5,,792,,,tol_tohand,,,,,,,,,,,tol_peg_2,792,792,0,"[[0,0,0],[2,0],[1]]",10,"[[0,0,0],[1,2],[3]]",4,0,,,,,,7
+,,,,,single-stim-button,382,1049577,0.0-4.0-22.9-1.9,627120b98967a5dbd4922c2e,E1,batch5,,607,,,tol_toboard,,,,,,,,,,,tol_peg_1,607,607,0,"[[3,0,0],[2,0],[1]]",10,"[[0,0,0],[1,2],[3]]",4,0,,,,,,7
+,,,,,single-stim-button,383,1051048,0.0-4.0-22.10-0.10,627120b98967a5dbd4922c2e,E1,batch5,,1469,,,tol_tohand,,,,,,,,,,,tol_peg_2,1469,1469,0,"[[3,0,0],[0,0],[1]]",11,"[[0,0,0],[1,2],[3]]",4,0,,,,,,7
+,,,,,single-stim-button,384,1051690,0.0-4.0-22.10-1.10,627120b98967a5dbd4922c2e,E1,batch5,,641,,,tol_toboard,,,,,,,,,,,tol_peg_1,641,641,0,"[[3,2,0],[0,0],[1]]",11,"[[0,0,0],[1,2],[3]]",4,0,,,,,,7
+,,,,,single-stim-button,385,1052514,0.0-4.0-22.11-0.11,627120b98967a5dbd4922c2e,E1,batch5,,823,,,tol_tohand,,,,,,,,,,,tol_peg_3,823,823,0,"[[3,2,0],[0,0],[0]]",12,"[[0,0,0],[1,2],[3]]",4,0,,,,,,7
+,,,,,single-stim-button,386,1053039,0.0-4.0-22.11-1.11,627120b98967a5dbd4922c2e,E1,batch5,,524,,,tol_toboard,,,,,,,,,,,tol_peg_2,524,524,0,"[[3,2,0],[1,0],[0]]",12,"[[0,0,0],[1,2],[3]]",4,0,,,,,,7
+,,,,,single-stim-button,387,1053660,0.0-4.0-22.12-0.12,627120b98967a5dbd4922c2e,E1,batch5,,620,,,tol_tohand,,,,,,,,,,,tol_peg_1,620,620,0,"[[3,0,0],[1,0],[0]]",13,"[[0,0,0],[1,2],[3]]",4,0,,,,,,7
+,,,,,single-stim-button,388,1054273,0.0-4.0-22.12-1.12,627120b98967a5dbd4922c2e,E1,batch5,,613,,,tol_toboard,,,,,,,,,,,tol_peg_2,613,613,0,"[[3,0,0],[1,2],[0]]",13,"[[0,0,0],[1,2],[3]]",4,0,,,,,,7
+,,,,,single-stim-button,389,1054829,0.0-4.0-22.13-0.13,627120b98967a5dbd4922c2e,E1,batch5,,554,,,tol_tohand,,,,,,,,,,,tol_peg_1,554,554,0,"[[0,0,0],[1,2],[0]]",14,"[[0,0,0],[1,2],[3]]",4,0,,,,,,7
+,,,,,single-stim-button,390,1055422,0.0-4.0-22.13-1.13,627120b98967a5dbd4922c2e,E1,batch5,,593,,,tol_toboard,,,,,,,,,,,tol_peg_3,593,593,0,"[[0,0,0],[1,2],[3]]",14,"[[0,0,0],[1,2],[3]]",4,0,,,,,,7
+,,,,,poldrack-single-stim,391,1056436,0.0-4.0-23.0,627120b98967a5dbd4922c2e,E1,batch5,,-1,,,tol_feedback,TRUE,,,,,,,,,,,1000,1000,500,,,,,,-1,none,TRUE,22109,32871,
+,,,,,html-button-response,392,1057005,0.0-4.0-24.0,627120b98967a5dbd4922c2e,E1,batch5,,567.5,<div class = centerbox><p class = center-block-text>problem <strong>6</strong> out of 25 problems</p></div>,0,tol_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,single-stim-button,393,1064209,0.0-4.0-25.0-0.0,627120b98967a5dbd4922c2e,E1,batch5,,7202,,,tol_tohand,,,,,,,,,,,tol_peg_2,7202,7202,0,"[[0,0,0],[1,0],[3]]",1,"[[1,0,0],[2,3],[0]]",5,0,,,,,,6
+,,,,,single-stim-button,394,1067262,0.0-4.0-25.0-1.0,627120b98967a5dbd4922c2e,E1,batch5,,3051,,,tol_toboard,,,,,,,,,,,tol_peg_2,3051,3051,0,"[[0,0,0],[1,2],[3]]",1,"[[1,0,0],[2,3],[0]]",5,0,,,,,,6
+,,,,,single-stim-button,395,1067967,0.0-4.0-25.1-0.1,627120b98967a5dbd4922c2e,E1,batch5,,705,,,tol_tohand,,,,,,,,,,,tol_peg_3,705,705,0,"[[0,0,0],[1,2],[0]]",2,"[[1,0,0],[2,3],[0]]",5,0,,,,,,6
+,,,,,single-stim-button,396,1068673,0.0-4.0-25.1-1.1,627120b98967a5dbd4922c2e,E1,batch5,,705,,,tol_toboard,,,,,,,,,,,tol_peg_1,705,705,0,"[[3,0,0],[1,2],[0]]",2,"[[1,0,0],[2,3],[0]]",5,0,,,,,,6
+,,,,,single-stim-button,397,1072178,0.0-4.0-25.2-0.2,627120b98967a5dbd4922c2e,E1,batch5,,3504,,,tol_tohand,,,,,,,,,,,tol_peg_2,3504,3504,0,"[[3,0,0],[1,0],[0]]",3,"[[1,0,0],[2,3],[0]]",5,0,,,,,,6
+,,,,,single-stim-button,398,1072793,0.0-4.0-25.2-1.2,627120b98967a5dbd4922c2e,E1,batch5,,613,,,tol_toboard,,,,,,,,,,,tol_peg_1,613,613,0,"[[3,2,0],[1,0],[0]]",3,"[[1,0,0],[2,3],[0]]",5,0,,,,,,6
+,,,,,single-stim-button,399,1073227,0.0-4.0-25.3-0.3,627120b98967a5dbd4922c2e,E1,batch5,,433,,,tol_tohand,,,,,,,,,,,tol_peg_2,433,433,0,"[[3,2,0],[0,0],[0]]",4,"[[1,0,0],[2,3],[0]]",5,0,,,,,,6
+,,,,,single-stim-button,400,1073776,0.0-4.0-25.3-1.3,627120b98967a5dbd4922c2e,E1,batch5,,548,,,tol_toboard,,,,,,,,,,,tol_peg_3,548,548,0,"[[3,2,0],[0,0],[1]]",4,"[[1,0,0],[2,3],[0]]",5,0,,,,,,6
+,,,,,single-stim-button,401,1074275,0.0-4.0-25.4-0.4,627120b98967a5dbd4922c2e,E1,batch5,,499,,,tol_tohand,,,,,,,,,,,tol_peg_1,499,499,0,"[[3,0,0],[0,0],[1]]",5,"[[1,0,0],[2,3],[0]]",5,0,,,,,,6
+,,,,,single-stim-button,402,1074776,0.0-4.0-25.4-1.4,627120b98967a5dbd4922c2e,E1,batch5,,500,,,tol_toboard,,,,,,,,,,,tol_peg_2,500,500,0,"[[3,0,0],[2,0],[1]]",5,"[[1,0,0],[2,3],[0]]",5,0,,,,,,6
+,,,,,single-stim-button,403,1075265,0.0-4.0-25.5-0.5,627120b98967a5dbd4922c2e,E1,batch5,,488,,,tol_tohand,,,,,,,,,,,tol_peg_1,488,488,0,"[[0,0,0],[2,0],[1]]",6,"[[1,0,0],[2,3],[0]]",5,0,,,,,,6
+,,,,,single-stim-button,404,1075801,0.0-4.0-25.5-1.5,627120b98967a5dbd4922c2e,E1,batch5,,535,,,tol_toboard,,,,,,,,,,,tol_peg_2,535,535,0,"[[0,0,0],[2,3],[1]]",6,"[[1,0,0],[2,3],[0]]",5,0,,,,,,6
+,,,,,single-stim-button,405,1076590,0.0-4.0-25.6-0.6,627120b98967a5dbd4922c2e,E1,batch5,,788,,,tol_tohand,,,,,,,,,,,tol_peg_3,788,788,0,"[[0,0,0],[2,3],[0]]",7,"[[1,0,0],[2,3],[0]]",5,0,,,,,,6
+,,,,,single-stim-button,406,1077258,0.0-4.0-25.6-1.6,627120b98967a5dbd4922c2e,E1,batch5,,667,,,tol_toboard,,,,,,,,,,,tol_peg_1,667,667,0,"[[1,0,0],[2,3],[0]]",7,"[[1,0,0],[2,3],[0]]",5,0,,,,,,6
+,,,,,poldrack-single-stim,407,1078269,0.0-4.0-26.0,627120b98967a5dbd4922c2e,E1,batch5,,-1,,,tol_feedback,TRUE,,,,,,,,,,,1000,1000,500,,,,,,-1,none,TRUE,7202,13619,
+,,,,,html-button-response,408,1079603,0.0-4.0-27.0,627120b98967a5dbd4922c2e,E1,batch5,,1332.5999999940400,<div class = centerbox><p class = center-block-text>problem <strong>7</strong> out of 25 problems</p></div>,0,tol_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,single-stim-button,409,1084100,0.0-4.0-28.0-0.0,627120b98967a5dbd4922c2e,E1,batch5,,4495,,,tol_tohand,,,,,,,,,,,tol_peg_3,4495,4495,0,"[[2,1,0],[0,0],[0]]",1,"[[1,2,0],[3,0],[0]]",6,0,,,,,,5
+,,,,,single-stim-button,410,1084960,0.0-4.0-28.0-1.0,627120b98967a5dbd4922c2e,E1,batch5,,858,,,tol_toboard,,,,,,,,,,,tol_peg_2,858,858,0,"[[2,1,0],[3,0],[0]]",1,"[[1,2,0],[3,0],[0]]",6,0,,,,,,5
+,,,,,single-stim-button,411,1088288,0.0-4.0-28.1-0.1,627120b98967a5dbd4922c2e,E1,batch5,,3327,,,tol_tohand,,,,,,,,,,,tol_peg_1,3327,3327,0,"[[2,0,0],[3,0],[0]]",2,"[[1,2,0],[3,0],[0]]",6,0,,,,,,5
+,,,,,single-stim-button,412,1089960,0.0-4.0-28.1-1.1,627120b98967a5dbd4922c2e,E1,batch5,,1670,,,tol_toboard,,,,,,,,,,,tol_peg_2,1670,1670,0,"[[2,0,0],[3,1],[0]]",2,"[[1,2,0],[3,0],[0]]",6,0,,,,,,5
+,,,,,single-stim-button,413,1090426,0.0-4.0-28.2-0.2,627120b98967a5dbd4922c2e,E1,batch5,,464,,,tol_tohand,,,,,,,,,,,tol_peg_1,464,464,0,"[[0,0,0],[3,1],[0]]",3,"[[1,2,0],[3,0],[0]]",6,0,,,,,,5
+,,,,,single-stim-button,414,1090998,0.0-4.0-28.2-1.2,627120b98967a5dbd4922c2e,E1,batch5,,570,,,tol_toboard,,,,,,,,,,,tol_peg_3,570,570,0,"[[0,0,0],[3,1],[2]]",3,"[[1,2,0],[3,0],[0]]",6,0,,,,,,5
+,,,,,single-stim-button,415,1091600,0.0-4.0-28.3-0.3,627120b98967a5dbd4922c2e,E1,batch5,,601,,,tol_tohand,,,,,,,,,,,tol_peg_2,601,601,0,"[[0,0,0],[3,0],[2]]",4,"[[1,2,0],[3,0],[0]]",6,0,,,,,,5
+,,,,,single-stim-button,416,1092257,0.0-4.0-28.3-1.3,627120b98967a5dbd4922c2e,E1,batch5,,655,,,tol_toboard,,,,,,,,,,,tol_peg_1,655,655,0,"[[1,0,0],[3,0],[2]]",4,"[[1,2,0],[3,0],[0]]",6,0,,,,,,5
+,,,,,single-stim-button,417,1092780,0.0-4.0-28.4-0.4,627120b98967a5dbd4922c2e,E1,batch5,,523,,,tol_tohand,,,,,,,,,,,tol_peg_3,523,523,0,"[[1,0,0],[3,0],[0]]",5,"[[1,2,0],[3,0],[0]]",6,0,,,,,,5
+,,,,,single-stim-button,418,1093543,0.0-4.0-28.4-1.4,627120b98967a5dbd4922c2e,E1,batch5,,763,,,tol_toboard,,,,,,,,,,,tol_peg_1,763,763,0,"[[1,2,0],[3,0],[0]]",5,"[[1,2,0],[3,0],[0]]",6,0,,,,,,5
+,,,,,poldrack-single-stim,419,1094551,0.0-4.0-29.0,627120b98967a5dbd4922c2e,E1,batch5,,-1,,,tol_feedback,TRUE,,,,,,,,,,,1000,1000,500,,,,,,-1,none,TRUE,4495,9410,
+,,,,,html-button-response,420,1094993,0.0-4.0-30.0,627120b98967a5dbd4922c2e,E1,batch5,,441,<div class = centerbox><p class = center-block-text>problem <strong>8</strong> out of 25 problems</p></div>,0,tol_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,single-stim-button,421,1098256,0.0-4.0-31.0-0.0,627120b98967a5dbd4922c2e,E1,batch5,,3261,,,tol_tohand,,,,,,,,,,,tol_peg_3,3261,3261,0,"[[0,0,0],[2,3],[0]]",1,"[[1,2,0],[3,0],[0]]",7,0,,,,,,4
+,,,,,single-stim-button,422,1098891,0.0-4.0-31.0-1.0,627120b98967a5dbd4922c2e,E1,batch5,,633,,,tol_toboard,,,,,,,,,,,tol_peg_1,633,633,0,"[[1,0,0],[2,3],[0]]",1,"[[1,2,0],[3,0],[0]]",7,0,,,,,,4
+,,,,,single-stim-button,423,1099386,0.0-4.0-31.1-0.1,627120b98967a5dbd4922c2e,E1,batch5,,494,,,tol_tohand,,,,,,,,,,,tol_peg_2,494,494,0,"[[1,0,0],[2,0],[0]]",2,"[[1,2,0],[3,0],[0]]",7,0,,,,,,4
+,,,,,single-stim-button,424,1099715,0.0-4.0-31.1-1.1,627120b98967a5dbd4922c2e,E1,batch5,,327,,,tol_toboard,,,,,,,,,,,tol_peg_3,327,327,0,"[[1,0,0],[2,0],[3]]",2,"[[1,2,0],[3,0],[0]]",7,0,,,,,,4
+,,,,,single-stim-button,425,1100033,0.0-4.0-31.2-0.2,627120b98967a5dbd4922c2e,E1,batch5,,316,,,tol_tohand,,,,,,,,,,,tol_peg_2,316,316,0,"[[1,0,0],[0,0],[3]]",3,"[[1,2,0],[3,0],[0]]",7,0,,,,,,4
+,,,,,single-stim-button,426,1100348,0.0-4.0-31.2-1.2,627120b98967a5dbd4922c2e,E1,batch5,,315,,,tol_toboard,,,,,,,,,,,tol_peg_1,315,315,0,"[[1,2,0],[0,0],[3]]",3,"[[1,2,0],[3,0],[0]]",7,0,,,,,,4
+,,,,,single-stim-button,427,1101017,0.0-4.0-31.3-0.3,627120b98967a5dbd4922c2e,E1,batch5,,667,,,tol_tohand,,,,,,,,,,,tol_peg_3,667,667,0,"[[1,2,0],[0,0],[0]]",4,"[[1,2,0],[3,0],[0]]",7,0,,,,,,4
+,,,,,single-stim-button,428,1101319,0.0-4.0-31.3-1.3,627120b98967a5dbd4922c2e,E1,batch5,,300,,,tol_toboard,,,,,,,,,,,tol_peg_2,300,300,0,"[[1,2,0],[3,0],[0]]",4,"[[1,2,0],[3,0],[0]]",7,0,,,,,,4
+,,,,,poldrack-single-stim,429,1102336,0.0-4.0-32.0,627120b98967a5dbd4922c2e,E1,batch5,,-1,,,tol_feedback,TRUE,,,,,,,,,,,1000,1000,500,,,,,,-1,none,TRUE,3261,4738,
+,,,,,html-button-response,430,1102934,0.0-4.0-33.0,627120b98967a5dbd4922c2e,E1,batch5,,596.8999999910590,<div class = centerbox><p class = center-block-text>problem <strong>9</strong> out of 25 problems</p></div>,0,tol_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,single-stim-button,431,1109224,0.0-4.0-34.0-0.0,627120b98967a5dbd4922c2e,E1,batch5,,6289,,,tol_tohand,,,,,,,,,,,tol_peg_1,6289,6289,0,"[[3,0,0],[0,0],[1]]",1,"[[2,1,0],[3,0],[0]]",8,0,,,,,,6
+,,,,,single-stim-button,432,1109797,0.0-4.0-34.0-1.0,627120b98967a5dbd4922c2e,E1,batch5,,571,,,tol_toboard,,,,,,,,,,,tol_peg_2,571,571,0,"[[3,0,0],[2,0],[1]]",1,"[[2,1,0],[3,0],[0]]",8,0,,,,,,6
+,,,,,single-stim-button,433,1110161,0.0-4.0-34.1-0.1,627120b98967a5dbd4922c2e,E1,batch5,,364,,,tol_tohand,,,,,,,,,,,tol_peg_1,364,364,0,"[[0,0,0],[2,0],[1]]",2,"[[2,1,0],[3,0],[0]]",8,0,,,,,,6
+,,,,,single-stim-button,434,1110589,0.0-4.0-34.1-1.1,627120b98967a5dbd4922c2e,E1,batch5,,427,,,tol_toboard,,,,,,,,,,,tol_peg_2,427,427,0,"[[0,0,0],[2,3],[1]]",2,"[[2,1,0],[3,0],[0]]",8,0,,,,,,6
+,,,,,single-stim-button,435,1114215,0.0-4.0-34.2-0.2,627120b98967a5dbd4922c2e,E1,batch5,,3624,,,tol_tohand,,,,,,,,,,,tol_peg_2,3624,3624,0,"[[0,0,0],[2,0],[1]]",3,"[[2,1,0],[3,0],[0]]",8,0,,,,,,6
+,,,,,single-stim-button,436,1115076,0.0-4.0-34.2-1.2,627120b98967a5dbd4922c2e,E1,batch5,,861,,,tol_toboard,,,,,,,,,,,tol_peg_1,861,861,0,"[[3,0,0],[2,0],[1]]",3,"[[2,1,0],[3,0],[0]]",8,0,,,,,,6
+,,,,,single-stim-button,437,1116407,0.0-4.0-34.3-0.3,627120b98967a5dbd4922c2e,E1,batch5,,1330,,,tol_tohand,,,,,,,,,,,tol_peg_3,1330,1330,0,"[[3,0,0],[2,0],[0]]",4,"[[2,1,0],[3,0],[0]]",8,0,,,,,,6
+,,,,,single-stim-button,438,1118369,0.0-4.0-34.3-1.3,627120b98967a5dbd4922c2e,E1,batch5,,1961,,,tol_toboard,,,,,,,,,,,tol_peg_2,1961,1961,0,"[[3,0,0],[2,1],[0]]",4,"[[2,1,0],[3,0],[0]]",8,0,,,,,,6
+,,,,,single-stim-button,439,1121047,0.0-4.0-34.4-0.4,627120b98967a5dbd4922c2e,E1,batch5,,2677,,,tol_tohand,,,,,,,,,,,tol_peg_1,2677,2677,0,"[[0,0,0],[2,1],[0]]",5,"[[2,1,0],[3,0],[0]]",8,0,,,,,,6
+,,,,,single-stim-button,440,1122544,0.0-4.0-34.4-1.4,627120b98967a5dbd4922c2e,E1,batch5,,1496,,,tol_toboard,,,,,,,,,,,tol_peg_3,1496,1496,0,"[[0,0,0],[2,1],[3]]",5,"[[2,1,0],[3,0],[0]]",8,0,,,,,,6
+,,,,,single-stim-button,441,1123110,0.0-4.0-34.5-0.5,627120b98967a5dbd4922c2e,E1,batch5,,565,,,tol_tohand,,,,,,,,,,,tol_peg_2,565,565,0,"[[0,0,0],[2,0],[3]]",6,"[[2,1,0],[3,0],[0]]",8,0,,,,,,6
+,,,,,single-stim-button,442,1123657,0.0-4.0-34.5-1.5,627120b98967a5dbd4922c2e,E1,batch5,,546,,,tol_toboard,,,,,,,,,,,tol_peg_1,546,546,0,"[[1,0,0],[2,0],[3]]",6,"[[2,1,0],[3,0],[0]]",8,0,,,,,,6
+,,,,,single-stim-button,443,1124173,0.0-4.0-34.6-0.6,627120b98967a5dbd4922c2e,E1,batch5,,514,,,tol_tohand,,,,,,,,,,,tol_peg_2,514,514,0,"[[1,0,0],[0,0],[3]]",7,"[[2,1,0],[3,0],[0]]",8,0,,,,,,6
+,,,,,single-stim-button,444,1125085,0.0-4.0-34.6-1.6,627120b98967a5dbd4922c2e,E1,batch5,,910,,,tol_toboard,,,,,,,,,,,tol_peg_1,910,910,0,"[[1,2,0],[0,0],[3]]",7,"[[2,1,0],[3,0],[0]]",8,0,,,,,,6
+,,,,,single-stim-button,445,1127383,0.0-4.0-34.7-0.7,627120b98967a5dbd4922c2e,E1,batch5,,2297,,,tol_tohand,,,,,,,,,,,tol_peg_3,2297,2297,0,"[[1,2,0],[0,0],[0]]",8,"[[2,1,0],[3,0],[0]]",8,0,,,,,,6
+,,,,,single-stim-button,446,1127985,0.0-4.0-34.7-1.7,627120b98967a5dbd4922c2e,E1,batch5,,600,,,tol_toboard,,,,,,,,,,,tol_peg_2,600,600,0,"[[1,2,0],[3,0],[0]]",8,"[[2,1,0],[3,0],[0]]",8,0,,,,,,6
+,,,,,single-stim-button,447,1128558,0.0-4.0-34.8-0.8,627120b98967a5dbd4922c2e,E1,batch5,,571,,,tol_tohand,,,,,,,,,,,tol_peg_1,571,571,0,"[[1,0,0],[3,0],[0]]",9,"[[2,1,0],[3,0],[0]]",8,0,,,,,,6
+,,,,,single-stim-button,448,1130294,0.0-4.0-34.8-1.8,627120b98967a5dbd4922c2e,E1,batch5,,1735,,,tol_toboard,,,,,,,,,,,tol_peg_2,1735,1735,0,"[[1,0,0],[3,2],[0]]",9,"[[2,1,0],[3,0],[0]]",8,0,,,,,,6
+,,,,,single-stim-button,449,1130719,0.0-4.0-34.9-0.9,627120b98967a5dbd4922c2e,E1,batch5,,423,,,tol_tohand,,,,,,,,,,,tol_peg_1,423,423,0,"[[0,0,0],[3,2],[0]]",10,"[[2,1,0],[3,0],[0]]",8,0,,,,,,6
+,,,,,single-stim-button,450,1131278,0.0-4.0-34.9-1.9,627120b98967a5dbd4922c2e,E1,batch5,,557,,,tol_toboard,,,,,,,,,,,tol_peg_3,557,557,0,"[[0,0,0],[3,2],[1]]",10,"[[2,1,0],[3,0],[0]]",8,0,,,,,,6
+,,,,,single-stim-button,451,1131760,0.0-4.0-34.10-0.10,627120b98967a5dbd4922c2e,E1,batch5,,481,,,tol_tohand,,,,,,,,,,,tol_peg_2,481,481,0,"[[0,0,0],[3,0],[1]]",11,"[[2,1,0],[3,0],[0]]",8,0,,,,,,6
+,,,,,single-stim-button,452,1132183,0.0-4.0-34.10-1.10,627120b98967a5dbd4922c2e,E1,batch5,,422,,,tol_toboard,,,,,,,,,,,tol_peg_1,422,422,0,"[[2,0,0],[3,0],[1]]",11,"[[2,1,0],[3,0],[0]]",8,0,,,,,,6
+,,,,,single-stim-button,453,1132709,0.0-4.0-34.11-0.11,627120b98967a5dbd4922c2e,E1,batch5,,525,,,tol_tohand,,,,,,,,,,,tol_peg_3,525,525,0,"[[2,0,0],[3,0],[0]]",12,"[[2,1,0],[3,0],[0]]",8,0,,,,,,6
+,,,,,single-stim-button,454,1133400,0.0-4.0-34.11-1.11,627120b98967a5dbd4922c2e,E1,batch5,,690,,,tol_toboard,,,,,,,,,,,tol_peg_1,690,690,0,"[[2,1,0],[3,0],[0]]",12,"[[2,1,0],[3,0],[0]]",8,0,,,,,,6
+,,,,,poldrack-single-stim,455,1134404,0.0-4.0-35.0,627120b98967a5dbd4922c2e,E1,batch5,,-1,,,tol_feedback,TRUE,,,,,,,,,,,1000,1000,500,,,,,,-1,none,TRUE,6289,19660,
+,,,,,html-button-response,456,1134989,0.0-4.0-36.0,627120b98967a5dbd4922c2e,E1,batch5,,582.5,<div class = centerbox><p class = center-block-text>problem <strong>10</strong> out of 25 problems</p></div>,0,tol_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,single-stim-button,457,1139140,0.0-4.0-37.0-0.0,627120b98967a5dbd4922c2e,E1,batch5,,4151,,,tol_tohand,,,,,,,,,,,tol_peg_2,4151,4151,0,"[[3,0,0],[0,0],[2]]",1,"[[3,0,0],[2,1],[0]]",9,0,,,,,,3
+,,,,,single-stim-button,458,1139597,0.0-4.0-37.0-1.0,627120b98967a5dbd4922c2e,E1,batch5,,456,,,tol_toboard,,,,,,,,,,,tol_peg_1,456,456,0,"[[3,1,0],[0,0],[2]]",1,"[[3,0,0],[2,1],[0]]",9,0,,,,,,3
+,,,,,single-stim-button,459,1140077,0.0-4.0-37.1-0.1,627120b98967a5dbd4922c2e,E1,batch5,,479,,,tol_tohand,,,,,,,,,,,tol_peg_3,479,479,0,"[[3,1,0],[0,0],[0]]",2,"[[3,0,0],[2,1],[0]]",9,0,,,,,,3
+,,,,,single-stim-button,460,1140370,0.0-4.0-37.1-1.1,627120b98967a5dbd4922c2e,E1,batch5,,291,,,tol_toboard,,,,,,,,,,,tol_peg_2,291,291,0,"[[3,1,0],[2,0],[0]]",2,"[[3,0,0],[2,1],[0]]",9,0,,,,,,3
+,,,,,single-stim-button,461,1140713,0.0-4.0-37.2-0.2,627120b98967a5dbd4922c2e,E1,batch5,,342,,,tol_tohand,,,,,,,,,,,tol_peg_1,342,342,0,"[[3,0,0],[2,0],[0]]",3,"[[3,0,0],[2,1],[0]]",9,0,,,,,,3
+,,,,,single-stim-button,462,1140993,0.0-4.0-37.2-1.2,627120b98967a5dbd4922c2e,E1,batch5,,279,,,tol_toboard,,,,,,,,,,,tol_peg_2,279,279,0,"[[3,0,0],[2,1],[0]]",3,"[[3,0,0],[2,1],[0]]",9,0,,,,,,3
+,,,,,poldrack-single-stim,463,1142003,0.0-4.0-38.0,627120b98967a5dbd4922c2e,E1,batch5,,-1,,,tol_feedback,TRUE,,,,,,,,,,,1000,1000,500,,,,,,-1,none,TRUE,4151,4972,
+,,,,,html-button-response,464,1142548,0.0-4.0-39.0,627120b98967a5dbd4922c2e,E1,batch5,,543.3000000119210,<div class = centerbox><p class = center-block-text>problem <strong>11</strong> out of 25 problems</p></div>,0,tol_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,single-stim-button,465,1148881,0.0-4.0-40.0-0.0,627120b98967a5dbd4922c2e,E1,batch5,,6330,,,tol_tohand,,,,,,,,,,,tol_peg_1,6330,6330,0,"[[1,0,0],[3,0],[0]]",1,"[[2,0,0],[1,3],[0]]",10,0,,,,,,6
+,,,,,single-stim-button,466,1151244,0.0-4.0-40.0-1.0,627120b98967a5dbd4922c2e,E1,batch5,,2361,,,tol_toboard,,,,,,,,,,,tol_peg_3,2361,2361,0,"[[1,0,0],[3,0],[2]]",1,"[[2,0,0],[1,3],[0]]",10,0,,,,,,6
+,,,,,single-stim-button,467,1152828,0.0-4.0-40.1-0.1,627120b98967a5dbd4922c2e,E1,batch5,,1583,,,tol_tohand,,,,,,,,,,,tol_peg_1,1583,1583,0,"[[0,0,0],[3,0],[2]]",2,"[[2,0,0],[1,3],[0]]",10,0,,,,,,6
+,,,,,single-stim-button,468,1153781,0.0-4.0-40.1-1.1,627120b98967a5dbd4922c2e,E1,batch5,,953,,,tol_toboard,,,,,,,,,,,tol_peg_2,953,953,0,"[[0,0,0],[3,1],[2]]",2,"[[2,0,0],[1,3],[0]]",10,0,,,,,,6
+,,,,,single-stim-button,469,1154181,0.0-4.0-40.2-0.2,627120b98967a5dbd4922c2e,E1,batch5,,398,,,tol_tohand,,,,,,,,,,,tol_peg_3,398,398,0,"[[0,0,0],[3,1],[0]]",3,"[[2,0,0],[1,3],[0]]",10,0,,,,,,6
+,,,,,single-stim-button,470,1154776,0.0-4.0-40.2-1.2,627120b98967a5dbd4922c2e,E1,batch5,,593,,,tol_toboard,,,,,,,,,,,tol_peg_1,593,593,0,"[[2,0,0],[3,1],[0]]",3,"[[2,0,0],[1,3],[0]]",10,0,,,,,,6
+,,,,,single-stim-button,471,1155786,0.0-4.0-40.3-0.3,627120b98967a5dbd4922c2e,E1,batch5,,1008,,,tol_tohand,,,,,,,,,,,tol_peg_2,1008,1008,0,"[[2,0,0],[3,0],[0]]",4,"[[2,0,0],[1,3],[0]]",10,0,,,,,,6
+,,,,,single-stim-button,472,1156455,0.0-4.0-40.3-1.3,627120b98967a5dbd4922c2e,E1,batch5,,668,,,tol_toboard,,,,,,,,,,,tol_peg_3,668,668,0,"[[2,0,0],[3,0],[1]]",4,"[[2,0,0],[1,3],[0]]",10,0,,,,,,6
+,,,,,single-stim-button,473,1157506,0.0-4.0-40.4-0.4,627120b98967a5dbd4922c2e,E1,batch5,,1049,,,tol_tohand,,,,,,,,,,,tol_peg_2,1049,1049,0,"[[2,0,0],[0,0],[1]]",5,"[[2,0,0],[1,3],[0]]",10,0,,,,,,6
+,,,,,single-stim-button,474,1158090,0.0-4.0-40.4-1.4,627120b98967a5dbd4922c2e,E1,batch5,,584,,,tol_toboard,,,,,,,,,,,tol_peg_1,584,584,0,"[[2,3,0],[0,0],[1]]",5,"[[2,0,0],[1,3],[0]]",10,0,,,,,,6
+,,,,,single-stim-button,475,1158481,0.0-4.0-40.5-0.5,627120b98967a5dbd4922c2e,E1,batch5,,390,,,tol_tohand,,,,,,,,,,,tol_peg_3,390,390,0,"[[2,3,0],[0,0],[0]]",6,"[[2,0,0],[1,3],[0]]",10,0,,,,,,6
+,,,,,single-stim-button,476,1158802,0.0-4.0-40.5-1.5,627120b98967a5dbd4922c2e,E1,batch5,,320,,,tol_toboard,,,,,,,,,,,tol_peg_2,320,320,0,"[[2,3,0],[1,0],[0]]",6,"[[2,0,0],[1,3],[0]]",10,0,,,,,,6
+,,,,,single-stim-button,477,1159225,0.0-4.0-40.6-0.6,627120b98967a5dbd4922c2e,E1,batch5,,423,,,tol_tohand,,,,,,,,,,,tol_peg_1,423,423,0,"[[2,0,0],[1,0],[0]]",7,"[[2,0,0],[1,3],[0]]",10,0,,,,,,6
+,,,,,single-stim-button,478,1159467,0.0-4.0-40.6-1.6,627120b98967a5dbd4922c2e,E1,batch5,,241,,,tol_toboard,,,,,,,,,,,tol_peg_2,241,241,0,"[[2,0,0],[1,3],[0]]",7,"[[2,0,0],[1,3],[0]]",10,0,,,,,,6
+,,,,,poldrack-single-stim,479,1160470,0.0-4.0-41.0,627120b98967a5dbd4922c2e,E1,batch5,,-1,,,tol_feedback,TRUE,,,,,,,,,,,1000,1000,500,,,,,,-1,none,TRUE,6330,11181,
+,,,,,html-button-response,480,1161049,0.0-4.0-42.0,627120b98967a5dbd4922c2e,E1,batch5,,578,<div class = centerbox><p class = center-block-text>problem <strong>12</strong> out of 25 problems</p></div>,0,tol_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,single-stim-button,481,1163978,0.0-4.0-43.0-0.0,627120b98967a5dbd4922c2e,E1,batch5,,2928,,,tol_tohand,,,,,,,,,,,tol_peg_1,2928,2928,0,"[[1,0,0],[3,0],[0]]",1,"[[2,3,0],[0,0],[1]]",11,0,,,,,,4
+,,,,,single-stim-button,482,1164402,0.0-4.0-43.0-1.0,627120b98967a5dbd4922c2e,E1,batch5,,422,,,tol_toboard,,,,,,,,,,,tol_peg_2,422,422,0,"[[1,0,0],[3,2],[0]]",1,"[[2,3,0],[0,0],[1]]",11,0,,,,,,4
+,,,,,single-stim-button,483,1165122,0.0-4.0-43.1-0.1,627120b98967a5dbd4922c2e,E1,batch5,,720,,,tol_tohand,,,,,,,,,,,tol_peg_1,720,720,0,"[[0,0,0],[3,2],[0]]",2,"[[2,3,0],[0,0],[1]]",11,0,,,,,,4
+,,,,,single-stim-button,484,1166044,0.0-4.0-43.1-1.1,627120b98967a5dbd4922c2e,E1,batch5,,921,,,tol_toboard,,,,,,,,,,,tol_peg_3,921,921,0,"[[0,0,0],[3,2],[1]]",2,"[[2,3,0],[0,0],[1]]",11,0,,,,,,4
+,,,,,single-stim-button,485,1166752,0.0-4.0-43.2-0.2,627120b98967a5dbd4922c2e,E1,batch5,,707,,,tol_tohand,,,,,,,,,,,tol_peg_2,707,707,0,"[[0,0,0],[3,0],[1]]",3,"[[2,3,0],[0,0],[1]]",11,0,,,,,,4
+,,,,,single-stim-button,486,1167037,0.0-4.0-43.2-1.2,627120b98967a5dbd4922c2e,E1,batch5,,283,,,tol_toboard,,,,,,,,,,,tol_peg_1,283,283,0,"[[2,0,0],[3,0],[1]]",3,"[[2,3,0],[0,0],[1]]",11,0,,,,,,4
+,,,,,single-stim-button,487,1167356,0.0-4.0-43.3-0.3,627120b98967a5dbd4922c2e,E1,batch5,,317,,,tol_tohand,,,,,,,,,,,tol_peg_2,317,317,0,"[[2,0,0],[0,0],[1]]",4,"[[2,3,0],[0,0],[1]]",11,0,,,,,,4
+,,,,,single-stim-button,488,1167652,0.0-4.0-43.3-1.3,627120b98967a5dbd4922c2e,E1,batch5,,295,,,tol_toboard,,,,,,,,,,,tol_peg_1,295,295,0,"[[2,3,0],[0,0],[1]]",4,"[[2,3,0],[0,0],[1]]",11,0,,,,,,4
+,,,,,poldrack-single-stim,489,1168655,0.0-4.0-44.0,627120b98967a5dbd4922c2e,E1,batch5,,-1,,,tol_feedback,TRUE,,,,,,,,,,,1000,1000,500,,,,,,-1,none,TRUE,2928,4672,
+,,,,,html-button-response,490,1169573,0.0-4.0-45.0,627120b98967a5dbd4922c2e,E1,batch5,,917.5,<div class = centerbox><p class = center-block-text>problem <strong>13</strong> out of 25 problems</p></div>,0,tol_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,single-stim-button,491,1176408,0.0-4.0-46.0-0.0,627120b98967a5dbd4922c2e,E1,batch5,,6834,,,tol_tohand,,,,,,,,,,,tol_peg_1,6834,6834,0,"[[1,0,0],[3,0],[0]]",1,"[[0,0,0],[2,3],[1]]",12,0,,,,,,4
+,,,,,single-stim-button,492,1177013,0.0-4.0-46.0-1.0,627120b98967a5dbd4922c2e,E1,batch5,,604,,,tol_toboard,,,,,,,,,,,tol_peg_2,604,604,0,"[[1,0,0],[3,2],[0]]",1,"[[0,0,0],[2,3],[1]]",12,0,,,,,,4
+,,,,,single-stim-button,493,1177890,0.0-4.0-46.1-0.1,627120b98967a5dbd4922c2e,E1,batch5,,875,,,tol_tohand,,,,,,,,,,,tol_peg_1,875,875,0,"[[0,0,0],[3,2],[0]]",2,"[[0,0,0],[2,3],[1]]",12,0,,,,,,4
+,,,,,single-stim-button,494,1178577,0.0-4.0-46.1-1.1,627120b98967a5dbd4922c2e,E1,batch5,,685,,,tol_toboard,,,,,,,,,,,tol_peg_3,685,685,0,"[[0,0,0],[3,2],[1]]",2,"[[0,0,0],[2,3],[1]]",12,0,,,,,,4
+,,,,,single-stim-button,495,1179537,0.0-4.0-46.2-0.2,627120b98967a5dbd4922c2e,E1,batch5,,959,,,tol_tohand,,,,,,,,,,,tol_peg_2,959,959,0,"[[0,0,0],[3,0],[1]]",3,"[[0,0,0],[2,3],[1]]",12,0,,,,,,4
+,,,,,single-stim-button,496,1179868,0.0-4.0-46.2-1.2,627120b98967a5dbd4922c2e,E1,batch5,,330,,,tol_toboard,,,,,,,,,,,tol_peg_1,330,330,0,"[[2,0,0],[3,0],[1]]",3,"[[0,0,0],[2,3],[1]]",12,0,,,,,,4
+,,,,,single-stim-button,497,1180731,0.0-4.0-46.3-0.3,627120b98967a5dbd4922c2e,E1,batch5,,862,,,tol_tohand,,,,,,,,,,,tol_peg_2,862,862,0,"[[2,0,0],[0,0],[1]]",4,"[[0,0,0],[2,3],[1]]",12,0,,,,,,4
+,,,,,single-stim-button,498,1181093,0.0-4.0-46.3-1.3,627120b98967a5dbd4922c2e,E1,batch5,,360,,,tol_toboard,,,,,,,,,,,tol_peg_1,360,360,0,"[[2,3,0],[0,0],[1]]",4,"[[0,0,0],[2,3],[1]]",12,0,,,,,,4
+,,,,,single-stim-button,499,1181579,0.0-4.0-46.4-0.4,627120b98967a5dbd4922c2e,E1,batch5,,484,,,tol_tohand,,,,,,,,,,,tol_peg_1,484,484,0,"[[2,0,0],[0,0],[1]]",5,"[[0,0,0],[2,3],[1]]",12,0,,,,,,4
+,,,,,single-stim-button,500,1183133,0.0-4.0-46.4-1.4,627120b98967a5dbd4922c2e,E1,batch5,,1552,,,tol_toboard,,,,,,,,,,,tol_peg_2,1552,1552,0,"[[2,0,0],[3,0],[1]]",5,"[[0,0,0],[2,3],[1]]",12,0,,,,,,4
+,,,,,single-stim-button,501,1183902,0.0-4.0-46.5-0.5,627120b98967a5dbd4922c2e,E1,batch5,,767,,,tol_tohand,,,,,,,,,,,tol_peg_3,767,767,0,"[[2,0,0],[3,0],[0]]",6,"[[0,0,0],[2,3],[1]]",12,0,,,,,,4
+,,,,,single-stim-button,502,1184178,0.0-4.0-46.5-1.5,627120b98967a5dbd4922c2e,E1,batch5,,274,,,tol_toboard,,,,,,,,,,,tol_peg_2,274,274,0,"[[2,0,0],[3,1],[0]]",6,"[[0,0,0],[2,3],[1]]",12,0,,,,,,4
+,,,,,single-stim-button,503,1184605,0.0-4.0-46.6-0.6,627120b98967a5dbd4922c2e,E1,batch5,,427,,,tol_tohand,,,,,,,,,,,tol_peg_1,427,427,0,"[[0,0,0],[3,1],[0]]",7,"[[0,0,0],[2,3],[1]]",12,0,,,,,,4
+,,,,,single-stim-button,504,1185109,0.0-4.0-46.6-1.6,627120b98967a5dbd4922c2e,E1,batch5,,502,,,tol_toboard,,,,,,,,,,,tol_peg_3,502,502,0,"[[0,0,0],[3,1],[2]]",7,"[[0,0,0],[2,3],[1]]",12,0,,,,,,4
+,,,,,single-stim-button,505,1187103,0.0-4.0-46.7-0.7,627120b98967a5dbd4922c2e,E1,batch5,,1993,,,tol_tohand,,,,,,,,,,,tol_peg_2,1993,1993,0,"[[0,0,0],[3,0],[2]]",8,"[[0,0,0],[2,3],[1]]",12,0,,,,,,4
+,,,,,single-stim-button,506,1187486,0.0-4.0-46.7-1.7,627120b98967a5dbd4922c2e,E1,batch5,,381,,,tol_toboard,,,,,,,,,,,tol_peg_1,381,381,0,"[[1,0,0],[3,0],[2]]",8,"[[0,0,0],[2,3],[1]]",12,0,,,,,,4
+,,,,,single-stim-button,507,1187893,0.0-4.0-46.8-0.8,627120b98967a5dbd4922c2e,E1,batch5,,407,,,tol_tohand,,,,,,,,,,,tol_peg_2,407,407,0,"[[1,0,0],[0,0],[2]]",9,"[[0,0,0],[2,3],[1]]",12,0,,,,,,4
+,,,,,single-stim-button,508,1188235,0.0-4.0-46.8-1.8,627120b98967a5dbd4922c2e,E1,batch5,,341,,,tol_toboard,,,,,,,,,,,tol_peg_1,341,341,0,"[[1,3,0],[0,0],[2]]",9,"[[0,0,0],[2,3],[1]]",12,0,,,,,,4
+,,,,,single-stim-button,509,1189130,0.0-4.0-46.9-0.9,627120b98967a5dbd4922c2e,E1,batch5,,892,,,tol_tohand,,,,,,,,,,,tol_peg_3,892,892,0,"[[1,3,0],[0,0],[0]]",10,"[[0,0,0],[2,3],[1]]",12,0,,,,,,4
+,,,,,single-stim-button,510,1189628,0.0-4.0-46.9-1.9,627120b98967a5dbd4922c2e,E1,batch5,,497,,,tol_toboard,,,,,,,,,,,tol_peg_2,497,497,0,"[[1,3,0],[2,0],[0]]",10,"[[0,0,0],[2,3],[1]]",12,0,,,,,,4
+,,,,,single-stim-button,511,1190114,0.0-4.0-46.10-0.10,627120b98967a5dbd4922c2e,E1,batch5,,485,,,tol_tohand,,,,,,,,,,,tol_peg_1,485,485,0,"[[1,0,0],[2,0],[0]]",11,"[[0,0,0],[2,3],[1]]",12,0,,,,,,4
+,,,,,single-stim-button,512,1190345,0.0-4.0-46.10-1.10,627120b98967a5dbd4922c2e,E1,batch5,,230,,,tol_toboard,,,,,,,,,,,tol_peg_2,230,230,0,"[[1,0,0],[2,3],[0]]",11,"[[0,0,0],[2,3],[1]]",12,0,,,,,,4
+,,,,,single-stim-button,513,1190786,0.0-4.0-46.11-0.11,627120b98967a5dbd4922c2e,E1,batch5,,440,,,tol_tohand,,,,,,,,,,,tol_peg_1,440,440,0,"[[0,0,0],[2,3],[0]]",12,"[[0,0,0],[2,3],[1]]",12,0,,,,,,4
+,,,,,single-stim-button,514,1191127,0.0-4.0-46.11-1.11,627120b98967a5dbd4922c2e,E1,batch5,,339,,,tol_toboard,,,,,,,,,,,tol_peg_3,339,339,0,"[[0,0,0],[2,3],[1]]",12,"[[0,0,0],[2,3],[1]]",12,0,,,,,,4
+,,,,,poldrack-single-stim,515,1192132,0.0-4.0-47.0,627120b98967a5dbd4922c2e,E1,batch5,,-1,,,tol_feedback,TRUE,,,,,,,,,,,1000,1000,500,,,,,,-1,none,TRUE,6834,15425,
+,,,,,html-button-response,516,1195383,0.0-4.0-48.0,627120b98967a5dbd4922c2e,E1,batch5,,3250.2999999970200,<p class = block-text>How many balls are in your board<br></p>,1,attention_check,TRUE,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,html-button-response,517,1196245,0.0-4.0-49.0,627120b98967a5dbd4922c2e,E1,batch5,,860.1000000089410,<div class = centerbox><p class = center-block-text>problem <strong>14</strong> out of 25 problems</p></div>,0,tol_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,single-stim-button,518,1201126,0.0-4.0-50.0-0.0,627120b98967a5dbd4922c2e,E1,batch5,,4880,,,tol_tohand,,,,,,,,,,,tol_peg_1,4880,4880,0,"[[2,0,0],[3,0],[0]]",1,"[[1,2,0],[3,0],[0]]",13,0,,,,,,4
+,,,,,single-stim-button,519,1203393,0.0-4.0-50.0-1.0,627120b98967a5dbd4922c2e,E1,batch5,,2266,,,tol_toboard,,,,,,,,,,,tol_peg_2,2266,2266,0,"[[2,0,0],[3,1],[0]]",1,"[[1,2,0],[3,0],[0]]",13,0,,,,,,4
+,,,,,single-stim-button,520,1203831,0.0-4.0-50.1-0.1,627120b98967a5dbd4922c2e,E1,batch5,,436,,,tol_tohand,,,,,,,,,,,tol_peg_1,436,436,0,"[[0,0,0],[3,1],[0]]",2,"[[1,2,0],[3,0],[0]]",13,0,,,,,,4
+,,,,,single-stim-button,521,1204200,0.0-4.0-50.1-1.1,627120b98967a5dbd4922c2e,E1,batch5,,367,,,tol_toboard,,,,,,,,,,,tol_peg_3,367,367,0,"[[0,0,0],[3,1],[2]]",2,"[[1,2,0],[3,0],[0]]",13,0,,,,,,4
+,,,,,single-stim-button,522,1204687,0.0-4.0-50.2-0.2,627120b98967a5dbd4922c2e,E1,batch5,,485,,,tol_tohand,,,,,,,,,,,tol_peg_2,485,485,0,"[[0,0,0],[3,0],[2]]",3,"[[1,2,0],[3,0],[0]]",13,0,,,,,,4
+,,,,,single-stim-button,523,1204951,0.0-4.0-50.2-1.2,627120b98967a5dbd4922c2e,E1,batch5,,262,,,tol_toboard,,,,,,,,,,,tol_peg_1,262,262,0,"[[1,0,0],[3,0],[2]]",3,"[[1,2,0],[3,0],[0]]",13,0,,,,,,4
+,,,,,single-stim-button,524,1205524,0.0-4.0-50.3-0.3,627120b98967a5dbd4922c2e,E1,batch5,,572,,,tol_tohand,,,,,,,,,,,tol_peg_3,572,572,0,"[[1,0,0],[3,0],[0]]",4,"[[1,2,0],[3,0],[0]]",13,0,,,,,,4
+,,,,,single-stim-button,525,1206019,0.0-4.0-50.3-1.3,627120b98967a5dbd4922c2e,E1,batch5,,494,,,tol_toboard,,,,,,,,,,,tol_peg_1,494,494,0,"[[1,2,0],[3,0],[0]]",4,"[[1,2,0],[3,0],[0]]",13,0,,,,,,4
+,,,,,poldrack-single-stim,526,1207021,0.0-4.0-51.0,627120b98967a5dbd4922c2e,E1,batch5,,-1,,,tol_feedback,TRUE,,,,,,,,,,,1000,1000,500,,,,,,-1,none,TRUE,4880,6373,
+,,,,,html-button-response,527,1207530,0.0-4.0-52.0,627120b98967a5dbd4922c2e,E1,batch5,,507.20000000298000,<div class = centerbox><p class = center-block-text>problem <strong>15</strong> out of 25 problems</p></div>,0,tol_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,single-stim-button,528,1211336,0.0-4.0-53.0-0.0,627120b98967a5dbd4922c2e,E1,batch5,,3804,,,tol_tohand,,,,,,,,,,,tol_peg_1,3804,3804,0,"[[1,0,0],[3,0],[0]]",1,"[[2,0,0],[3,0],[1]]",14,0,,,,,,3
+,,,,,single-stim-button,529,1211941,0.0-4.0-53.0-1.0,627120b98967a5dbd4922c2e,E1,batch5,,604,,,tol_toboard,,,,,,,,,,,tol_peg_2,604,604,0,"[[1,0,0],[3,2],[0]]",1,"[[2,0,0],[3,0],[1]]",14,0,,,,,,3
+,,,,,single-stim-button,530,1212603,0.0-4.0-53.1-0.1,627120b98967a5dbd4922c2e,E1,batch5,,661,,,tol_tohand,,,,,,,,,,,tol_peg_1,661,661,0,"[[0,0,0],[3,2],[0]]",2,"[[2,0,0],[3,0],[1]]",14,0,,,,,,3
+,,,,,single-stim-button,531,1213260,0.0-4.0-53.1-1.1,627120b98967a5dbd4922c2e,E1,batch5,,656,,,tol_toboard,,,,,,,,,,,tol_peg_3,656,656,0,"[[0,0,0],[3,2],[1]]",2,"[[2,0,0],[3,0],[1]]",14,0,,,,,,3
+,,,,,single-stim-button,532,1213942,0.0-4.0-53.2-0.2,627120b98967a5dbd4922c2e,E1,batch5,,681,,,tol_tohand,,,,,,,,,,,tol_peg_2,681,681,0,"[[0,0,0],[3,0],[1]]",3,"[[2,0,0],[3,0],[1]]",14,0,,,,,,3
+,,,,,single-stim-button,533,1214262,0.0-4.0-53.2-1.2,627120b98967a5dbd4922c2e,E1,batch5,,318,,,tol_toboard,,,,,,,,,,,tol_peg_1,318,318,0,"[[2,0,0],[3,0],[1]]",3,"[[2,0,0],[3,0],[1]]",14,0,,,,,,3
+,,,,,poldrack-single-stim,534,1215270,0.0-4.0-54.0,627120b98967a5dbd4922c2e,E1,batch5,,-1,,,tol_feedback,TRUE,,,,,,,,,,,1000,1000,500,,,,,,-1,none,TRUE,3804,5146,
+,,,,,html-button-response,535,1215794,0.0-4.0-55.0,627120b98967a5dbd4922c2e,E1,batch5,,522.6000000089410,<div class = centerbox><p class = center-block-text>problem <strong>16</strong> out of 25 problems</p></div>,0,tol_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,single-stim-button,536,1220258,0.0-4.0-56.0-0.0,627120b98967a5dbd4922c2e,E1,batch5,,4464,,,tol_tohand,,,,,,,,,,,tol_peg_2,4464,4464,0,"[[0,0,0],[2,0],[1]]",1,"[[2,3,0],[1,0],[0]]",15,0,,,,,,7
+,,,,,single-stim-button,537,1222908,0.0-4.0-56.0-1.0,627120b98967a5dbd4922c2e,E1,batch5,,2648,,,tol_toboard,,,,,,,,,,,tol_peg_1,2648,2648,0,"[[3,0,0],[2,0],[1]]",1,"[[2,3,0],[1,0],[0]]",15,0,,,,,,7
+,,,,,single-stim-button,538,1223499,0.0-4.0-56.1-0.1,627120b98967a5dbd4922c2e,E1,batch5,,590,,,tol_tohand,,,,,,,,,,,tol_peg_2,590,590,0,"[[3,0,0],[0,0],[1]]",2,"[[2,3,0],[1,0],[0]]",15,0,,,,,,7
+,,,,,single-stim-button,539,1224125,0.0-4.0-56.1-1.1,627120b98967a5dbd4922c2e,E1,batch5,,624,,,tol_toboard,,,,,,,,,,,tol_peg_1,624,624,0,"[[3,2,0],[0,0],[1]]",2,"[[2,3,0],[1,0],[0]]",15,0,,,,,,7
+,,,,,single-stim-button,540,1224611,0.0-4.0-56.2-0.2,627120b98967a5dbd4922c2e,E1,batch5,,486,,,tol_tohand,,,,,,,,,,,tol_peg_3,486,486,0,"[[3,2,0],[0,0],[0]]",3,"[[2,3,0],[1,0],[0]]",15,0,,,,,,7
+,,,,,single-stim-button,541,1224896,0.0-4.0-56.2-1.2,627120b98967a5dbd4922c2e,E1,batch5,,284,,,tol_toboard,,,,,,,,,,,tol_peg_2,284,284,0,"[[3,2,0],[1,0],[0]]",3,"[[2,3,0],[1,0],[0]]",15,0,,,,,,7
+,,,,,single-stim-button,542,1226895,0.0-4.0-56.3-0.3,627120b98967a5dbd4922c2e,E1,batch5,,1998,,,tol_tohand,,,,,,,,,,,tol_peg_1,1998,1998,0,"[[3,0,0],[1,0],[0]]",4,"[[2,3,0],[1,0],[0]]",15,0,,,,,,7
+,,,,,single-stim-button,543,1227359,0.0-4.0-56.3-1.3,627120b98967a5dbd4922c2e,E1,batch5,,462,,,tol_toboard,,,,,,,,,,,tol_peg_2,462,462,0,"[[3,0,0],[1,2],[0]]",4,"[[2,3,0],[1,0],[0]]",15,0,,,,,,7
+,,,,,single-stim-button,544,1228355,0.0-4.0-56.4-0.4,627120b98967a5dbd4922c2e,E1,batch5,,993,,,tol_tohand,,,,,,,,,,,tol_peg_1,993,993,0,"[[0,0,0],[1,2],[0]]",5,"[[2,3,0],[1,0],[0]]",15,0,,,,,,7
+,,,,,single-stim-button,545,1229144,0.0-4.0-56.4-1.4,627120b98967a5dbd4922c2e,E1,batch5,,787,,,tol_toboard,,,,,,,,,,,tol_peg_3,787,787,0,"[[0,0,0],[1,2],[3]]",5,"[[2,3,0],[1,0],[0]]",15,0,,,,,,7
+,,,,,single-stim-button,546,1229577,0.0-4.0-56.5-0.5,627120b98967a5dbd4922c2e,E1,batch5,,431,,,tol_tohand,,,,,,,,,,,tol_peg_2,431,431,0,"[[0,0,0],[1,0],[3]]",6,"[[2,3,0],[1,0],[0]]",15,0,,,,,,7
+,,,,,single-stim-button,547,1229842,0.0-4.0-56.5-1.5,627120b98967a5dbd4922c2e,E1,batch5,,264,,,tol_toboard,,,,,,,,,,,tol_peg_1,264,264,0,"[[2,0,0],[1,0],[3]]",6,"[[2,3,0],[1,0],[0]]",15,0,,,,,,7
+,,,,,single-stim-button,548,1230347,0.0-4.0-56.6-0.6,627120b98967a5dbd4922c2e,E1,batch5,,505,,,tol_tohand,,,,,,,,,,,tol_peg_3,505,505,0,"[[2,0,0],[1,0],[0]]",7,"[[2,3,0],[1,0],[0]]",15,0,,,,,,7
+,,,,,single-stim-button,549,1230611,0.0-4.0-56.6-1.6,627120b98967a5dbd4922c2e,E1,batch5,,263,,,tol_toboard,,,,,,,,,,,tol_peg_1,263,263,0,"[[2,3,0],[1,0],[0]]",7,"[[2,3,0],[1,0],[0]]",15,0,,,,,,7
+,,,,,poldrack-single-stim,550,1231614,0.0-4.0-57.0,627120b98967a5dbd4922c2e,E1,batch5,,-1,,,tol_feedback,TRUE,,,,,,,,,,,1000,1000,500,,,,,,-1,none,TRUE,4464,9467,
+,,,,,html-button-response,551,1232087,0.0-4.0-58.0,627120b98967a5dbd4922c2e,E1,batch5,,471.70000000298000,<div class = centerbox><p class = center-block-text>problem <strong>17</strong> out of 25 problems</p></div>,0,tol_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,single-stim-button,552,1240510,0.0-4.0-59.0-0.0,627120b98967a5dbd4922c2e,E1,batch5,,8420,,,tol_tohand,,,,,,,,,,,tol_peg_1,8420,8420,0,"[[1,0,0],[3,0],[0]]",1,"[[3,1,0],[2,0],[0]]",16,0,,,,,,5
+,,,,,single-stim-button,553,1243741,0.0-4.0-59.0-1.0,627120b98967a5dbd4922c2e,E1,batch5,,3230,,,tol_toboard,,,,,,,,,,,tol_peg_2,3230,3230,0,"[[1,0,0],[3,2],[0]]",1,"[[3,1,0],[2,0],[0]]",16,0,,,,,,5
+,,,,,single-stim-button,554,1245570,0.0-4.0-59.1-0.1,627120b98967a5dbd4922c2e,E1,batch5,,1827,,,tol_tohand,,,,,,,,,,,tol_peg_1,1827,1827,0,"[[0,0,0],[3,2],[0]]",2,"[[3,1,0],[2,0],[0]]",16,0,,,,,,5
+,,,,,single-stim-button,555,1249069,0.0-4.0-59.1-1.1,627120b98967a5dbd4922c2e,E1,batch5,,3498,,,tol_toboard,,,,,,,,,,,tol_peg_3,3498,3498,0,"[[0,0,0],[3,2],[1]]",2,"[[3,1,0],[2,0],[0]]",16,0,,,,,,5
+,,,,,single-stim-button,556,1249860,0.0-4.0-59.2-0.2,627120b98967a5dbd4922c2e,E1,batch5,,790,,,tol_tohand,,,,,,,,,,,tol_peg_2,790,790,0,"[[0,0,0],[3,0],[1]]",3,"[[3,1,0],[2,0],[0]]",16,0,,,,,,5
+,,,,,single-stim-button,557,1250353,0.0-4.0-59.2-1.2,627120b98967a5dbd4922c2e,E1,batch5,,492,,,tol_toboard,,,,,,,,,,,tol_peg_1,492,492,0,"[[2,0,0],[3,0],[1]]",3,"[[3,1,0],[2,0],[0]]",16,0,,,,,,5
+,,,,,single-stim-button,558,1250676,0.0-4.0-59.3-0.3,627120b98967a5dbd4922c2e,E1,batch5,,320,,,tol_tohand,,,,,,,,,,,tol_peg_2,320,320,0,"[[2,0,0],[0,0],[1]]",4,"[[3,1,0],[2,0],[0]]",16,0,,,,,,5
+,,,,,single-stim-button,559,1252108,0.0-4.0-59.3-1.3,627120b98967a5dbd4922c2e,E1,batch5,,1431,,,tol_toboard,,,,,,,,,,,tol_peg_1,1431,1431,0,"[[2,3,0],[0,0],[1]]",4,"[[3,1,0],[2,0],[0]]",16,0,,,,,,5
+,,,,,single-stim-button,560,1252602,0.0-4.0-59.4-0.4,627120b98967a5dbd4922c2e,E1,batch5,,492,,,tol_tohand,,,,,,,,,,,tol_peg_3,492,492,0,"[[2,3,0],[0,0],[0]]",5,"[[3,1,0],[2,0],[0]]",16,0,,,,,,5
+,,,,,single-stim-button,561,1253058,0.0-4.0-59.4-1.4,627120b98967a5dbd4922c2e,E1,batch5,,455,,,tol_toboard,,,,,,,,,,,tol_peg_1,455,455,0,"[[2,3,1],[0,0],[0]]",5,"[[3,1,0],[2,0],[0]]",16,0,,,,,,5
+,,,,,single-stim-button,562,1254362,0.0-4.0-59.5-0.5,627120b98967a5dbd4922c2e,E1,batch5,,1302,,,tol_tohand,,,,,,,,,,,tol_peg_1,1302,1302,0,"[[2,3,0],[0,0],[0]]",6,"[[3,1,0],[2,0],[0]]",16,0,,,,,,5
+,,,,,single-stim-button,563,1258214,0.0-4.0-59.5-1.5,627120b98967a5dbd4922c2e,E1,batch5,,3851,,,tol_toboard,,,,,,,,,,,tol_peg_2,3851,3851,0,"[[2,3,0],[1,0],[0]]",6,"[[3,1,0],[2,0],[0]]",16,0,,,,,,5
+,,,,,single-stim-button,564,1259423,0.0-4.0-59.6-0.6,627120b98967a5dbd4922c2e,E1,batch5,,1207,,,tol_tohand,,,,,,,,,,,tol_peg_2,1207,1207,0,"[[2,3,0],[0,0],[0]]",7,"[[3,1,0],[2,0],[0]]",16,0,,,,,,5
+,,,,,single-stim-button,565,1259811,0.0-4.0-59.6-1.6,627120b98967a5dbd4922c2e,E1,batch5,,386,,,tol_toboard,,,,,,,,,,,tol_peg_1,386,386,0,"[[2,3,1],[0,0],[0]]",7,"[[3,1,0],[2,0],[0]]",16,0,,,,,,5
+,,,,,single-stim-button,566,1262411,0.0-4.0-59.7-0.7,627120b98967a5dbd4922c2e,E1,batch5,,2599,,,tol_tohand,,,,,,,,,,,tol_peg_1,2599,2599,0,"[[2,3,0],[0,0],[0]]",8,"[[3,1,0],[2,0],[0]]",16,0,,,,,,5
+,,,,,single-stim-button,567,1262692,0.0-4.0-59.7-1.7,627120b98967a5dbd4922c2e,E1,batch5,,279,,,tol_toboard,,,,,,,,,,,tol_peg_1,279,279,0,"[[2,3,1],[0,0],[0]]",8,"[[3,1,0],[2,0],[0]]",16,0,,,,,,5
+,,,,,single-stim-button,568,1263509,0.0-4.0-59.8-0.8,627120b98967a5dbd4922c2e,E1,batch5,,816,,,tol_tohand,,,,,,,,,,,tol_peg_1,816,816,0,"[[2,3,0],[0,0],[0]]",9,"[[3,1,0],[2,0],[0]]",16,0,,,,,,5
+,,,,,single-stim-button,569,1267278,0.0-4.0-59.8-1.8,627120b98967a5dbd4922c2e,E1,batch5,,3768,,,tol_toboard,,,,,,,,,,,tol_peg_2,3768,3768,0,"[[2,3,0],[1,0],[0]]",9,"[[3,1,0],[2,0],[0]]",16,0,,,,,,5
+,,,,,single-stim-button,570,1267683,0.0-4.0-59.9-0.9,627120b98967a5dbd4922c2e,E1,batch5,,403,,,tol_tohand,,,,,,,,,,,tol_peg_1,403,403,0,"[[2,0,0],[1,0],[0]]",10,"[[3,1,0],[2,0],[0]]",16,0,,,,,,5
+,,,,,single-stim-button,571,1267961,0.0-4.0-59.9-1.9,627120b98967a5dbd4922c2e,E1,batch5,,277,,,tol_toboard,,,,,,,,,,,tol_peg_2,277,277,0,"[[2,0,0],[1,3],[0]]",10,"[[3,1,0],[2,0],[0]]",16,0,,,,,,5
+,,,,,single-stim-button,572,1269311,0.0-4.0-59.10-0.10,627120b98967a5dbd4922c2e,E1,batch5,,1348,,,tol_tohand,,,,,,,,,,,tol_peg_1,1348,1348,0,"[[0,0,0],[1,3],[0]]",11,"[[3,1,0],[2,0],[0]]",16,0,,,,,,5
+,,,,,single-stim-button,573,1269727,0.0-4.0-59.10-1.10,627120b98967a5dbd4922c2e,E1,batch5,,415,,,tol_toboard,,,,,,,,,,,tol_peg_3,415,415,0,"[[0,0,0],[1,3],[2]]",11,"[[3,1,0],[2,0],[0]]",16,0,,,,,,5
+,,,,,single-stim-button,574,1270653,0.0-4.0-59.11-0.11,627120b98967a5dbd4922c2e,E1,batch5,,924,,,tol_tohand,,,,,,,,,,,tol_peg_2,924,924,0,"[[0,0,0],[1,0],[2]]",12,"[[3,1,0],[2,0],[0]]",16,0,,,,,,5
+,,,,,single-stim-button,575,1271829,0.0-4.0-59.11-1.11,627120b98967a5dbd4922c2e,E1,batch5,,1176,,,tol_toboard,,,,,,,,,,,tol_peg_1,1176,1176,0,"[[3,0,0],[1,0],[2]]",12,"[[3,1,0],[2,0],[0]]",16,0,,,,,,5
+,,,,,single-stim-button,576,1272265,0.0-4.0-59.12-0.12,627120b98967a5dbd4922c2e,E1,batch5,,435,,,tol_tohand,,,,,,,,,,,tol_peg_2,435,435,0,"[[3,0,0],[0,0],[2]]",13,"[[3,1,0],[2,0],[0]]",16,0,,,,,,5
+,,,,,single-stim-button,577,1272726,0.0-4.0-59.12-1.12,627120b98967a5dbd4922c2e,E1,batch5,,460,,,tol_toboard,,,,,,,,,,,tol_peg_1,460,460,0,"[[3,1,0],[0,0],[2]]",13,"[[3,1,0],[2,0],[0]]",16,0,,,,,,5
+,,,,,single-stim-button,578,1273803,0.0-4.0-59.13-0.13,627120b98967a5dbd4922c2e,E1,batch5,,1076,,,tol_tohand,,,,,,,,,,,tol_peg_3,1076,1076,0,"[[3,1,0],[0,0],[0]]",14,"[[3,1,0],[2,0],[0]]",16,0,,,,,,5
+,,,,,single-stim-button,579,1274161,0.0-4.0-59.13-1.13,627120b98967a5dbd4922c2e,E1,batch5,,357,,,tol_toboard,,,,,,,,,,,tol_peg_2,357,357,0,"[[3,1,0],[2,0],[0]]",14,"[[3,1,0],[2,0],[0]]",16,0,,,,,,5
+,,,,,poldrack-single-stim,580,1275164,0.0-4.0-60.0,627120b98967a5dbd4922c2e,E1,batch5,,-1,,,tol_feedback,TRUE,,,,,,,,,,,1000,1000,500,,,,,,-1,none,TRUE,8420,21959,
+,,,,,html-button-response,581,1275664,0.0-4.0-61.0,627120b98967a5dbd4922c2e,E1,batch5,,498.40000000596000,<div class = centerbox><p class = center-block-text>problem <strong>18</strong> out of 25 problems</p></div>,0,tol_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,single-stim-button,582,1283896,0.0-4.0-62.0-0.0,627120b98967a5dbd4922c2e,E1,batch5,,8232,,,tol_tohand,,,,,,,,,,,tol_peg_1,8232,8232,0,"[[1,0,0],[3,0],[0]]",1,"[[3,0,0],[2,0],[1]]",17,0,,,,,,5
+,,,,,single-stim-button,583,1288476,0.0-4.0-62.0-1.0,627120b98967a5dbd4922c2e,E1,batch5,,4579,,,tol_toboard,,,,,,,,,,,tol_peg_2,4579,4579,0,"[[1,0,0],[3,2],[0]]",1,"[[3,0,0],[2,0],[1]]",17,0,,,,,,5
+,,,,,single-stim-button,584,1289178,0.0-4.0-62.1-0.1,627120b98967a5dbd4922c2e,E1,batch5,,700,,,tol_tohand,,,,,,,,,,,tol_peg_1,700,700,0,"[[0,0,0],[3,2],[0]]",2,"[[3,0,0],[2,0],[1]]",17,0,,,,,,5
+,,,,,single-stim-button,585,1290917,0.0-4.0-62.1-1.1,627120b98967a5dbd4922c2e,E1,batch5,,1737,,,tol_toboard,,,,,,,,,,,tol_peg_3,1737,1737,0,"[[0,0,0],[3,2],[1]]",2,"[[3,0,0],[2,0],[1]]",17,0,,,,,,5
+,,,,,single-stim-button,586,1291473,0.0-4.0-62.2-0.2,627120b98967a5dbd4922c2e,E1,batch5,,555,,,tol_tohand,,,,,,,,,,,tol_peg_2,555,555,0,"[[0,0,0],[3,0],[1]]",3,"[[3,0,0],[2,0],[1]]",17,0,,,,,,5
+,,,,,single-stim-button,587,1291786,0.0-4.0-62.2-1.2,627120b98967a5dbd4922c2e,E1,batch5,,312,,,tol_toboard,,,,,,,,,,,tol_peg_1,312,312,0,"[[2,0,0],[3,0],[1]]",3,"[[3,0,0],[2,0],[1]]",17,0,,,,,,5
+,,,,,single-stim-button,588,1292560,0.0-4.0-62.3-0.3,627120b98967a5dbd4922c2e,E1,batch5,,773,,,tol_tohand,,,,,,,,,,,tol_peg_2,773,773,0,"[[2,0,0],[0,0],[1]]",4,"[[3,0,0],[2,0],[1]]",17,0,,,,,,5
+,,,,,single-stim-button,589,1293486,0.0-4.0-62.3-1.3,627120b98967a5dbd4922c2e,E1,batch5,,925,,,tol_toboard,,,,,,,,,,,tol_peg_1,925,925,0,"[[2,3,0],[0,0],[1]]",4,"[[3,0,0],[2,0],[1]]",17,0,,,,,,5
+,,,,,single-stim-button,590,1294887,0.0-4.0-62.4-0.4,627120b98967a5dbd4922c2e,E1,batch5,,1398,,,tol_tohand,,,,,,,,,,,tol_peg_3,1398,1398,0,"[[2,3,0],[0,0],[0]]",5,"[[3,0,0],[2,0],[1]]",17,0,,,,,,5
+,,,,,single-stim-button,591,1297606,0.0-4.0-62.4-1.4,627120b98967a5dbd4922c2e,E1,batch5,,2718,,,tol_toboard,,,,,,,,,,,tol_peg_2,2718,2718,0,"[[2,3,0],[1,0],[0]]",5,"[[3,0,0],[2,0],[1]]",17,0,,,,,,5
+,,,,,single-stim-button,592,1298055,0.0-4.0-62.5-0.5,627120b98967a5dbd4922c2e,E1,batch5,,447,,,tol_tohand,,,,,,,,,,,tol_peg_1,447,447,0,"[[2,0,0],[1,0],[0]]",6,"[[3,0,0],[2,0],[1]]",17,0,,,,,,5
+,,,,,single-stim-button,593,1298685,0.0-4.0-62.5-1.5,627120b98967a5dbd4922c2e,E1,batch5,,628,,,tol_toboard,,,,,,,,,,,tol_peg_2,628,628,0,"[[2,0,0],[1,3],[0]]",6,"[[3,0,0],[2,0],[1]]",17,0,,,,,,5
+,,,,,single-stim-button,594,1299528,0.0-4.0-62.6-0.6,627120b98967a5dbd4922c2e,E1,batch5,,842,,,tol_tohand,,,,,,,,,,,tol_peg_1,842,842,0,"[[0,0,0],[1,3],[0]]",7,"[[3,0,0],[2,0],[1]]",17,0,,,,,,5
+,,,,,single-stim-button,595,1301614,0.0-4.0-62.6-1.6,627120b98967a5dbd4922c2e,E1,batch5,,2086,,,tol_toboard,,,,,,,,,,,tol_peg_3,2086,2086,0,"[[0,0,0],[1,3],[2]]",7,"[[3,0,0],[2,0],[1]]",17,0,,,,,,5
+,,,,,single-stim-button,596,1302304,0.0-4.0-62.7-0.7,627120b98967a5dbd4922c2e,E1,batch5,,688,,,tol_tohand,,,,,,,,,,,tol_peg_2,688,688,0,"[[0,0,0],[1,0],[2]]",8,"[[3,0,0],[2,0],[1]]",17,0,,,,,,5
+,,,,,single-stim-button,597,1302946,0.0-4.0-62.7-1.7,627120b98967a5dbd4922c2e,E1,batch5,,641,,,tol_toboard,,,,,,,,,,,tol_peg_1,641,641,0,"[[3,0,0],[1,0],[2]]",8,"[[3,0,0],[2,0],[1]]",17,0,,,,,,5
+,,,,,single-stim-button,598,1303426,0.0-4.0-62.8-0.8,627120b98967a5dbd4922c2e,E1,batch5,,479,,,tol_tohand,,,,,,,,,,,tol_peg_2,479,479,0,"[[3,0,0],[0,0],[2]]",9,"[[3,0,0],[2,0],[1]]",17,0,,,,,,5
+,,,,,single-stim-button,599,1303768,0.0-4.0-62.8-1.8,627120b98967a5dbd4922c2e,E1,batch5,,340,,,tol_toboard,,,,,,,,,,,tol_peg_1,340,340,0,"[[3,1,0],[0,0],[2]]",9,"[[3,0,0],[2,0],[1]]",17,0,,,,,,5
+,,,,,single-stim-button,600,1304315,0.0-4.0-62.9-0.9,627120b98967a5dbd4922c2e,E1,batch5,,546,,,tol_tohand,,,,,,,,,,,tol_peg_3,546,546,0,"[[3,1,0],[0,0],[0]]",10,"[[3,0,0],[2,0],[1]]",17,0,,,,,,5
+,,,,,single-stim-button,601,1304622,0.0-4.0-62.9-1.9,627120b98967a5dbd4922c2e,E1,batch5,,304,,,tol_toboard,,,,,,,,,,,tol_peg_2,304,304,0,"[[3,1,0],[2,0],[0]]",10,"[[3,0,0],[2,0],[1]]",17,0,,,,,,5
+,,,,,single-stim-button,602,1305079,0.0-4.0-62.10-0.10,627120b98967a5dbd4922c2e,E1,batch5,,455,,,tol_tohand,,,,,,,,,,,tol_peg_1,455,455,0,"[[3,0,0],[2,0],[0]]",11,"[[3,0,0],[2,0],[1]]",17,0,,,,,,5
+,,,,,single-stim-button,603,1305399,0.0-4.0-62.10-1.10,627120b98967a5dbd4922c2e,E1,batch5,,319,,,tol_toboard,,,,,,,,,,,tol_peg_3,319,319,0,"[[3,0,0],[2,0],[1]]",11,"[[3,0,0],[2,0],[1]]",17,0,,,,,,5
+,,,,,poldrack-single-stim,604,1306406,0.0-4.0-63.0,627120b98967a5dbd4922c2e,E1,batch5,,-1,,,tol_feedback,TRUE,,,,,,,,,,,1000,1000,500,,,,,,-1,none,TRUE,8232,15115,
+,,,,,html-button-response,605,1306842,0.0-4.0-64.0,627120b98967a5dbd4922c2e,E1,batch5,,435,<div class = centerbox><p class = center-block-text>problem <strong>19</strong> out of 25 problems</p></div>,0,tol_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,single-stim-button,606,1312656,0.0-4.0-65.0-0.0,627120b98967a5dbd4922c2e,E1,batch5,,5813,,,tol_tohand,,,,,,,,,,,tol_peg_2,5813,5813,0,"[[1,2,0],[0,0],[0]]",1,"[[0,0,0],[1,2],[3]]",18,0,,,,,,7
+,,,,,single-stim-button,607,1312985,0.0-4.0-65.0-1.0,627120b98967a5dbd4922c2e,E1,batch5,,327,,,tol_toboard,,,,,,,,,,,tol_peg_3,327,327,0,"[[1,2,0],[0,0],[3]]",1,"[[0,0,0],[1,2],[3]]",18,0,,,,,,7
+,,,,,single-stim-button,608,1314211,0.0-4.0-65.1-0.1,627120b98967a5dbd4922c2e,E1,batch5,,1225,,,tol_tohand,,,,,,,,,,,tol_peg_1,1225,1225,0,"[[1,0,0],[0,0],[3]]",2,"[[0,0,0],[1,2],[3]]",18,0,,,,,,7
+,,,,,single-stim-button,609,1314546,0.0-4.0-65.1-1.1,627120b98967a5dbd4922c2e,E1,batch5,,333,,,tol_toboard,,,,,,,,,,,tol_peg_2,333,333,0,"[[1,0,0],[2,0],[3]]",2,"[[0,0,0],[1,2],[3]]",18,0,,,,,,7
+,,,,,single-stim-button,610,1314872,0.0-4.0-65.2-0.2,627120b98967a5dbd4922c2e,E1,batch5,,324,,,tol_tohand,,,,,,,,,,,tol_peg_1,324,324,0,"[[0,0,0],[2,0],[3]]",3,"[[0,0,0],[1,2],[3]]",18,0,,,,,,7
+,,,,,single-stim-button,611,1315200,0.0-4.0-65.2-1.2,627120b98967a5dbd4922c2e,E1,batch5,,327,,,tol_toboard,,,,,,,,,,,tol_peg_2,327,327,0,"[[0,0,0],[2,1],[3]]",3,"[[0,0,0],[1,2],[3]]",18,0,,,,,,7
+,,,,,single-stim-button,612,1316090,0.0-4.0-65.3-0.3,627120b98967a5dbd4922c2e,E1,batch5,,888,,,tol_tohand,,,,,,,,,,,tol_peg_3,888,888,0,"[[0,0,0],[2,1],[0]]",4,"[[0,0,0],[1,2],[3]]",18,0,,,,,,7
+,,,,,single-stim-button,613,1316700,0.0-4.0-65.3-1.3,627120b98967a5dbd4922c2e,E1,batch5,,609,,,tol_toboard,,,,,,,,,,,tol_peg_1,609,609,0,"[[3,0,0],[2,1],[0]]",4,"[[0,0,0],[1,2],[3]]",18,0,,,,,,7
+,,,,,single-stim-button,614,1317348,0.0-4.0-65.4-0.4,627120b98967a5dbd4922c2e,E1,batch5,,646,,,tol_tohand,,,,,,,,,,,tol_peg_2,646,646,0,"[[3,0,0],[2,0],[0]]",5,"[[0,0,0],[1,2],[3]]",18,0,,,,,,7
+,,,,,single-stim-button,615,1318644,0.0-4.0-65.4-1.4,627120b98967a5dbd4922c2e,E1,batch5,,1295,,,tol_toboard,,,,,,,,,,,tol_peg_1,1295,1295,0,"[[3,1,0],[2,0],[0]]",5,"[[0,0,0],[1,2],[3]]",18,0,,,,,,7
+,,,,,single-stim-button,616,1319078,0.0-4.0-65.5-0.5,627120b98967a5dbd4922c2e,E1,batch5,,434,,,tol_tohand,,,,,,,,,,,tol_peg_2,434,434,0,"[[3,1,0],[0,0],[0]]",6,"[[0,0,0],[1,2],[3]]",18,0,,,,,,7
+,,,,,single-stim-button,617,1319351,0.0-4.0-65.5-1.5,627120b98967a5dbd4922c2e,E1,batch5,,272,,,tol_toboard,,,,,,,,,,,tol_peg_3,272,272,0,"[[3,1,0],[0,0],[2]]",6,"[[0,0,0],[1,2],[3]]",18,0,,,,,,7
+,,,,,single-stim-button,618,1319780,0.0-4.0-65.6-0.6,627120b98967a5dbd4922c2e,E1,batch5,,427,,,tol_tohand,,,,,,,,,,,tol_peg_1,427,427,0,"[[3,0,0],[0,0],[2]]",7,"[[0,0,0],[1,2],[3]]",18,0,,,,,,7
+,,,,,single-stim-button,619,1320030,0.0-4.0-65.6-1.6,627120b98967a5dbd4922c2e,E1,batch5,,249,,,tol_toboard,,,,,,,,,,,tol_peg_2,249,249,0,"[[3,0,0],[1,0],[2]]",7,"[[0,0,0],[1,2],[3]]",18,0,,,,,,7
+,,,,,single-stim-button,620,1321531,0.0-4.0-65.7-0.7,627120b98967a5dbd4922c2e,E1,batch5,,1499,,,tol_tohand,,,,,,,,,,,tol_peg_3,1499,1499,0,"[[3,0,0],[1,0],[0]]",8,"[[0,0,0],[1,2],[3]]",18,0,,,,,,7
+,,,,,single-stim-button,621,1321794,0.0-4.0-65.7-1.7,627120b98967a5dbd4922c2e,E1,batch5,,262,,,tol_toboard,,,,,,,,,,,tol_peg_2,262,262,0,"[[3,0,0],[1,2],[0]]",8,"[[0,0,0],[1,2],[3]]",18,0,,,,,,7
+,,,,,single-stim-button,622,1322209,0.0-4.0-65.8-0.8,627120b98967a5dbd4922c2e,E1,batch5,,413,,,tol_tohand,,,,,,,,,,,tol_peg_1,413,413,0,"[[0,0,0],[1,2],[0]]",9,"[[0,0,0],[1,2],[3]]",18,0,,,,,,7
+,,,,,single-stim-button,623,1322465,0.0-4.0-65.8-1.8,627120b98967a5dbd4922c2e,E1,batch5,,256,,,tol_toboard,,,,,,,,,,,tol_peg_3,256,256,0,"[[0,0,0],[1,2],[3]]",9,"[[0,0,0],[1,2],[3]]",18,0,,,,,,7
+,,,,,poldrack-single-stim,624,1323472,0.0-4.0-66.0,627120b98967a5dbd4922c2e,E1,batch5,,-1,,,tol_feedback,TRUE,,,,,,,,,,,1000,1000,500,,,,,,-1,none,TRUE,5813,11669,
+,,,,,html-button-response,625,1324020,0.0-4.0-67.0,627120b98967a5dbd4922c2e,E1,batch5,,547.2000000029800,<div class = centerbox><p class = center-block-text>problem <strong>20</strong> out of 25 problems</p></div>,0,tol_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,single-stim-button,626,1330421,0.0-4.0-68.0-0.0,627120b98967a5dbd4922c2e,E1,batch5,,6400,,,tol_tohand,,,,,,,,,,,tol_peg_1,6400,6400,0,"[[1,0,0],[3,0],[0]]",1,"[[2,1,0],[0,0],[3]]",19,0,,,,,,5
+,,,,,single-stim-button,627,1330742,0.0-4.0-68.0-1.0,627120b98967a5dbd4922c2e,E1,batch5,,319,,,tol_toboard,,,,,,,,,,,tol_peg_2,319,319,0,"[[1,0,0],[3,2],[0]]",1,"[[2,1,0],[0,0],[3]]",19,0,,,,,,5
+,,,,,single-stim-button,628,1331377,0.0-4.0-68.1-0.1,627120b98967a5dbd4922c2e,E1,batch5,,634,,,tol_tohand,,,,,,,,,,,tol_peg_1,634,634,0,"[[0,0,0],[3,2],[0]]",2,"[[2,1,0],[0,0],[3]]",19,0,,,,,,5
+,,,,,single-stim-button,629,1332103,0.0-4.0-68.1-1.1,627120b98967a5dbd4922c2e,E1,batch5,,725,,,tol_toboard,,,,,,,,,,,tol_peg_3,725,725,0,"[[0,0,0],[3,2],[1]]",2,"[[2,1,0],[0,0],[3]]",19,0,,,,,,5
+,,,,,single-stim-button,630,1332477,0.0-4.0-68.2-0.2,627120b98967a5dbd4922c2e,E1,batch5,,372,,,tol_tohand,,,,,,,,,,,tol_peg_2,372,372,0,"[[0,0,0],[3,0],[1]]",3,"[[2,1,0],[0,0],[3]]",19,0,,,,,,5
+,,,,,single-stim-button,631,1332788,0.0-4.0-68.2-1.2,627120b98967a5dbd4922c2e,E1,batch5,,310,,,tol_toboard,,,,,,,,,,,tol_peg_1,310,310,0,"[[2,0,0],[3,0],[1]]",3,"[[2,1,0],[0,0],[3]]",19,0,,,,,,5
+,,,,,single-stim-button,632,1333265,0.0-4.0-68.3-0.3,627120b98967a5dbd4922c2e,E1,batch5,,474,,,tol_tohand,,,,,,,,,,,tol_peg_3,474,474,0,"[[2,0,0],[3,0],[0]]",4,"[[2,1,0],[0,0],[3]]",19,0,,,,,,5
+,,,,,single-stim-button,633,1334176,0.0-4.0-68.3-1.3,627120b98967a5dbd4922c2e,E1,batch5,,911,,,tol_toboard,,,,,,,,,,,tol_peg_1,911,911,0,"[[2,1,0],[3,0],[0]]",4,"[[2,1,0],[0,0],[3]]",19,0,,,,,,5
+,,,,,single-stim-button,634,1334729,0.0-4.0-68.4-0.4,627120b98967a5dbd4922c2e,E1,batch5,,552,,,tol_tohand,,,,,,,,,,,tol_peg_2,552,552,0,"[[2,1,0],[0,0],[0]]",5,"[[2,1,0],[0,0],[3]]",19,0,,,,,,5
+,,,,,single-stim-button,635,1334979,0.0-4.0-68.4-1.4,627120b98967a5dbd4922c2e,E1,batch5,,249,,,tol_toboard,,,,,,,,,,,tol_peg_3,249,249,0,"[[2,1,0],[0,0],[3]]",5,"[[2,1,0],[0,0],[3]]",19,0,,,,,,5
+,,,,,poldrack-single-stim,636,1335989,0.0-4.0-69.0,627120b98967a5dbd4922c2e,E1,batch5,,-1,,,tol_feedback,TRUE,,,,,,,,,,,1000,1000,500,,,,,,-1,none,TRUE,6400,8432,
+,,,,,html-button-response,637,1336448,0.0-4.0-70.0,627120b98967a5dbd4922c2e,E1,batch5,,457,<div class = centerbox><p class = center-block-text>problem <strong>21</strong> out of 25 problems</p></div>,0,tol_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,single-stim-button,638,1340762,0.0-4.0-71.0-0.0,627120b98967a5dbd4922c2e,E1,batch5,,4313,,,tol_tohand,,,,,,,,,,,tol_peg_2,4313,4313,0,"[[1,2,0],[0,0],[0]]",1,"[[3,2,0],[0,0],[1]]",20,0,,,,,,6
+,,,,,single-stim-button,639,1342043,0.0-4.0-71.0-1.0,627120b98967a5dbd4922c2e,E1,batch5,,1280,,,tol_toboard,,,,,,,,,,,tol_peg_3,1280,1280,0,"[[1,2,0],[0,0],[3]]",1,"[[3,2,0],[0,0],[1]]",20,0,,,,,,6
+,,,,,single-stim-button,640,1343328,0.0-4.0-71.1-0.1,627120b98967a5dbd4922c2e,E1,batch5,,1284,,,tol_tohand,,,,,,,,,,,tol_peg_1,1284,1284,0,"[[1,0,0],[0,0],[3]]",2,"[[3,2,0],[0,0],[1]]",20,0,,,,,,6
+,,,,,single-stim-button,641,1343666,0.0-4.0-71.1-1.1,627120b98967a5dbd4922c2e,E1,batch5,,336,,,tol_toboard,,,,,,,,,,,tol_peg_2,336,336,0,"[[1,0,0],[2,0],[3]]",2,"[[3,2,0],[0,0],[1]]",20,0,,,,,,6
+,,,,,single-stim-button,642,1343996,0.0-4.0-71.2-0.2,627120b98967a5dbd4922c2e,E1,batch5,,330,,,tol_tohand,,,,,,,,,,,tol_peg_1,330,330,0,"[[0,0,0],[2,0],[3]]",3,"[[3,2,0],[0,0],[1]]",20,0,,,,,,6
+,,,,,single-stim-button,643,1344355,0.0-4.0-71.2-1.2,627120b98967a5dbd4922c2e,E1,batch5,,357,,,tol_toboard,,,,,,,,,,,tol_peg_2,357,357,0,"[[0,0,0],[2,1],[3]]",3,"[[3,2,0],[0,0],[1]]",20,0,,,,,,6
+,,,,,single-stim-button,644,1346045,0.0-4.0-71.3-0.3,627120b98967a5dbd4922c2e,E1,batch5,,1687,,,tol_tohand,,,,,,,,,,,tol_peg_3,1687,1687,0,"[[0,0,0],[2,1],[0]]",4,"[[3,2,0],[0,0],[1]]",20,0,,,,,,6
+,,,,,single-stim-button,645,1346957,0.0-4.0-71.3-1.3,627120b98967a5dbd4922c2e,E1,batch5,,910,,,tol_toboard,,,,,,,,,,,tol_peg_1,910,910,0,"[[3,0,0],[2,1],[0]]",4,"[[3,2,0],[0,0],[1]]",20,0,,,,,,6
+,,,,,single-stim-button,646,1347414,0.0-4.0-71.4-0.4,627120b98967a5dbd4922c2e,E1,batch5,,455,,,tol_tohand,,,,,,,,,,,tol_peg_2,455,455,0,"[[3,0,0],[2,0],[0]]",5,"[[3,2,0],[0,0],[1]]",20,0,,,,,,6
+,,,,,single-stim-button,647,1347704,0.0-4.0-71.4-1.4,627120b98967a5dbd4922c2e,E1,batch5,,289,,,tol_toboard,,,,,,,,,,,tol_peg_3,289,289,0,"[[3,0,0],[2,0],[1]]",5,"[[3,2,0],[0,0],[1]]",20,0,,,,,,6
+,,,,,single-stim-button,648,1348078,0.0-4.0-71.5-0.5,627120b98967a5dbd4922c2e,E1,batch5,,373,,,tol_tohand,,,,,,,,,,,tol_peg_2,373,373,0,"[[3,0,0],[0,0],[1]]",6,"[[3,2,0],[0,0],[1]]",20,0,,,,,,6
+,,,,,single-stim-button,649,1348371,0.0-4.0-71.5-1.5,627120b98967a5dbd4922c2e,E1,batch5,,292,,,tol_toboard,,,,,,,,,,,tol_peg_1,292,292,0,"[[3,2,0],[0,0],[1]]",6,"[[3,2,0],[0,0],[1]]",20,0,,,,,,6
+,,,,,poldrack-single-stim,650,1349378,0.0-4.0-72.0,627120b98967a5dbd4922c2e,E1,batch5,,-1,,,tol_feedback,TRUE,,,,,,,,,,,1000,1000,500,,,,,,-1,none,TRUE,4313,8442,
+,,,,,html-button-response,651,1349926,0.0-4.0-73.0,627120b98967a5dbd4922c2e,E1,batch5,,546.5,<div class = centerbox><p class = center-block-text>problem <strong>22</strong> out of 25 problems</p></div>,0,tol_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,single-stim-button,652,1354528,0.0-4.0-74.0-0.0,627120b98967a5dbd4922c2e,E1,batch5,,4600,,,tol_tohand,,,,,,,,,,,tol_peg_2,4600,4600,0,"[[1,0,0],[2,0],[0]]",1,"[[0,0,0],[1,2],[3]]",21,0,,,,,,6
+,,,,,single-stim-button,653,1358141,0.0-4.0-74.0-1.0,627120b98967a5dbd4922c2e,E1,batch5,,3612,,,tol_toboard,,,,,,,,,,,tol_peg_2,3612,3612,0,"[[1,0,0],[2,3],[0]]",1,"[[0,0,0],[1,2],[3]]",21,0,,,,,,6
+,,,,,single-stim-button,654,1359048,0.0-4.0-74.1-0.1,627120b98967a5dbd4922c2e,E1,batch5,,905,,,tol_tohand,,,,,,,,,,,tol_peg_1,905,905,0,"[[0,0,0],[2,3],[0]]",2,"[[0,0,0],[1,2],[3]]",21,0,,,,,,6
+,,,,,single-stim-button,655,1359400,0.0-4.0-74.1-1.1,627120b98967a5dbd4922c2e,E1,batch5,,351,,,tol_toboard,,,,,,,,,,,tol_peg_3,351,351,0,"[[0,0,0],[2,3],[1]]",2,"[[0,0,0],[1,2],[3]]",21,0,,,,,,6
+,,,,,single-stim-button,656,1361015,0.0-4.0-74.2-0.2,627120b98967a5dbd4922c2e,E1,batch5,,1613,,,tol_tohand,,,,,,,,,,,tol_peg_2,1613,1613,0,"[[0,0,0],[2,0],[1]]",3,"[[0,0,0],[1,2],[3]]",21,0,,,,,,6
+,,,,,single-stim-button,657,1361296,0.0-4.0-74.2-1.2,627120b98967a5dbd4922c2e,E1,batch5,,280,,,tol_toboard,,,,,,,,,,,tol_peg_1,280,280,0,"[[3,0,0],[2,0],[1]]",3,"[[0,0,0],[1,2],[3]]",21,0,,,,,,6
+,,,,,single-stim-button,658,1361693,0.0-4.0-74.3-0.3,627120b98967a5dbd4922c2e,E1,batch5,,396,,,tol_tohand,,,,,,,,,,,tol_peg_2,396,396,0,"[[3,0,0],[0,0],[1]]",4,"[[0,0,0],[1,2],[3]]",21,0,,,,,,6
+,,,,,single-stim-button,659,1361963,0.0-4.0-74.3-1.3,627120b98967a5dbd4922c2e,E1,batch5,,269,,,tol_toboard,,,,,,,,,,,tol_peg_1,269,269,0,"[[3,2,0],[0,0],[1]]",4,"[[0,0,0],[1,2],[3]]",21,0,,,,,,6
+,,,,,single-stim-button,660,1362306,0.0-4.0-74.4-0.4,627120b98967a5dbd4922c2e,E1,batch5,,342,,,tol_tohand,,,,,,,,,,,tol_peg_3,342,342,0,"[[3,2,0],[0,0],[0]]",5,"[[0,0,0],[1,2],[3]]",21,0,,,,,,6
+,,,,,single-stim-button,661,1362565,0.0-4.0-74.4-1.4,627120b98967a5dbd4922c2e,E1,batch5,,257,,,tol_toboard,,,,,,,,,,,tol_peg_2,257,257,0,"[[3,2,0],[1,0],[0]]",5,"[[0,0,0],[1,2],[3]]",21,0,,,,,,6
+,,,,,single-stim-button,662,1363014,0.0-4.0-74.5-0.5,627120b98967a5dbd4922c2e,E1,batch5,,448,,,tol_tohand,,,,,,,,,,,tol_peg_1,448,448,0,"[[3,0,0],[1,0],[0]]",6,"[[0,0,0],[1,2],[3]]",21,0,,,,,,6
+,,,,,single-stim-button,663,1363726,0.0-4.0-74.5-1.5,627120b98967a5dbd4922c2e,E1,batch5,,711,,,tol_toboard,,,,,,,,,,,tol_peg_2,711,711,0,"[[3,0,0],[1,2],[0]]",6,"[[0,0,0],[1,2],[3]]",21,0,,,,,,6
+,,,,,single-stim-button,664,1363993,0.0-4.0-74.6-0.6,627120b98967a5dbd4922c2e,E1,batch5,,265,,,tol_tohand,,,,,,,,,,,tol_peg_1,265,265,0,"[[0,0,0],[1,2],[0]]",7,"[[0,0,0],[1,2],[3]]",21,0,,,,,,6
+,,,,,single-stim-button,665,1364236,0.0-4.0-74.6-1.6,627120b98967a5dbd4922c2e,E1,batch5,,243,,,tol_toboard,,,,,,,,,,,tol_peg_3,243,243,0,"[[0,0,0],[1,2],[3]]",7,"[[0,0,0],[1,2],[3]]",21,0,,,,,,6
+,,,,,poldrack-single-stim,666,1365239,0.0-4.0-75.0,627120b98967a5dbd4922c2e,E1,batch5,,-1,,,tol_feedback,TRUE,,,,,,,,,,,1000,1000,500,,,,,,-1,none,TRUE,4600,8569,
+,,,,,html-button-response,667,1365670,0.0-4.0-76.0,627120b98967a5dbd4922c2e,E1,batch5,,428.70000000298000,<div class = centerbox><p class = center-block-text>problem <strong>23</strong> out of 25 problems</p></div>,0,tol_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,single-stim-button,668,1369902,0.0-4.0-77.0-0.0,627120b98967a5dbd4922c2e,E1,batch5,,4230,,,tol_tohand,,,,,,,,,,,tol_peg_1,4230,4230,0,"[[1,0,0],[3,0],[0]]",1,"[[1,3,2],[0,0],[0]]",22,0,,,,,,3
+,,,,,single-stim-button,669,1370657,0.0-4.0-77.0-1.0,627120b98967a5dbd4922c2e,E1,batch5,,752,,,tol_toboard,,,,,,,,,,,tol_peg_3,752,752,0,"[[1,0,0],[3,0],[2]]",1,"[[1,3,2],[0,0],[0]]",22,0,,,,,,3
+,,,,,single-stim-button,670,1371160,0.0-4.0-77.1-0.1,627120b98967a5dbd4922c2e,E1,batch5,,501,,,tol_tohand,,,,,,,,,,,tol_peg_2,501,501,0,"[[1,0,0],[0,0],[2]]",2,"[[1,3,2],[0,0],[0]]",22,0,,,,,,3
+,,,,,single-stim-button,671,1371447,0.0-4.0-77.1-1.1,627120b98967a5dbd4922c2e,E1,batch5,,286,,,tol_toboard,,,,,,,,,,,tol_peg_1,286,286,0,"[[1,3,0],[0,0],[2]]",2,"[[1,3,2],[0,0],[0]]",22,0,,,,,,3
+,,,,,single-stim-button,672,1371910,0.0-4.0-77.2-0.2,627120b98967a5dbd4922c2e,E1,batch5,,461,,,tol_tohand,,,,,,,,,,,tol_peg_3,461,461,0,"[[1,3,0],[0,0],[0]]",3,"[[1,3,2],[0,0],[0]]",22,0,,,,,,3
+,,,,,single-stim-button,673,1372282,0.0-4.0-77.2-1.2,627120b98967a5dbd4922c2e,E1,batch5,,371,,,tol_toboard,,,,,,,,,,,tol_peg_1,371,371,0,"[[1,3,2],[0,0],[0]]",3,"[[1,3,2],[0,0],[0]]",22,0,,,,,,3
+,,,,,poldrack-single-stim,674,1373288,0.0-4.0-78.0,627120b98967a5dbd4922c2e,E1,batch5,,-1,,,tol_feedback,TRUE,,,,,,,,,,,1000,1000,500,,,,,,-1,none,TRUE,4230,5192,
+,,,,,html-button-response,675,1373750,0.0-4.0-79.0,627120b98967a5dbd4922c2e,E1,batch5,,460.70000000298000,<div class = centerbox><p class = center-block-text>problem <strong>24</strong> out of 25 problems</p></div>,0,tol_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,single-stim-button,676,1377685,0.0-4.0-80.0-0.0,627120b98967a5dbd4922c2e,E1,batch5,,3933,,,tol_tohand,,,,,,,,,,,tol_peg_2,3933,3933,0,"[[0,0,0],[2,0],[1]]",1,"[[2,0,0],[3,0],[1]]",23,0,,,,,,7
+,,,,,single-stim-button,677,1378979,0.0-4.0-80.0-1.0,627120b98967a5dbd4922c2e,E1,batch5,,1292,,,tol_toboard,,,,,,,,,,,tol_peg_1,1292,1292,0,"[[3,0,0],[2,0],[1]]",1,"[[2,0,0],[3,0],[1]]",23,0,,,,,,7
+,,,,,single-stim-button,678,1379740,0.0-4.0-80.1-0.1,627120b98967a5dbd4922c2e,E1,batch5,,760,,,tol_tohand,,,,,,,,,,,tol_peg_2,760,760,0,"[[3,0,0],[0,0],[1]]",2,"[[2,0,0],[3,0],[1]]",23,0,,,,,,7
+,,,,,single-stim-button,679,1380055,0.0-4.0-80.1-1.1,627120b98967a5dbd4922c2e,E1,batch5,,313,,,tol_toboard,,,,,,,,,,,tol_peg_1,313,313,0,"[[3,2,0],[0,0],[1]]",2,"[[2,0,0],[3,0],[1]]",23,0,,,,,,7
+,,,,,single-stim-button,680,1380450,0.0-4.0-80.2-0.2,627120b98967a5dbd4922c2e,E1,batch5,,393,,,tol_tohand,,,,,,,,,,,tol_peg_3,393,393,0,"[[3,2,0],[0,0],[0]]",3,"[[2,0,0],[3,0],[1]]",23,0,,,,,,7
+,,,,,single-stim-button,681,1380718,0.0-4.0-80.2-1.2,627120b98967a5dbd4922c2e,E1,batch5,,267,,,tol_toboard,,,,,,,,,,,tol_peg_2,267,267,0,"[[3,2,0],[1,0],[0]]",3,"[[2,0,0],[3,0],[1]]",23,0,,,,,,7
+,,,,,single-stim-button,682,1384501,0.0-4.0-80.3-0.3,627120b98967a5dbd4922c2e,E1,batch5,,3781,,,tol_tohand,,,,,,,,,,,tol_peg_1,3781,3781,0,"[[3,0,0],[1,0],[0]]",4,"[[2,0,0],[3,0],[1]]",23,0,,,,,,7
+,,,,,single-stim-button,683,1385187,0.0-4.0-80.3-1.3,627120b98967a5dbd4922c2e,E1,batch5,,684,,,tol_toboard,,,,,,,,,,,tol_peg_2,684,684,0,"[[3,0,0],[1,2],[0]]",4,"[[2,0,0],[3,0],[1]]",23,0,,,,,,7
+,,,,,single-stim-button,684,1385640,0.0-4.0-80.4-0.4,627120b98967a5dbd4922c2e,E1,batch5,,453,,,tol_tohand,,,,,,,,,,,tol_peg_1,453,453,0,"[[0,0,0],[1,2],[0]]",5,"[[2,0,0],[3,0],[1]]",23,0,,,,,,7
+,,,,,single-stim-button,685,1386013,0.0-4.0-80.4-1.4,627120b98967a5dbd4922c2e,E1,batch5,,372,,,tol_toboard,,,,,,,,,,,tol_peg_3,372,372,0,"[[0,0,0],[1,2],[3]]",5,"[[2,0,0],[3,0],[1]]",23,0,,,,,,7
+,,,,,single-stim-button,686,1386462,0.0-4.0-80.5-0.5,627120b98967a5dbd4922c2e,E1,batch5,,449,,,tol_tohand,,,,,,,,,,,tol_peg_2,449,449,0,"[[0,0,0],[1,0],[3]]",6,"[[2,0,0],[3,0],[1]]",23,0,,,,,,7
+,,,,,single-stim-button,687,1386766,0.0-4.0-80.5-1.5,627120b98967a5dbd4922c2e,E1,batch5,,302,,,tol_toboard,,,,,,,,,,,tol_peg_1,302,302,0,"[[2,0,0],[1,0],[3]]",6,"[[2,0,0],[3,0],[1]]",23,0,,,,,,7
+,,,,,single-stim-button,688,1387387,0.0-4.0-80.6-0.6,627120b98967a5dbd4922c2e,E1,batch5,,620,,,tol_tohand,,,,,,,,,,,tol_peg_2,620,620,0,"[[2,0,0],[0,0],[3]]",7,"[[2,0,0],[3,0],[1]]",23,0,,,,,,7
+,,,,,single-stim-button,689,1387717,0.0-4.0-80.6-1.6,627120b98967a5dbd4922c2e,E1,batch5,,328,,,tol_toboard,,,,,,,,,,,tol_peg_1,328,328,0,"[[2,1,0],[0,0],[3]]",7,"[[2,0,0],[3,0],[1]]",23,0,,,,,,7
+,,,,,single-stim-button,690,1388215,0.0-4.0-80.7-0.7,627120b98967a5dbd4922c2e,E1,batch5,,496,,,tol_tohand,,,,,,,,,,,tol_peg_3,496,496,0,"[[2,1,0],[0,0],[0]]",8,"[[2,0,0],[3,0],[1]]",23,0,,,,,,7
+,,,,,single-stim-button,691,1388470,0.0-4.0-80.7-1.7,627120b98967a5dbd4922c2e,E1,batch5,,253,,,tol_toboard,,,,,,,,,,,tol_peg_2,253,253,0,"[[2,1,0],[3,0],[0]]",8,"[[2,0,0],[3,0],[1]]",23,0,,,,,,7
+,,,,,single-stim-button,692,1388928,0.0-4.0-80.8-0.8,627120b98967a5dbd4922c2e,E1,batch5,,456,,,tol_tohand,,,,,,,,,,,tol_peg_1,456,456,0,"[[2,0,0],[3,0],[0]]",9,"[[2,0,0],[3,0],[1]]",23,0,,,,,,7
+,,,,,single-stim-button,693,1389156,0.0-4.0-80.8-1.8,627120b98967a5dbd4922c2e,E1,batch5,,226,,,tol_toboard,,,,,,,,,,,tol_peg_3,226,226,0,"[[2,0,0],[3,0],[1]]",9,"[[2,0,0],[3,0],[1]]",23,0,,,,,,7
+,,,,,poldrack-single-stim,694,1390158,0.0-4.0-81.0,627120b98967a5dbd4922c2e,E1,batch5,,-1,,,tol_feedback,TRUE,,,,,,,,,,,1000,1000,500,,,,,,-1,none,TRUE,3933,11341,
+,,,,,html-button-response,695,1390661,0.0-4.0-82.0,627120b98967a5dbd4922c2e,E1,batch5,,502.09999999404000,<div class = centerbox><p class = center-block-text>problem <strong>25</strong> out of 25 problems</p></div>,0,tol_trial_num,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,single-stim-button,696,1396571,0.0-4.0-83.0-0.0,627120b98967a5dbd4922c2e,E1,batch5,,5909,,,tol_tohand,,,,,,,,,,,tol_peg_1,5909,5909,0,"[[1,0,0],[3,0],[0]]",1,"[[3,0,0],[1,0],[2]]",24,0,,,,,,7
+,,,,,single-stim-button,697,1397076,0.0-4.0-83.0-1.0,627120b98967a5dbd4922c2e,E1,batch5,,504,,,tol_toboard,,,,,,,,,,,tol_peg_2,504,504,0,"[[1,0,0],[3,2],[0]]",1,"[[3,0,0],[1,0],[2]]",24,0,,,,,,7
+,,,,,single-stim-button,698,1397891,0.0-4.0-83.1-0.1,627120b98967a5dbd4922c2e,E1,batch5,,813,,,tol_tohand,,,,,,,,,,,tol_peg_1,813,813,0,"[[0,0,0],[3,2],[0]]",2,"[[3,0,0],[1,0],[2]]",24,0,,,,,,7
+,,,,,single-stim-button,699,1398406,0.0-4.0-83.1-1.1,627120b98967a5dbd4922c2e,E1,batch5,,514,,,tol_toboard,,,,,,,,,,,tol_peg_3,514,514,0,"[[0,0,0],[3,2],[1]]",2,"[[3,0,0],[1,0],[2]]",24,0,,,,,,7
+,,,,,single-stim-button,700,1398973,0.0-4.0-83.2-0.2,627120b98967a5dbd4922c2e,E1,batch5,,565,,,tol_tohand,,,,,,,,,,,tol_peg_2,565,565,0,"[[0,0,0],[3,0],[1]]",3,"[[3,0,0],[1,0],[2]]",24,0,,,,,,7
+,,,,,single-stim-button,701,1399605,0.0-4.0-83.2-1.2,627120b98967a5dbd4922c2e,E1,batch5,,631,,,tol_toboard,,,,,,,,,,,tol_peg_1,631,631,0,"[[2,0,0],[3,0],[1]]",3,"[[3,0,0],[1,0],[2]]",24,0,,,,,,7
+,,,,,single-stim-button,702,1399993,0.0-4.0-83.3-0.3,627120b98967a5dbd4922c2e,E1,batch5,,387,,,tol_tohand,,,,,,,,,,,tol_peg_2,387,387,0,"[[2,0,0],[0,0],[1]]",4,"[[3,0,0],[1,0],[2]]",24,0,,,,,,7
+,,,,,single-stim-button,703,1400325,0.0-4.0-83.3-1.3,627120b98967a5dbd4922c2e,E1,batch5,,331,,,tol_toboard,,,,,,,,,,,tol_peg_1,331,331,0,"[[2,3,0],[0,0],[1]]",4,"[[3,0,0],[1,0],[2]]",24,0,,,,,,7
+,,,,,single-stim-button,704,1401531,0.0-4.0-83.4-0.4,627120b98967a5dbd4922c2e,E1,batch5,,1205,,,tol_tohand,,,,,,,,,,,tol_peg_3,1205,1205,0,"[[2,3,0],[0,0],[0]]",5,"[[3,0,0],[1,0],[2]]",24,0,,,,,,7
+,,,,,single-stim-button,705,1401872,0.0-4.0-83.4-1.4,627120b98967a5dbd4922c2e,E1,batch5,,341,,,tol_toboard,,,,,,,,,,,tol_peg_2,341,341,0,"[[2,3,0],[1,0],[0]]",5,"[[3,0,0],[1,0],[2]]",24,0,,,,,,7
+,,,,,single-stim-button,706,1405834,0.0-4.0-83.5-0.5,627120b98967a5dbd4922c2e,E1,batch5,,3959,,,tol_tohand,,,,,,,,,,,tol_peg_1,3959,3959,0,"[[2,0,0],[1,0],[0]]",6,"[[3,0,0],[1,0],[2]]",24,0,,,,,,7
+,,,,,single-stim-button,707,1406495,0.0-4.0-83.5-1.5,627120b98967a5dbd4922c2e,E1,batch5,,661,,,tol_toboard,,,,,,,,,,,tol_peg_3,661,661,0,"[[2,0,0],[1,0],[3]]",6,"[[3,0,0],[1,0],[2]]",24,0,,,,,,7
+,,,,,single-stim-button,708,1406878,0.0-4.0-83.6-0.6,627120b98967a5dbd4922c2e,E1,batch5,,382,,,tol_tohand,,,,,,,,,,,tol_peg_1,382,382,0,"[[0,0,0],[1,0],[3]]",7,"[[3,0,0],[1,0],[2]]",24,0,,,,,,7
+,,,,,single-stim-button,709,1407153,0.0-4.0-83.6-1.6,627120b98967a5dbd4922c2e,E1,batch5,,274,,,tol_toboard,,,,,,,,,,,tol_peg_2,274,274,0,"[[0,0,0],[1,2],[3]]",7,"[[3,0,0],[1,0],[2]]",24,0,,,,,,7
+,,,,,single-stim-button,710,1407479,0.0-4.0-83.7-0.7,627120b98967a5dbd4922c2e,E1,batch5,,325,,,tol_tohand,,,,,,,,,,,tol_peg_3,325,325,0,"[[0,0,0],[1,2],[0]]",8,"[[3,0,0],[1,0],[2]]",24,0,,,,,,7
+,,,,,single-stim-button,711,1407966,0.0-4.0-83.7-1.7,627120b98967a5dbd4922c2e,E1,batch5,,486,,,tol_toboard,,,,,,,,,,,tol_peg_1,486,486,0,"[[3,0,0],[1,2],[0]]",8,"[[3,0,0],[1,0],[2]]",24,0,,,,,,7
+,,,,,single-stim-button,712,1408395,0.0-4.0-83.8-0.8,627120b98967a5dbd4922c2e,E1,batch5,,428,,,tol_tohand,,,,,,,,,,,tol_peg_2,428,428,0,"[[3,0,0],[1,0],[0]]",9,"[[3,0,0],[1,0],[2]]",24,0,,,,,,7
+,,,,,single-stim-button,713,1408792,0.0-4.0-83.8-1.8,627120b98967a5dbd4922c2e,E1,batch5,,396,,,tol_toboard,,,,,,,,,,,tol_peg_3,396,396,0,"[[3,0,0],[1,0],[2]]",9,"[[3,0,0],[1,0],[2]]",24,0,,,,,,7
+,,,,,poldrack-single-stim,714,1409796,0.0-4.0-84.0,627120b98967a5dbd4922c2e,E1,batch5,,-1,,,tol_feedback,TRUE,,,,,,,,,,,1000,1000,500,,,,,,-1,none,TRUE,5909,13973,
+,,,,,html-button-response,715,1411057,0.0-4.0-85.0,627120b98967a5dbd4922c2e,E1,batch5,,1260,<p class= block-text>This concludes the Tower of London Task. Thank you for your responses!<br> Click the button below to continue</p>,0,tol-goodbye,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,pavlovia,716,1413200,0.0-5.0,627120b98967a5dbd4922c2e,E1,batch5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
