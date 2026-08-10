@@ -46,3 +46,6 @@ def apply_neg_log(func):
 def create_nll(ls):
     funcs = ls[:]
     return make_adder(list(apply_neg_log(l) for l in funcs))
+
+make_move_obj_scalar = lambda a,b : move(a,b)
+make_move_obj = np.frompyfunc(make_move_obj_scalar,2,1)
