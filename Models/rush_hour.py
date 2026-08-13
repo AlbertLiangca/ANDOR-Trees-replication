@@ -1,4 +1,4 @@
-from misc import move
+from misc import move, isvert,hyp_move, make_move_obj
 import json
 import numpy as np
 
@@ -44,72 +44,58 @@ class problem:
             print(*(' ' + str(int(i)) + ' ' if i > -1 else ' r ' for i in row),end = '')
             print('|',end = '\n')
         print('-------------------------')
-
-
-    # Change the indices of a car based on a move object
-    def hyp_move(self,move_obj):
-        id,move = move_obj.unpack()
-        car = self._cars[id]
-        move_dir = car['orientation']
-        sq_occ = car['sq_occ']
-        sq_change = move*(move_dir=='horizontal') + move*(move_dir=='vertical')*6
-
-        return sq_occ + sq_change
     
-    def sqs_passed(self,move_obj):
-        id,move = move_obj.unpack()
-        car = self._cars[id]
-        move_dir = car['orientation']
-        sq_occ = car['sq_occ']
-        new_occ = self.hyp_move(move_obj)
+    def sqs_passed(self,id,move):
+        board_arr = self.get_board()
+        sq_occ = np.flatnonzero(board_arr == id)
+        vert = isvert(sq_occ)
+        sq_change = hyp_move(vert,move)
+        new_occ = sq_occ + sq_change
         temp = np.concatenate((sq_occ,new_occ))
-        d1_dir = ((move_dir =='horizontal') + (move_dir == 'vertical')*6)
+        d1_dir = ((not vert) + (vert)*6)
         sqs_passed = np.arange(np.min(temp),np.max(temp)+d1_dir,d1_dir)
         return sqs_passed
     
     # Check whether a move is legal, return one of three states
     def check_legal(self,move_obj):
         id,move = move_obj.unpack()
-        car = self._cars[id]
-        move_dir = car['orientation']
-        sq_occ = car['sq_occ']
+        id = int(id)
+        board_arr = self.get_board()
+        sq_occ = np.flatnonzero(board_arr == id)
+        vert = isvert(sq_occ)
         legal = True
-        sqs_passed = self.sqs_passed(move_obj)
-        if move_dir != car['orientation']:
-            #print('Illegal - car orientation and move direction conflict')
-            legal = False
-        if move_dir == 'horizontal' and np.any(sqs_passed // 6 != sq_occ[0] // 6):
+        sqs_passed = self.sqs_passed(id,move)
+        if not vert and np.any(sqs_passed // 6 != sq_occ[0] // 6):
             #print('Illegal - car went out of bounds')
             legal = False
         elif np.any(sqs_passed < 0) or np.any(sqs_passed > 35):
             #print('Illegal - car went out of bounds')
             legal = False
-        elif np.any((self._board[sqs_passed] != 0) == (self._board[sqs_passed] != int(id))):
+        elif np.any((board_arr[sqs_passed] != 0) == (board_arr[sqs_passed] != int(id))):
             legal = 'Blocked'
         return legal
         
     # Check what cars a car is blocked by
     def blocked_by(self,move_obj):
+        board_arr = self.get_board()
         id,move = move_obj.unpack()
-        car = self._cars[id]
-        move_dir = car['orientation']
-        sq_occ = car['sq_occ']
+        id = int(id)
         blocked = self.check_legal(move_obj)
         if blocked == 'Blocked':
-            sqs_passed = self.sqs_passed(move_obj)
+            sqs_passed = self.sqs_passed(id,move)
             if np.any((self._board[sqs_passed] != 0) == (self._board[sqs_passed] != int(id))):
-                blocked_cars_id = np.unique(self._board[sqs_passed][(self._board[sqs_passed] != 0) == (self._board[sqs_passed] != int(id))])
+                blocked_cars_id = np.unique(board_arr[sqs_passed][(board_arr[sqs_passed] != 0) == (board_arr[sqs_passed] != int(id))])
                 temp_board = self.get_board().copy()
                 temp_board[sqs_passed] = int(id)
                 blocked_spaces_list = []
                 for blocked_car in blocked_cars_id:
                     goal_car_mask = (temp_board == int(id))
-                    blocked_car_mask = (self.get_board() == int(float(blocked_car)))
-                    mask = np.logical_and(goal_car_mask,blocked_car_mask)
+                    blocked_car_mask = (board_arr == int(float(blocked_car)))
+                    mask = goal_car_mask & blocked_car_mask
                     overlapping_sqs = np.argwhere(mask).flatten()
                     blocked_spaces_list.append(overlapping_sqs)
 
-                ids_as_str = [str(i) for i in blocked_cars_id]
+                ids_as_str = blocked_cars_id.astype(str).tolist()
                 
                 return list(zip(ids_as_str,blocked_spaces_list))
             else:
@@ -121,8 +107,10 @@ class problem:
         car = self._cars[id]
         sq_occ = car['sq_occ']
         legal = self.check_legal(move_obj)
+        vert = isvert(sq_occ)
         if legal == True:
-            new_occ = self.hyp_move(move_obj)
+            sq_change = hyp_move(vert,move)
+            new_occ = sq_occ + sq_change
             car['position'] = new_occ[0]
             car['sq_occ'] = new_occ
             self._board[sq_occ] = 0
@@ -148,28 +136,31 @@ class problem:
         return self._cars
     
     def all_legal_moves(self):
-        legal_moves_list = []
-        cars_list = list(self._cars.keys())
+        board_arr = self.get_board()
+        legal_moves_list = np.array([])
+        cars_list = np.unique(board_arr)
+        cars_list = cars_list[cars_list!=0]
         for car in cars_list:
-            pos = True
-            neg = True
-            i = 1
-            while pos or neg:
-                if pos:
-                    potential_move = move(car,i)
-                    legal = self.check_legal(potential_move)
-                    if legal == True:
-                        legal_moves_list.append(potential_move)
-                    else:
-                        pos = False
-                if neg:
-                    potential_move = move(car,-i)
-                    legal = self.check_legal(potential_move)
-                    if legal == True:
-                        legal_moves_list.append(potential_move)
-                    else:
-                        neg = False
-                i += 1
+            id = str(int(car))
+            sq_occ = np.flatnonzero(board_arr == car)
+            vert = isvert(sq_occ)
+            if vert:
+                row_mask = np.arange(sq_occ[0] % 6,36,6)
+            else:
+                row_mask = np.arange(6*(sq_occ[0] // 6),6*(sq_occ[0] // 6) + 6)
+            row_slice = board_arr[row_mask]
+            car_mask = row_slice == car
+            empty_mask = row_slice == 0
+            other_mask = ~(car_mask | empty_mask)
+            left_manipulated_row = np.append(np.flip(other_mask[:np.argmax(car_mask)]),True)
+            right_manipulated_row = np.append(other_mask[np.argmax(car_mask)+(car_mask).sum():],True)
+            num_left = np.argmax(left_manipulated_row)
+            num_right = np.argmax(right_manipulated_row)
+            dists_left = -(np.arange(num_left)+1)
+            dists_right = np.arange(num_right)+1
+            dists = np.concatenate((dists_left,dists_right))
+            legal_moves_list = np.concatenate((legal_moves_list,make_move_obj(id,dists)))
+
         return legal_moves_list
     
     def reset_board(self):
@@ -184,12 +175,15 @@ class problem:
         neg = True
         i = 1
         unblocking_moves_list = [] 
+        sq_occ = np.flatnonzero(self.get_board() == int(id))
+        vert = isvert(sq_occ)
         while pos or neg:
             if pos:
                 potential_move = move(id,i)
                 legal = self.check_legal(potential_move)
                 if (legal != False):
-                    new_occ = self.hyp_move(potential_move)
+                    sq_change = hyp_move(vert,i)
+                    new_occ = sq_occ + sq_change
                     if not np.any(np.isin(new_occ,squares)):
                         unblocking_moves_list.append(potential_move)
                 else:
@@ -198,7 +192,8 @@ class problem:
                 potential_move = move(id,-i)
                 legal = self.check_legal(potential_move)
                 if (legal != False):
-                    new_occ = self.hyp_move(potential_move)
+                    sq_change = hyp_move(vert,-i)
+                    new_occ = sq_occ + sq_change
                     if not np.any(np.isin(new_occ,squares)):
                         unblocking_moves_list.append(potential_move)
                 else:

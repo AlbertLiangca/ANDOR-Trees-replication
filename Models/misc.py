@@ -47,5 +47,22 @@ def create_nll(ls):
     funcs = ls[:]
     return make_adder(list(apply_neg_log(l) for l in funcs))
 
+def take_avg(funcs):
+    funcs = funcs[:]
+    def sigma(x):
+        return sum(f(x) for f in funcs) / len(funcs)
+    return sigma
+
+def create_nll_avg(ls):
+    funcs = ls[:]
+    return take_avg(list(apply_neg_log(l) for l in funcs))
+
 make_move_obj_scalar = lambda a,b : move(a,b)
 make_move_obj = np.frompyfunc(make_move_obj_scalar,2,1)
+
+def isvert(sq_occ):
+    return True if np.all((sq_occ % 6) == (sq_occ[0] % 6)) else False
+
+def hyp_move(vert,move):
+    sq_change = move*(not vert) + move*(vert)*6
+    return sq_change
