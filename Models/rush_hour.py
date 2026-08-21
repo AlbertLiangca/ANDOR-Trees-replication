@@ -137,29 +137,33 @@ class problem:
     
     def all_legal_moves(self):
         board_arr = self.get_board()
-        legal_moves_list = np.array([])
+        legal_moves_list = []
         cars_list = np.unique(board_arr)
         cars_list = cars_list[cars_list!=0]
+        board_as_list = list(board_arr)
         for car in cars_list:
             id = str(int(car))
-            sq_occ = np.flatnonzero(board_arr == car)
+            sq_occ = list(i for i,x in enumerate(board_as_list) if x == car)
             vert = isvert(sq_occ)
             if vert:
-                row_mask = np.arange(sq_occ[0] % 6,36,6)
+                row_mask = range(sq_occ[0] % 6,36,6)
             else:
-                row_mask = np.arange(6*(sq_occ[0] // 6),6*(sq_occ[0] // 6) + 6)
-            row_slice = board_arr[row_mask]
-            car_mask = row_slice == car
-            empty_mask = row_slice == 0
-            other_mask = ~(car_mask | empty_mask)
-            left_manipulated_row = np.append(np.flip(other_mask[:np.argmax(car_mask)]),True)
-            right_manipulated_row = np.append(other_mask[np.argmax(car_mask)+(car_mask).sum():],True)
-            num_left = np.argmax(left_manipulated_row)
-            num_right = np.argmax(right_manipulated_row)
-            dists_left = -(np.arange(num_left)+1)
-            dists_right = np.arange(num_right)+1
-            dists = np.concatenate((dists_left,dists_right))
-            legal_moves_list = np.concatenate((legal_moves_list,make_move_obj(id,dists)))
+                row_mask = range(6*(sq_occ[0] // 6),6*(sq_occ[0] // 6) + 6)
+            row_slice = list(board_arr[i] for i in row_mask)
+            car_mask = list(True if i == car else False for i in row_slice)
+            car_loc = row_slice.index(car)
+            other_mask = list(False if (i==car) or (i==0) else True for i in row_slice)
+            car_len = sum(car_mask)
+            left_manipulated_row = (other_mask[:car_loc])[::-1]
+            left_manipulated_row.append(True)
+            right_manipulated_row = other_mask[car_loc+car_len:]
+            right_manipulated_row.append(True)
+            num_left = left_manipulated_row.index(max(left_manipulated_row))
+            num_right = right_manipulated_row.index(max(right_manipulated_row))
+            dists_left = list(-a for a in range(0,num_left+1))
+            dists_right = list(a for a in range(0,num_right+1))
+            dists = dists_left+dists_right
+            legal_moves_list = legal_moves_list + list(move(id,dist) for dist in dists)
 
         return legal_moves_list
     

@@ -61,8 +61,17 @@ make_move_obj_scalar = lambda a,b : move(a,b)
 make_move_obj = np.frompyfunc(make_move_obj_scalar,2,1)
 
 def isvert(sq_occ):
-    return True if np.all((sq_occ % 6) == (sq_occ[0] % 6)) else False
+    return sq_occ[1] - sq_occ[0] == 6
 
 def hyp_move(vert,move):
     sq_change = move*(not vert) + move*(vert)*6
     return sq_change
+
+def display_board_2d(board_arr):
+    board_arr_2d = board_arr.reshape(6,6)
+    print('-------------------------')
+    for row in board_arr_2d:
+        print('|',end = '')
+        print(*(' ' + str(int(i)) + ' ' if i > -1 else ' r ' for i in row),end = '')
+        print('|',end = '\n')
+    print('-------------------------')
