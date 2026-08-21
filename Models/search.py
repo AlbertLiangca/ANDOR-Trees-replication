@@ -171,6 +171,6 @@ if __name__ == '__main__':
         curr_problem = problem_list[problem_name]
         curr_board = curr_problem.get_board()
         curr_map = d_goal(curr_board)
-        d_goals_dict[problem] = curr_map
-    with open('../Data/my_processed_data/d_goals_dict.pkl', 'wb') as f:
+        d_goals_dict[problem_name] = curr_map
+    with open('../Data/my_processed_data/al_board_states_dict.pkl', 'wb') as f:
         pickle.dump(d_goals_dict,f)

@@ -1,12 +1,14 @@
 from misc import move, isvert,hyp_move, make_move_obj
 import json
 import numpy as np
+import os
 
 class problem:
     def __init__(self,json_file):
         with open(json_file) as file:
             problem = json.load(file)
-        self.id = problem['id']
+        filename = json_file.split('/')[-1]
+        self.id, _ = filename.split('.')
         self._cars_tmp = problem['cars']
         self._board = np.zeros(36)
         self._board_2d = self._board.reshape(6,6)
