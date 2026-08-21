@@ -216,3 +216,4 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+Data/my_processed_data/all_board_states_dict.pkl
