@@ -51,7 +51,7 @@ def all_legal_moves_list(board_arr):
     return legal_moves_list
 
 
-def bfs(board_arr):
+def bfs(board_arr,get_goal_states = False):
     
     def propose(next_board_str,prev_board_str):
         if next_board_str not in pred_map:
@@ -77,6 +77,7 @@ def bfs(board_arr):
 
     Q = []
     pred_map = {}
+    goal_states_list = []
 
     board_arr = tuple(board_arr)
     propose(board_arr,None)
@@ -84,9 +85,15 @@ def bfs(board_arr):
         current = np.array(list(Q.pop(0)),dtype = int)
         if isGoal(current):
             curr_as_key = tuple(current)
-            break
+            if get_goal_states:
+                goal_states_list.append(curr_as_key)
+            else:
+                break
         explore(current)
-    return get_dist_to_root(curr_as_key), curr_as_key,pred_map
+    if get_goal_states:
+        return goal_states_list
+    else:
+        return get_dist_to_root(curr_as_key),curr_as_key,pred_map
 
 def alm_no_goal_car(board_arr):
     legal_moves_list = []
@@ -142,14 +149,9 @@ def d_goal(board_arr):
     Q = []
     pred_map = {}
 
-    _, fst_goal, __ = bfs(board_arr)
-    propose(fst_goal,None)
-    fst_goal_as_array = np.array(fst_goal)
-    all_goal_states = alm_no_goal_car(fst_goal)
-    for legal_move in all_goal_states:
-        new_goal_state = make_legal_move(fst_goal_as_array,legal_move)
-        goal_state_as_key = tuple(new_goal_state)
-        propose(goal_state_as_key,None)
+    goal_states_list = bfs(board_arr,get_goal_states=True)
+    for goal_state in goal_states_list:
+        propose(goal_state,None)
     
     while Q:
         current = np.array(list(Q.pop(0)),dtype = int)
@@ -172,5 +174,5 @@ if __name__ == '__main__':
         curr_board = curr_problem.get_board()
         curr_map = d_goal(curr_board)
         d_goals_dict[problem_name] = curr_map
-    with open('../Data/my_processed_data/al_board_states_dict.pkl', 'wb') as f:
+    with open('../Data/my_processed_data/all_board_states_dict.pkl', 'wb') as f:
         pickle.dump(d_goals_dict,f)
